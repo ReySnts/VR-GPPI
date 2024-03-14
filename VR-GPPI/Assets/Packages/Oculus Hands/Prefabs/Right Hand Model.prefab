@@ -945,6 +945,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 254d67a9f09c1e74c83f6c17e43dbc6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 5686134208192617028}
+  activateValue:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Activate Value
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 05e88115-a2d3-49ee-b79b-5cc81970dc99
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  selectValue:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Select Value
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 56f1f3d9-6f49-4c5c-9d79-f49d120f1b97
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -1758520528963094988, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
 --- !u!1 &5686134208185362932
 GameObject:
   m_ObjectHideFlags: 0
