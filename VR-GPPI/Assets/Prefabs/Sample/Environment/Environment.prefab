@@ -167,6 +167,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Table
       objectReference: {fileID: 0}
+    - target: {fileID: 2318332993773388087, guid: 4a1ec37f81028ca4c93b1c515c9020a1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6260682074872612692, guid: 4a1ec37f81028ca4c93b1c515c9020a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -246,6 +251,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grabbable
       objectReference: {fileID: 0}
+    - target: {fileID: 2579423853315289440, guid: 7b11628f91492c2469ad2f4a623ae3ec,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8930505678798113181, guid: 7b11628f91492c2469ad2f4a623ae3ec,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -315,6 +325,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5066485607213439319}
     m_Modifications:
+    - target: {fileID: 4490996800299108552, guid: 03363bf476696af44a6b5a5d1229f0a5,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -2.0267088
+      objectReference: {fileID: 0}
+    - target: {fileID: 4490996800299108552, guid: 03363bf476696af44a6b5a5d1229f0a5,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 2.725816
+      objectReference: {fileID: 0}
+    - target: {fileID: 4659954801769703782, guid: 03363bf476696af44a6b5a5d1229f0a5,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.7579116
+      objectReference: {fileID: 0}
+    - target: {fileID: 4659954801769703782, guid: 03363bf476696af44a6b5a5d1229f0a5,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 2.7103155
+      objectReference: {fileID: 0}
     - target: {fileID: 6199973837475924900, guid: 03363bf476696af44a6b5a5d1229f0a5,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -379,6 +409,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cabinet
+      objectReference: {fileID: 0}
+    - target: {fileID: 6199973837475924903, guid: 03363bf476696af44a6b5a5d1229f0a5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -458,6 +493,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land
+      objectReference: {fileID: 0}
+    - target: {fileID: 7661185259377791461, guid: ee949c9fa261d8b44b313231aba52f95,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
