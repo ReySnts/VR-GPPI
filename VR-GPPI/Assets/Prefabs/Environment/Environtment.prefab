@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 4092570175821844800}
   - component: {fileID: 1573648349731398378}
   - component: {fileID: 6482604912585194533}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PONDASI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
