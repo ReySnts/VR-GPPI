@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3558680572471685884}
-  - component: {fileID: 1991021199726861562}
+  - component: {fileID: 3616745558220123950}
   m_Layer: 0
-  m_Name: Exit Notifier
+  m_Name: Hover Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1739247118962003570}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1991021199726861562
+--- !u!114 &3616745558220123950
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,10 +41,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1281178785740799831}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15a5a88b6e9a9304d9f28a230f89ea9b, type: 3}
+  m_Script: {fileID: 11500000, guid: ba389e3dd04a3ea498ac315d92018f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _light: {fileID: 6702479886995966935}
   lightColorMaterial: {fileID: 2100000, guid: 6c4f64198b1d87b408a09bf41c2ac39c, type: 2}
   simpleInteractable: {fileID: 3433405658040419949}
 --- !u!1 &3786049793947156196
@@ -56,9 +55,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8534220892983917988}
-  - component: {fileID: 7595443610827894439}
+  - component: {fileID: 4619734184554842853}
   m_Layer: 0
-  m_Name: Hover Notifier
+  m_Name: Hover Enter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +78,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1739247118962003570}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7595443610827894439
+--- !u!114 &4619734184554842853
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -88,10 +87,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3786049793947156196}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7622ab15eb9b5b64799c5a6172a85602, type: 3}
+  m_Script: {fileID: 11500000, guid: d67f416685f799047a7d3f23203ae76f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _light: {fileID: 6702479886995966935}
   lightColorMaterial: {fileID: 2100000, guid: 5d3ed25d0ba3d0c48a58681a6f9a6516, type: 2}
   simpleInteractable: {fileID: 3433405658040419949}
 --- !u!1 &5273651140648163037
@@ -342,7 +340,7 @@ GameObject:
   - component: {fileID: 700988926029341330}
   - component: {fileID: 7039282804897861351}
   - component: {fileID: 8332115421350028716}
-  - component: {fileID: 6064723042058805084}
+  - component: {fileID: 1588922787527419166}
   m_Layer: 0
   m_Name: Light
   m_TagString: Untagged
@@ -415,7 +413,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &6064723042058805084
+--- !u!114 &1588922787527419166
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -424,7 +422,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6702479886995966935}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d553329e393bb74da3811107c0fc1c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c5d888c109e43341adfbd1abefd7d41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 8332115421350028716}
@@ -471,7 +469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1739247118962003570}
   m_Layer: 0
-  m_Name: Notifiers
+  m_Name: Interactable Events
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
