@@ -1,26 +1,18 @@
 using UnityEngine;
 
-public class DoorStateMachine : MonoBehaviour, IStateMachine
+public class DoorStateMachine : MonoBehaviour
 {
     [field: SerializeField] public bool IsLocked { get; set; } = true;
 
+    [field: SerializeField] public DoorLockedState LockedState { get; private set; }
+
+    [field: SerializeField] public DoorUnlockingState UnlockingState { get; private set; }
+
+    [field: SerializeField] public DoorUnlockedState UnlockedState { get; private set; }
+
     private IState currentState;
 
-    public DoorLockedState LockedState { get; private set; }
-
-    public DoorUnlockedState UnlockedState { get; private set; }
-
-    private void RegisterState()
-    {
-        LockedState = new(stateMachine: this);
-        UnlockedState = new(stateMachine: this);
-    }
-
-    private void Start()
-    {
-        RegisterState();
-        Initialize();
-    }
+    private void Start() => Initialize();
 
     private void Initialize()
     {

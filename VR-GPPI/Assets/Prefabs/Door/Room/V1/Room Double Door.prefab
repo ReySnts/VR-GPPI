@@ -139,6 +139,11 @@ PrefabInstance:
       propertyPath: m_Limits.min
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 8369879963947874575, guid: f67be50bcccec294fbc74d0b2fb17592,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9072c643841358843ab1ee880e37adf6, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

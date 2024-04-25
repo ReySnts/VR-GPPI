@@ -1,10 +1,8 @@
 public class DoorLockedState : DoorState
 {
-    public DoorLockedState(IStateMachine stateMachine) : base(stateMachine) { }
-
     public override void Enter()
     {
-
+        stateMachine.IsLocked = true;
     }
 
     public override void Update()
@@ -14,6 +12,6 @@ public class DoorLockedState : DoorState
 
     public override void Exit()
     {
-
+        stateMachine.IsLocked = true;
     }
 }
