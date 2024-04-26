@@ -1,14 +1,20 @@
+using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
+
 public class DoorUnlockedState : DoorState
 {
+    [SerializeField] private InteractionLayerMask grabbable;
+
     public override void Enter()
     {
         stateMachine.IsLocked = false;
-        //grabInteractable.interactionLayers = interactionLayerMask;
+        door.InteractionLayerMask = grabbable;
+        door.Rigidbody.isKinematic = false;
     }
 
-    public override void Update()
+    public override void DoUpdate()
     {
-        //if (door.rotation.z == initialPosition) stateMachine.TransitionTo(stateMachine.LockedState);
+        if (door.transform.rotation.z == door.InitialRotationZ) stateMachine.TransitionTo(stateMachine.LockedState);
     }
 
     public override void Exit()

@@ -1,19 +1,16 @@
+using UnityEngine;
+
 public class DoorUnlockingState : DoorState
 {
-    public override void Enter()
+    private float currentTime;
+
+    public override void Enter() => currentTime = Time.time;
+
+    public override void DoUpdate()
     {
-        stateMachine.IsLocked = true;
-        //animator.Play(AnimatorParameter.DOOR_UNLOCK);
+        var animationDuration = 1f;
+        if (Time.time >= currentTime + animationDuration) stateMachine.TransitionTo(stateMachine.UnlockedState);
     }
 
-    public override void Update()
-    {
-        //if (door.rotation.z != initialPosition) stateMachine.TransitionTo(stateMachine.UnlockedState);
-    }
-
-    public override void Exit()
-    {
-        stateMachine.IsLocked = false;
-        //animator.StopPlayback();
-    }
+    public override void Exit() => door.Animator.StopPlayback();
 }

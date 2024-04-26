@@ -11,11 +11,12 @@ GameObject:
   - component: {fileID: 6147756000675574200}
   - component: {fileID: 7258646434784238067}
   - component: {fileID: 8193071471961105951}
-  - component: {fileID: 8369879963947874575}
   - component: {fileID: 3795996764761848192}
   - component: {fileID: 3006435883998236939}
   - component: {fileID: 6865985728725046730}
   - component: {fileID: 7519454965564626938}
+  - component: {fileID: 8369879963947874575}
+  - component: {fileID: 6401045123786990001}
   m_Layer: 8
   m_Name: Door
   m_TagString: Untagged
@@ -91,27 +92,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8369879963947874575
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3762989541117092019}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d11b550bb4f8b904599eaa4e305bc424, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!65 &3795996764761848192
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -349,6 +329,44 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!95 &8369879963947874575
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3762989541117092019}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d11b550bb4f8b904599eaa4e305bc424, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6401045123786990001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3762989541117092019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22ecb76e32e5a694a8b9f666208347cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <InteractionLayerMask>k__BackingField:
+    m_Bits: 0
+  <Rigidbody>k__BackingField: {fileID: 3006435883998236939}
+  <GrabInteractable>k__BackingField: {fileID: 7519454965564626938}
+  <Animator>k__BackingField: {fileID: 8369879963947874575}
 --- !u!1 &6761671158496618529
 GameObject:
   m_ObjectHideFlags: 0

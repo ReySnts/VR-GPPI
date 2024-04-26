@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class DoorStateMachine : MonoBehaviour
 {
@@ -10,9 +11,16 @@ public class DoorStateMachine : MonoBehaviour
 
     [field: SerializeField] public DoorUnlockedState UnlockedState { get; private set; }
 
+    private INotifier<IState> notifier;
+
     private IState currentState;
 
-    private void Start() => Initialize();
+    private void Awake()
+    {
+        notifier = transform.parent.parent.parent.GetComponent<INotifier<IState>>();
+        notifier.OnChangeObject += TransitionTo;
+        Initialize();
+    }
 
     private void Initialize()
     {
@@ -27,5 +35,11 @@ public class DoorStateMachine : MonoBehaviour
         nextState.Enter();
     }
 
-    private void Update() => currentState.Update();
+    private void Update() => currentState.DoUpdate();
+
+    private void OnDestroy()
+    {
+        notifier.OnChangeObject -= TransitionTo;
+        notifier = null;
+    }
 }

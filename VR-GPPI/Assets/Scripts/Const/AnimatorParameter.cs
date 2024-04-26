@@ -1,6 +1,6 @@
 public class AnimatorParameter
 {
-    public const string DOOR_UNLOCK = "DoorUnlock";
+    public const string DOOR_UNLOCKING = "DoorUnlocking";
 
     public const string GRIP = "Grip";
 
