@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class Door : MonoBehaviour, IGrabbable
+public class Door : MonoBehaviour, IGrabbableLock
 {
     [field: SerializeField] public InteractionLayerMask InteractionLayerMask { get; set; }
 
@@ -9,11 +9,19 @@ public class Door : MonoBehaviour, IGrabbable
 
     [field: SerializeField] public XRGrabInteractable GrabInteractable { get; private set; }
 
-    [field: SerializeField] public Animator Animator { get; private set; }
+    [field: SerializeField] public bool IsTriggered { get; set; }
 
-    public float InitialRotationZ { get; set; }
+    [SerializeField] private bool isLocked = true;
 
-    private void Start() => InitialRotationZ = transform.rotation.z;
+    public bool IsLocked
+    {
+        get => isLocked;
+        set => isLocked = transform.rotation.z == initialRotationZ;
+    }
+
+    private float initialRotationZ;
+
+    private void Start() => initialRotationZ = transform.rotation.z;
 
     private void Update() => GrabInteractable.interactionLayers = InteractionLayerMask;
 }

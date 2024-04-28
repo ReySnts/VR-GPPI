@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class DoorNotifier : MonoBehaviour, INotifier<IState>
+public class DoorNotifier : MonoBehaviour, INotifierStruct<bool>
 {
-    public event UnityAction<IState> OnChangeObject;
+    public event UnityAction<bool> OnChangeValue;
 
-    public void Change(IState nextState) => OnChangeObject.Invoke(nextState);
+    public void Change(bool isTriggered) => OnChangeValue.Invoke(isTriggered);
 }

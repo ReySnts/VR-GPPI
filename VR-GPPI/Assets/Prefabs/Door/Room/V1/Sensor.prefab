@@ -45,7 +45,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightColorMaterial: {fileID: 2100000, guid: 6c4f64198b1d87b408a09bf41c2ac39c, type: 2}
-  simpleInteractable: {fileID: 3433405658040419949}
 --- !u!1 &3786049793947156196
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,7 +90,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightColorMaterial: {fileID: 2100000, guid: 5d3ed25d0ba3d0c48a58681a6f9a6516, type: 2}
-  simpleInteractable: {fileID: 3433405658040419949}
+--- !u!1 &4862448000793538107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7344277481538043771}
+  - component: {fileID: 2622239385634401307}
+  m_Layer: 0
+  m_Name: Hover Exit Last
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7344277481538043771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4862448000793538107}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1739247118962003570}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2622239385634401307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4862448000793538107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 727d014e123a509458ad6f33326d5df4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isTriggered: 0
 --- !u!1 &5273651140648163037
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,9 +531,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 8129754211765804639}
   - {fileID: 8534220892983917988}
   - {fileID: 3558680572471685884}
-  - {fileID: 8129754211765804639}
+  - {fileID: 7344277481538043771}
   m_Father: {fileID: 7794480145101805088}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7617025263455382593
@@ -570,4 +614,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecc2d71cbc7b7dd4f859dc59397ca294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  simpleInteractable: {fileID: 3433405658040419949}
+  isTriggered: 1

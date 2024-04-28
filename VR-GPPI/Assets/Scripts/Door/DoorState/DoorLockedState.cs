@@ -1,17 +1,18 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class DoorLockedState : DoorState
+public class DoorLockedState : DoorState, IStateEnterable
 {
     [SerializeField] private InteractionLayerMask nothing;
 
-    public override void Enter()
+    public void Enter()
     {
-        door.InteractionLayerMask = nothing;
-        door.Rigidbody.isKinematic = true;
+        grabLockable.InteractionLayerMask = nothing;
+        grabLockable.Rigidbody.isKinematic = true;
     }
 
-    public override void DoUpdate() { }
-
-    public override void Exit() => door.Animator.Play(AnimatorParameter.DOOR_UNLOCKING);
+    public void DoUpdate()
+    {
+        if (grabLockable.IsLocked && grabLockable.IsTriggered) stateMachine.TransitionTo(stateMachine.UnlockingState);
+    }
 }

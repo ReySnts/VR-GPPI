@@ -1,0 +1,1 @@
+public interface IStateComplete : IStateEnterable, IStateExitable { }

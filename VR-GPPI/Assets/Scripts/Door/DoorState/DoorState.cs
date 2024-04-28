@@ -1,20 +1,15 @@
 using UnityEngine;
 
-public abstract class DoorState : MonoBehaviour, IState
+public abstract class DoorState : MonoBehaviour
 {
-    protected Door door;
+    protected IGrabbableLock grabLockable;
 
     protected DoorStateMachine stateMachine;
 
-    public abstract void Enter();
-
-    public abstract void DoUpdate();
-
-    public abstract void Exit();
-
     protected void Awake()
     {
-        door = transform.parent.parent.GetComponent<Door>();
-        stateMachine = transform.parent.GetComponent<DoorStateMachine>();
+        var states = transform.parent;
+        grabLockable = states.parent.GetComponent<IGrabbableLock>();
+        stateMachine = states.GetComponent<DoorStateMachine>();
     }
 }

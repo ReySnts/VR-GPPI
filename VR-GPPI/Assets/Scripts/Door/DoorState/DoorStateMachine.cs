@@ -1,45 +1,29 @@
 using UnityEngine;
-using UnityEngine.Events;
 
 public class DoorStateMachine : MonoBehaviour
 {
-    [field: SerializeField] public bool IsLocked { get; set; } = true;
+    public IStateEnterable LockedState { get; private set; }
 
-    [field: SerializeField] public DoorLockedState LockedState { get; private set; }
+    public IStateComplete UnlockingState { get; private set; }
 
-    [field: SerializeField] public DoorUnlockingState UnlockingState { get; private set; }
-
-    [field: SerializeField] public DoorUnlockedState UnlockedState { get; private set; }
-
-    private INotifier<IState> notifier;
+    public IStateEnterable UnlockedState { get; private set; }
 
     private IState currentState;
 
     private void Awake()
     {
-        notifier = transform.parent.parent.parent.GetComponent<INotifier<IState>>();
-        notifier.OnChangeObject += TransitionTo;
-        Initialize();
+        LockedState = GetComponentInChildren<DoorLockedState>();
+        UnlockingState = GetComponentInChildren<DoorUnlockingState>();
+        UnlockedState = GetComponentInChildren<DoorUnlockedState>();
     }
 
-    private void Initialize()
-    {
-        currentState = LockedState;
-        LockedState.Enter();
-    }
+    private void Start() => TransitionTo(LockedState);
 
-    public void TransitionTo(IState nextState)
+    public void TransitionTo(IStateEnterable nextState)
     {
-        currentState.Exit();
         currentState = nextState;
         nextState.Enter();
     }
 
     private void Update() => currentState.DoUpdate();
-
-    private void OnDestroy()
-    {
-        notifier.OnChangeObject -= TransitionTo;
-        notifier = null;
-    }
 }
