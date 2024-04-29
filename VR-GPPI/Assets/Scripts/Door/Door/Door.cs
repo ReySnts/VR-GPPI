@@ -9,19 +9,9 @@ public class Door : MonoBehaviour, IGrabbableLock
 
     [field: SerializeField] public XRGrabInteractable GrabInteractable { get; private set; }
 
+    [field: SerializeField] public bool IsLocked { get; set; }
+
     [field: SerializeField] public bool IsTriggered { get; set; }
-
-    [SerializeField] private bool isLocked = true;
-
-    public bool IsLocked
-    {
-        get => isLocked;
-        set => isLocked = transform.rotation.z == initialRotationZ;
-    }
-
-    private float initialRotationZ;
-
-    private void Start() => initialRotationZ = transform.rotation.z;
 
     private void Update() => GrabInteractable.interactionLayers = InteractionLayerMask;
 }

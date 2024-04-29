@@ -259,6 +259,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1454633539773310374}
     m_Modifications:
+    - target: {fileID: 4402299178472260289, guid: f93da0f037c80f2439f0681cf13805e5,
+        type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402299178472260289, guid: f93da0f037c80f2439f0681cf13805e5,
+        type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402299178472260289, guid: f93da0f037c80f2439f0681cf13805e5,
+        type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402299178472260289, guid: f93da0f037c80f2439f0681cf13805e5,
+        type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].inWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402299178472260289, guid: f93da0f037c80f2439f0681cf13805e5,
+        type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].outWeight
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6565861217008351391, guid: f93da0f037c80f2439f0681cf13805e5,
         type: 3}
       propertyPath: m_LocalPosition.x

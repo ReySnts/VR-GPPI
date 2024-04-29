@@ -10,7 +10,6 @@ public class DoorUnlockingState : DoorState, IStateComplete
     {
         currentTime = Time.time;
         animator.enabled = true;
-        //animator.Play(AnimatorParameter.DOOR_UNLOCKING);
     }
 
     public void DoUpdate()
@@ -26,7 +25,6 @@ public class DoorUnlockingState : DoorState, IStateComplete
     public void Exit()
     {
         animator.enabled = false;
-        //animator.StopPlayback();
-        //currentTime = 0f;
+        grabLockable.IsLocked = false;
     }
 }
