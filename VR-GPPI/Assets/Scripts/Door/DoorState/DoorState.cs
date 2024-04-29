@@ -2,14 +2,14 @@ using UnityEngine;
 
 public abstract class DoorState : MonoBehaviour
 {
-    protected IGrabbableLock grabLockable;
+    protected IRoomDoor roomDoor;
 
     protected DoorStateMachine stateMachine;
 
     protected void Awake()
     {
         var states = transform.parent;
-        grabLockable = states.parent.GetComponent<IGrabbableLock>();
+        roomDoor = states.parent.GetComponent<IRoomDoor>();
         stateMachine = states.GetComponent<DoorStateMachine>();
     }
 }

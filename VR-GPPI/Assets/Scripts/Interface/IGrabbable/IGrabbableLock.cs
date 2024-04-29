@@ -1,6 +1,4 @@
-public interface IGrabbableLock : IGrabbable
+public interface ILockable
 {
     public abstract bool IsLocked { get; set; }
-
-    public abstract bool IsTriggered { get; set; }
 }

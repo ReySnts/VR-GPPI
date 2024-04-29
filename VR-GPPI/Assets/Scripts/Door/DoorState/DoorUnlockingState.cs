@@ -22,9 +22,5 @@ public class DoorUnlockingState : DoorState, IStateComplete
         }
     }
 
-    public void Exit()
-    {
-        animator.enabled = false;
-        grabLockable.IsLocked = false;
-    }
+    public void Exit() => animator.enabled = false;
 }

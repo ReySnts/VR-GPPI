@@ -7,12 +7,12 @@ public class DoorUnlockedState : DoorState, IStateEnterable
 
     public void Enter()
     {
-        grabLockable.InteractionLayerMask = grabbable;
-        grabLockable.Rigidbody.isKinematic = false;
+        roomDoor.InteractionLayerMask = grabbable;
+        roomDoor.Rigidbody.isKinematic = false;
     }
 
     public void DoUpdate()
     {
-        if (grabLockable.IsLocked && !grabLockable.IsTriggered) stateMachine.TransitionTo(stateMachine.LockedState);
+        if (roomDoor.IsLocked && !roomDoor.IsTriggered) stateMachine.TransitionTo(stateMachine.LockedState);
     }
 }

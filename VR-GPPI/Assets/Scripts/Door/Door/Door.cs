@@ -1,17 +1,38 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class Door : MonoBehaviour, IGrabbableLock
+public abstract class Door : MonoBehaviour, IRoomDoor
 {
     [field: SerializeField] public InteractionLayerMask InteractionLayerMask { get; set; }
 
     [field: SerializeField] public Rigidbody Rigidbody { get; private set; }
 
-    [field: SerializeField] public XRGrabInteractable GrabInteractable { get; private set; }
+    [field: SerializeField] public HingeJoint HingeJoint { get; private set; }
 
-    [field: SerializeField] public bool IsLocked { get; set; }
+    [field: SerializeField] public XRGrabInteractable GrabInteractable { get; private set; }
 
     [field: SerializeField] public bool IsTriggered { get; set; }
 
-    private void Update() => GrabInteractable.interactionLayers = InteractionLayerMask;
+    [SerializeField] protected bool isLocked;
+
+    public abstract bool IsLocked { get; set; }
+
+    [field: SerializeField] public float LimitsMin { get; set; }
+
+    [field: SerializeField] public float LimitsMax { get; set; }
+
+    [field: SerializeField] public float Angle { get; set; }
+
+    private void Start()
+    {
+        LimitsMin = HingeJoint.limits.min;
+        LimitsMax = HingeJoint.limits.max;
+    }
+
+    private void Update()
+    {
+        Angle = HingeJoint.angle;
+        IsLocked = isLocked;
+        GrabInteractable.interactionLayers = InteractionLayerMask;
+    }
 }
