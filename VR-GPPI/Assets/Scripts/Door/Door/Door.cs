@@ -33,6 +33,5 @@ public abstract class Door : MonoBehaviour, IRoomDoor
     {
         Angle = HingeJoint.angle;
         IsLocked = isLocked;
-        GrabInteractable.interactionLayers = InteractionLayerMask;
     }
 }

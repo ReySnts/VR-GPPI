@@ -7,8 +7,9 @@ public class DoorLockedState : DoorState, IStateEnterable
 
     public void Enter()
     {
-        roomDoor.InteractionLayerMask = nothing;
         roomDoor.Rigidbody.isKinematic = true;
+        roomDoor.InteractionLayerMask = nothing;
+        roomDoor.GrabInteractable.interactionLayers = nothing;
     }
 
     public void DoUpdate()
