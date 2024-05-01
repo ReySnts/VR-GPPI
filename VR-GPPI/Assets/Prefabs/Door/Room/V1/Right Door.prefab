@@ -44,6 +44,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2a189acd4d7c14ea36381281afff9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &3138544867206519555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3500192823867537494}
+  - component: {fileID: 4941125253601740202}
+  m_Layer: 8
+  m_Name: Hinge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3500192823867537494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3138544867206519555}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6147756000675574200}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4941125253601740202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3138544867206519555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd13d1f875804c34087e70c47572740c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <HingeJoint>k__BackingField: {fileID: 6865985728725046730}
+  <LimitsMin>k__BackingField: 0
+  <LimitsMax>k__BackingField: 0
+  <Angle>k__BackingField: 0
 --- !u!1 &3762989541117092019
 GameObject:
   m_ObjectHideFlags: 0
@@ -82,6 +130,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5570392096464037194}
+  - {fileID: 3500192823867537494}
   - {fileID: 9081285353032322114}
   - {fileID: 4691149344150035122}
   - {fileID: 1169561188546960083}
@@ -411,10 +460,9 @@ MonoBehaviour:
   <InteractionLayerMask>k__BackingField:
     m_Bits: 0
   <Rigidbody>k__BackingField: {fileID: 3006435883998236939}
-  <HingeJoint>k__BackingField: {fileID: 6865985728725046730}
   <GrabInteractable>k__BackingField: {fileID: 2429356936442050508}
-  <IsLocked>k__BackingField: 0
   <IsTriggered>k__BackingField: 0
+  isLocked: 0
 --- !u!1 &6761671158496618529
 GameObject:
   m_ObjectHideFlags: 0

@@ -38,6 +38,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6269074152734417331}
+  - {fileID: 4927808112867405363}
   - {fileID: 7226323891122309307}
   - {fileID: 6581013436882099787}
   - {fileID: 753550394815962666}
@@ -367,10 +368,9 @@ MonoBehaviour:
   <InteractionLayerMask>k__BackingField:
     m_Bits: 0
   <Rigidbody>k__BackingField: {fileID: 3744525536517641714}
-  <HingeJoint>k__BackingField: {fileID: 4973902564907962675}
   <GrabInteractable>k__BackingField: {fileID: 4321473085580702517}
-  <IsLocked>k__BackingField: 0
   <IsTriggered>k__BackingField: 0
+  isLocked: 0
 --- !u!1 &4357353148469014027
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,6 +448,54 @@ Transform:
   - {fileID: 1870924216190035780}
   m_Father: {fileID: 5701288991483737409}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6220281412224039767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4927808112867405363}
+  - component: {fileID: 8731262347142655529}
+  m_Layer: 8
+  m_Name: Hinge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4927808112867405363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6220281412224039767}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5701288991483737409}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8731262347142655529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6220281412224039767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd13d1f875804c34087e70c47572740c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <HingeJoint>k__BackingField: {fileID: 4973902564907962675}
+  <LimitsMin>k__BackingField: 0
+  <LimitsMax>k__BackingField: 0
+  <Angle>k__BackingField: 0
 --- !u!1 &7429399153330721204
 GameObject:
   m_ObjectHideFlags: 0
