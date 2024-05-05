@@ -959,7 +959,7 @@ GameObject:
   - component: {fileID: 4349824172804867821}
   - component: {fileID: 6459242507468023567}
   m_Layer: 0
-  m_Name: Cube.005
+  m_Name: Process Chamber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3678,7 +3678,7 @@ GameObject:
   - component: {fileID: 8839028029285288910}
   - component: {fileID: 2637608224948753798}
   m_Layer: 0
-  m_Name: Power Switch
+  m_Name: Switch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5834,7 +5834,6 @@ Transform:
   - {fileID: 731087846356856910}
   - {fileID: 7446320213507146331}
   - {fileID: 3967432000339422968}
-  - {fileID: 3422293354551714327}
   - {fileID: 7909703772749443559}
   - {fileID: 7565015485208299264}
   - {fileID: 8114956024899986825}
@@ -5842,7 +5841,6 @@ Transform:
   - {fileID: 537013556841462139}
   - {fileID: 1268711347343067875}
   - {fileID: 7657996919164269160}
-  - {fileID: 2825322559036403440}
   - {fileID: 5511992717411939214}
   - {fileID: 16851017723540315}
   - {fileID: 6296292186124125240}
@@ -11490,7 +11488,7 @@ GameObject:
   - component: {fileID: 1894660533057041244}
   - component: {fileID: 7030351309673743656}
   m_Layer: 0
-  m_Name: Cylinder.017
+  m_Name: Outer Door Seal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11504,12 +11502,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5933341676025171287}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.6900428, y: -0.14115155, z: 0.6923753, w: 0.15663251}
-  m_LocalPosition: {x: 4.7231264, y: -10.745862, z: -4.1301746}
-  m_LocalScale: {x: 3.8219724, y: 3.8219726, z: 3.8219728}
+  m_LocalRotation: {x: 0.99959815, y: 0.026096549, z: 0.0004044156, w: -0.011062971}
+  m_LocalPosition: {x: -0.010106854, y: -0.008755919, z: -0.0027542482}
+  m_LocalScale: {x: 0.015441926, y: 0.020606672, z: 0.011780114}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6858789303476910293}
+  m_Father: {fileID: 8517340161691975254}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1894660533057041244
 MeshFilter:
@@ -11990,7 +11988,7 @@ GameObject:
   - component: {fileID: 4692777335257841113}
   - component: {fileID: 1552321796579134298}
   m_Layer: 0
-  m_Name: Cube.006
+  m_Name: Pass Chamber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12008,7 +12006,9 @@ Transform:
   m_LocalPosition: {x: 5.61691, y: -8.324801, z: -5.872342}
   m_LocalScale: {x: 247.67595, y: 185.23457, z: 324.51102}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 3422293354551714327}
+  - {fileID: 2825322559036403440}
   m_Father: {fileID: 6858789303476910293}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4692777335257841113
@@ -12405,7 +12405,7 @@ GameObject:
   - component: {fileID: 5405841135852359516}
   - component: {fileID: 2162943777610971045}
   m_Layer: 0
-  m_Name: Cube.055
+  m_Name: Timbangan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15268,7 +15268,7 @@ GameObject:
   - component: {fileID: 1677684803451692643}
   - component: {fileID: 9079305893485385174}
   m_Layer: 0
-  m_Name: Cylinder.002
+  m_Name: Inner Door Seal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15282,12 +15282,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8150600015554775993}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.59403086, y: 0.39695755, z: 0.5845783, w: -0.3844741}
-  m_LocalPosition: {x: 4.3243766, y: -6.863694, z: -4.250401}
-  m_LocalScale: {x: 0.20932986, y: 3.1519938, z: 3.1537542}
+  m_LocalRotation: {x: 0.7167987, y: -0.6971923, z: 0.0082016215, w: -0.007438481}
+  m_LocalPosition: {x: -0.0039554397, y: 0.010531732, z: -0.003983019}
+  m_LocalScale: {x: 0.0011297857, y: 0.01272682, z: 0.009719607}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6858789303476910293}
+  m_Father: {fileID: 8517340161691975254}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1677684803451692643
 MeshFilter:
