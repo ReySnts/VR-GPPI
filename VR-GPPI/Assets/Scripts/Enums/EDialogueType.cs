@@ -1,0 +1,20 @@
+public enum EDialogueTitle
+{
+    RutePerjalanan,
+    PerhatianUmum,
+    NyalakanMesin,
+    PemeriksaanPreoperasional,
+    AktivasiSistem,
+    PembersihanPreoperasional,
+    BersihkanPassChamber,
+    BersihkanProcessChamber,
+    BersihkanTimbangan,
+    BersihkanViableAirSampler,
+    BersihkanParticleCounter,
+    BersihkanGloves,
+    BersihkanMaterialTimbang,
+    BersihkanPermukaanMesin,
+    PressureDecayTest,
+    MasterChamberLeakTest,
+    PassChamberLeakTest
+}
