@@ -9,16 +9,16 @@ public class MenuStateMachine : MonoBehaviour
     private IMenuState? currentMenuState;
 #nullable disable
 
-    private void Awake()
-    {
-        var menus = transform.GetComponentsInChildren<IMenuState>();
-        foreach (var eachMenu in menus) menuDictionary.Add(eachMenu.EMenuState, eachMenu);
-    }
+    //private void Awake()
+    //{
+    //    var menus = transform.GetComponentsInChildren<IMenuState>();
+    //    foreach (var eachMenu in menus) menuDictionary.Add(eachMenu.EMenuState, eachMenu);
+    //}
 
-    private void OnEnable()
-    {
-        foreach (var eachMenu in menuDictionary.Values) eachMenu.GameObject.SetActive(false);
-    }
+    //private void OnEnable()
+    //{
+    //    foreach (var eachMenu in menuDictionary.Values) eachMenu.GameObject.SetActive(false);
+    //}
 
     public void TransitionTo(EMenuState nextState)
     {

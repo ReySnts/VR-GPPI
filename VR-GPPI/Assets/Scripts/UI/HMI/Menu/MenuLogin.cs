@@ -7,7 +7,7 @@ public class MenuLogin : MonoBehaviour
 
     [SerializeField] private GameObject menuMain;
 
-    private void OnEnable() => buttonActivate.onClick.AddListener(() => { menuMain.SetActive(false); });
+    //private void OnEnable() => buttonActivate.onClick.AddListener(() => { menuMain.SetActive(false); });
 
-    private void OnDisable() => buttonActivate.onClick.RemoveListener(() => { menuMain.SetActive(false); });
+    //private void OnDisable() => buttonActivate.onClick.RemoveListener(() => { menuMain.SetActive(false); });
 }
