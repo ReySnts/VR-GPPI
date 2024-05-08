@@ -1,13 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1102 &-4131117755290057442
+--- !u!1102 &-6968343303271498159
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: tulang glove_001|tulang gloveAction_006
+  m_Name: On Close Process
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -20,21 +20,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7793886815671160158, guid: f7be7bc70292bad45be7f5fde0344462,
-    type: 3}
+  m_Motion: {fileID: 7400000, guid: 8534b0ebf4be96d4b9b225c7e8ae73b5, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-4126184443376699269
+--- !u!1102 &-6246219680766869865
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: tulang glove_001|tulang gloveAction
+  m_Name: Deflated
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -47,8 +46,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -672294710038741138, guid: f7be7bc70292bad45be7f5fde0344462,
-    type: 3}
+  m_Motion: {fileID: 7400000, guid: 9c7aa40b7b947824a88df698df00ed44, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -64,29 +62,20 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: 1314250610106903263}
-    m_Position: {x: 240, y: 80, z: 0}
+    m_State: {fileID: 96471143712427632}
+    m_Position: {x: 280.02737, y: 27.421326, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 6699821572218034917}
-    m_Position: {x: 70, y: 250, z: 0}
+    m_State: {fileID: 3100161472339389970}
+    m_Position: {x: 370, y: 100, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 7181391456304784988}
-    m_Position: {x: 310, y: 250, z: 0}
+    m_State: {fileID: -6968343303271498159}
+    m_Position: {x: 370, y: -50, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 9219764148674618301}
-    m_Position: {x: 40, y: -60, z: 0}
+    m_State: {fileID: 7579305105802598219}
+    m_Position: {x: 320, y: 190, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 3818646302650970050}
-    m_Position: {x: 310, y: -60, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -4126184443376699269}
-    m_Position: {x: 250, y: 0, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -4131117755290057442}
-    m_Position: {x: 290, y: 190, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 1921088405555741467}
-    m_Position: {x: 348.1532, y: 134.95897, z: 0}
+    m_State: {fileID: -6246219680766869865}
+    m_Position: {x: 310, y: 310, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -94,16 +83,16 @@ AnimatorStateMachine:
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
-  m_ExitPosition: {x: 50, y: 200, z: 0}
+  m_ExitPosition: {x: 30, y: 210, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 1314250610106903263}
+  m_DefaultState: {fileID: 96471143712427632}
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: tulang glove.001
+  m_Name: tulang glove
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -119,14 +108,14 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1102 &1314250610106903263
+--- !u!1102 &96471143712427632
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New State
+  m_Name: Init State
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -145,14 +134,14 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &1921088405555741467
+--- !u!1102 &3100161472339389970
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: tulang glove_001|tulang gloveAction_007
+  m_Name: On Open Process
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -165,21 +154,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 3323114607225889387, guid: f7be7bc70292bad45be7f5fde0344462,
-    type: 3}
+  m_Motion: {fileID: 7400000, guid: dc30b81cd974d764fbee790b86f16b5f, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &3818646302650970050
+--- !u!1102 &7579305105802598219
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: tulang glove_001|HANDLE CHAMBERAction
+  m_Name: Inflated
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -192,87 +180,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -69746872392286967, guid: f7be7bc70292bad45be7f5fde0344462, type: 3}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &6699821572218034917
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: tulang glove_001|Cube_038Action_001
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 25001000128946864, guid: f7be7bc70292bad45be7f5fde0344462, type: 3}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &7181391456304784988
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: tulang glove_001|Cylinder_017Action
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: -101859714110823721, guid: f7be7bc70292bad45be7f5fde0344462,
-    type: 3}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &9219764148674618301
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: tulang glove_001|Cylinder_034Action
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7509239009304334552, guid: f7be7bc70292bad45be7f5fde0344462,
-    type: 3}
+  m_Motion: {fileID: 7400000, guid: a39133ae800af5146a113024114566fa, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

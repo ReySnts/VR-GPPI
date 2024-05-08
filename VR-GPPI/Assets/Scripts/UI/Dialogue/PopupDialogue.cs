@@ -9,7 +9,7 @@ public class PopupDialogue : MonoBehaviour
 
     private void Start()
     {
-        tMP.text = dialogue.dialogueTitle.ToString();
-        tMP.text = dialogue.text;
+        //tMP.text = dialogue.dialogueTitle.ToString();
+        //tMP.text = dialogue.text;
     }
 }

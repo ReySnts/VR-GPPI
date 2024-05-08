@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 839881568762122586}
   - component: {fileID: 9081172686672833608}
   - component: {fileID: 6462638203427492891}
+  - component: {fileID: 8745562214017637647}
   m_Layer: 5
   m_Name: ButtonPassOuter
   m_TagString: Untagged
@@ -120,6 +121,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8745562214017637647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445638173261371625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 907208965927a2d43b48a0fec79eb2dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Animator>k__BackingField: {fileID: 0}
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: acdc3578dea06f349b8935ad809663ff,
+    type: 2}
 --- !u!1 &1226713961313443537
 GameObject:
   m_ObjectHideFlags: 0
