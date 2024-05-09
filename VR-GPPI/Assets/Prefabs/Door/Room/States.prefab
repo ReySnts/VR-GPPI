@@ -47,10 +47,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66c1fec57f82d3a449032e8c72375ad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <IsLocked>k__BackingField: 1
-  <LockedState>k__BackingField: {fileID: 6456021453848585405}
-  <UnlockingState>k__BackingField: {fileID: 5031898215497723855}
-  <UnlockedState>k__BackingField: {fileID: 9050165391081871007}
 --- !u!1 &4419574910896423215
 GameObject:
   m_ObjectHideFlags: 0
@@ -95,6 +91,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f92f7ce891e51254e8e970dd95ab6da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  unlockedState: {fileID: 9050165391081871007}
 --- !u!1 &5618068870643663240
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,6 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nothing:
     m_Bits: 0
+  unlockingState: {fileID: 5031898215497723855}
 --- !u!1 &8613144118737202786
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,5 +184,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3bbbe2d52e518e4581ff066890d5f95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lockedState: {fileID: 6456021453848585405}
   grabbable:
     m_Bits: 2
