@@ -17,6 +17,6 @@ public class RoomDoorUnlockedState : DoorState<ISensorDoor>, IStateEnterable
 
     public void DoUpdate()
     {
-        if (door.Lockable.IsLocked && !door.IsTriggered) stateMachine.TransitionTo(lockedState);
+        if (door.Lockable.IsLocked && !door.Triggerable.IsTriggered) stateMachine.TransitionTo(lockedState);
     }
 }

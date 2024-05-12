@@ -8,12 +8,13 @@ public class SensorDoor : MonoBehaviour, ISensorDoor
 
     public ILockable Lockable { get; private set; }
 
-    [field: SerializeField] public bool IsTriggered { get; set; }
+    public ITriggerable Triggerable { get; private set; }
 
     private void Awake()
     {
         Grabbable = GetComponentInChildren<IGrabbable>();
         HingeJointLimits = GetComponentInChildren<IHingeJointLimits>();
         Lockable = GetComponentInChildren<ILockable>();
+        Triggerable = GetComponentInChildren<ITriggerable>();
     }
 }

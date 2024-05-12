@@ -13,5 +13,5 @@ public class ChamberDoorStateMachine : MonoBehaviour, IStateMachine
 
     private void Start() => TransitionTo(FirstState);
 
-    private void Update() => CurrentState.DoUpdate();
+    //private void Update() => CurrentState.DoUpdate();
 }
