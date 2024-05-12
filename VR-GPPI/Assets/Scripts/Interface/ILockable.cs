@@ -1,4 +1,4 @@
 public interface ILockable
 {
-    public abstract bool IsLocked { get; }
+    public abstract bool IsLocked { get; set; }
 }

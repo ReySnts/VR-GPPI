@@ -1,17 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class ChamberDoorOpeningState : MonoBehaviour
+public class ChamberDoorOpeningState : DoorState<IAnimatedDoor>, IStateEnterable
 {
-    // Start is called before the first frame update
-    void Start()
+    public void Enter()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void DoUpdate()
     {
         
     }

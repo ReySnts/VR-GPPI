@@ -88,6 +88,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cd718c6bb958f741ac58acdb7fbf91c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nothing:
+    m_Bits: 0
+  silver: {fileID: 2100000, guid: 2d27f5e2726035045a3b8731019649b6, type: 2}
+  unlockedState: {fileID: 8887331020825977578}
 --- !u!1 &2603639333848758463
 GameObject:
   m_ObjectHideFlags: 0

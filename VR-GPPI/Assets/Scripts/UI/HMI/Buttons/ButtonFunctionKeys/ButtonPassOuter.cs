@@ -1,26 +1,18 @@
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
 
 public class ButtonPassOuter : ButtonFunctionKeys
 {
-    [SerializeField] private InteractionLayerMask touchable;
+    [SerializeField] private ChamberDoor passChamberOuterDoor;
 
-    [SerializeField] private Material glow;
+    private IAnimatedDoor AnimatedDoor => passChamberOuterDoor;
 
-    [SerializeField] private ChamberHandle chamberHandle;
+    private void Awake() => button.onClick.AddListener(UnlockDoor);
 
-    private ITouchable Touchable => chamberHandle;
-
-    private IRenderer Renderer => chamberHandle.GetComponentInChildren<IRenderer>();
-
-    private void OnEnable() => button.onClick.AddListener(() => OnClick());
-
-    private void OnClick()
+    private void UnlockDoor()
     {
-        Touchable.InteractionLayerMask = touchable;
-        Touchable.SimpleInteractable.interactionLayers = touchable;
-        Renderer.MeshRenderer.material = glow;
+        button.interactable = false;
+        AnimatedDoor.Lockable.IsLocked = false;
     }
 
-    private void OnDisable() => button.onClick.RemoveListener(() => OnClick());
+    private void OnDestroy() => button.onClick.RemoveListener(UnlockDoor);
 }

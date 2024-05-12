@@ -1,11 +1,14 @@
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
 
-public class ChamberHandle : MonoBehaviour, ITouchable
+public class ChamberHandle : MonoBehaviour, IHandle
 {
-    [field: SerializeField] public InteractionLayerMask InteractionLayerMask { get; set; }
+    public ITouchable Touchable { get; private set; }
 
-    [field: SerializeField] public Rigidbody Rigidbody { get; set; }
+    public IRenderer Renderer { get; private set; }
 
-    [field: SerializeField] public XRSimpleInteractable SimpleInteractable { get; set; }
+    private void Awake()
+    {
+        Touchable = GetComponentInChildren<ITouchable>();
+        Renderer = GetComponentInChildren<IRenderer>();
+    }
 }
