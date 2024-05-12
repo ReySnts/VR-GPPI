@@ -6,7 +6,7 @@ public abstract class IsolatorState : MonoBehaviour
 
     protected void Awake()
     {
-        stateMachine = transform.parent.parent.GetComponent<IStateMachine>();
+        stateMachine = transform.parent.GetComponent<IStateMachine>();
     }
 
     protected void OnDestroy()

@@ -133,9 +133,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 907208965927a2d43b48a0fec79eb2dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Animator>k__BackingField: {fileID: 0}
-  <AnimatorController>k__BackingField: {fileID: 9100000, guid: acdc3578dea06f349b8935ad809663ff,
-    type: 2}
+  touchable:
+    m_Bits: 4
+  glow: {fileID: 2100000, guid: 85305cbcaa3b6bc46a2193b307ae9eee, type: 2}
+  chamberHandle: {fileID: 0}
 --- !u!1 &1226713961313443537
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,21 +1,25 @@
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
-public class ButtonPassOuter : ButtonFunctionKeys, IAnimator
+public class ButtonPassOuter : ButtonFunctionKeys
 {
-    [field: SerializeField] public Animator Animator { get; set; }
+    [SerializeField] private InteractionLayerMask touchable;
 
-    [field: SerializeField] public RuntimeAnimatorController AnimatorController { get; set; }
+    [SerializeField] private Material glow;
 
-    private bool isOpened = false;
+    [SerializeField] private ChamberHandle chamberHandle;
+
+    private ITouchable Touchable => chamberHandle;
+
+    private IRenderer Renderer => chamberHandle.GetComponentInChildren<IRenderer>();
 
     private void OnEnable() => button.onClick.AddListener(() => OnClick());
 
     private void OnClick()
     {
-        Animator.runtimeAnimatorController = AnimatorController;
-        if (!isOpened) Animator.Play(AnimatorParameter.OPEN);
-        else Animator.Play(AnimatorParameter.CLOSE);
-        isOpened = !isOpened;
+        Touchable.InteractionLayerMask = touchable;
+        Touchable.SimpleInteractable.interactionLayers = touchable;
+        Renderer.MeshRenderer.material = glow;
     }
 
     private void OnDisable() => button.onClick.RemoveListener(() => OnClick());
