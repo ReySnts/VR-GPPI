@@ -31,7 +31,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4034485718106927825}
-  - {fileID: 8851162835902059574}
   - {fileID: 3934664572232893311}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -47,52 +46,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66c1fec57f82d3a449032e8c72375ad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &4419574910896423215
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8851162835902059574}
-  - component: {fileID: 5031898215497723855}
-  m_Layer: 8
-  m_Name: Unlocking
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8851162835902059574
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4419574910896423215}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1176025369500837896}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5031898215497723855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4419574910896423215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f92f7ce891e51254e8e970dd95ab6da8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  unlockedState: {fileID: 9050165391081871007}
 --- !u!1 &5618068870643663240
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,7 +92,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nothing:
     m_Bits: 0
-  unlockingState: {fileID: 5031898215497723855}
+  unlockedState: {fileID: 9050165391081871007}
 --- !u!1 &8613144118737202786
 GameObject:
   m_ObjectHideFlags: 0
@@ -184,6 +137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3bbbe2d52e518e4581ff066890d5f95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lockedState: {fileID: 6456021453848585405}
   grabbable:
     m_Bits: 2
+  lockedState: {fileID: 6456021453848585405}

@@ -21,11 +21,11 @@ public class XRGrabInteractableDistance : XRGrabInteractable
 
     private void Update()
     {
-        if (hand is not null)
+        foreach (var collider in colliders)
         {
-            var handPosition = hand.transform.position;
-            foreach (var collider in colliders)
+            if (hand is not null)
             {
+                var handPosition = hand.transform.position;
                 var colliderPosition = collider.transform.position;
                 var currentDistance = Vector3.Distance(handPosition, colliderPosition);
                 if (currentDistance > maxDistance) interactionManager.SelectExit(interactor: hand, interactable: this);

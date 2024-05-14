@@ -6,9 +6,12 @@ public class HingedDoor : MonoBehaviour, IHingedDoor
 
     public IHingeJointLimits HingeJointLimits { get; private set; }
 
+    public ILockable Lockable { get; private set; }
+
     private void Awake()
     {
         Grabbable = GetComponentInChildren<IGrabbable>();
         HingeJointLimits = GetComponentInChildren<IHingeJointLimits>();
+        Lockable = GetComponentInChildren<ILockable>();
     }
 }

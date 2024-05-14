@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 839881568762122586}
   - component: {fileID: 9081172686672833608}
   - component: {fileID: 6462638203427492891}
-  - component: {fileID: 8745562214017637647}
+  - component: {fileID: 2336763104823678578}
   m_Layer: 5
   m_Name: ButtonPassOuter
   m_TagString: Untagged
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8745562214017637647
+--- !u!114 &2336763104823678578
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,10 +130,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 445638173261371625}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 907208965927a2d43b48a0fec79eb2dc, type: 3}
+  m_Script: {fileID: 11500000, guid: 69634922a494c6246b77083c60ce5ed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  passChamberOuterDoor: {fileID: 0}
+  chamberDoor: {fileID: 0}
 --- !u!1 &1226713961313443537
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,7 +819,7 @@ GameObject:
   - component: {fileID: 2734353176094225047}
   - component: {fileID: 8976204040196105428}
   - component: {fileID: 2420397219052977052}
-  - component: {fileID: 8021029305023102337}
+  - component: {fileID: 7756141028045588849}
   m_Layer: 5
   m_Name: ButtonProcessMain
   m_TagString: Untagged
@@ -928,7 +928,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8021029305023102337
+--- !u!114 &7756141028045588849
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -937,9 +937,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6803140974078372280}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab16d6c25cf7df846a79cd480e629a9e, type: 3}
+  m_Script: {fileID: 11500000, guid: 69634922a494c6246b77083c60ce5ed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chamberDoor: {fileID: 0}
 --- !u!1 &6852601681266530060
 GameObject:
   m_ObjectHideFlags: 0

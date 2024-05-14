@@ -5,7 +5,7 @@ public class RoomDoorLockedState : DoorState<ISensorDoor>, IStateEnterable
 {
     [SerializeField] private InteractionLayerMask nothing;
 
-    [SerializeField] private RoomDoorUnlockingState unlockingState;
+    [SerializeField] private RoomDoorUnlockedState unlockedState;
 
     public void Enter()
     {
@@ -17,6 +17,6 @@ public class RoomDoorLockedState : DoorState<ISensorDoor>, IStateEnterable
 
     public void DoUpdate()
     {
-        if (door.Lockable.IsLocked && door.Triggerable.IsTriggered) stateMachine.TransitionTo(unlockingState);
+        if (door.Lockable.IsLocked && door.Triggerable.IsTriggered) stateMachine.TransitionTo(unlockedState);
     }
 }

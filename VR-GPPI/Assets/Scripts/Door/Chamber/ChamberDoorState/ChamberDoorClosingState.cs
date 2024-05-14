@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ChamberDoorClosingState : DoorState<IAnimatedDoor>, IStateComplete
 {
-    [SerializeField] private ButtonFunctionKeys buttonFunctionKeys;
+    [SerializeField] private ButtonChamberDoor buttonChamberDoor;
 
     [SerializeField] private ChamberDoorLockedState lockedState;
 
@@ -24,5 +24,5 @@ public class ChamberDoorClosingState : DoorState<IAnimatedDoor>, IStateComplete
         }
     }
 
-    public void Exit() => buttonFunctionKeys.Button.interactable = true;
+    public void Exit() => buttonChamberDoor.Button.interactable = true;
 }

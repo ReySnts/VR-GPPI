@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4010243769301572322}
   - component: {fileID: 2982957092798497232}
   m_Layer: 0
-  m_Name: Process Chamber Door
+  m_Name: Process Chamber Main Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

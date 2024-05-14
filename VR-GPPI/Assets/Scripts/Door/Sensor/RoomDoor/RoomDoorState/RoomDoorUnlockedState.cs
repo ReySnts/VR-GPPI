@@ -7,16 +7,20 @@ public class RoomDoorUnlockedState : DoorState<ISensorDoor>, IStateEnterable
 
     [SerializeField] private RoomDoorLockedState lockedState;
 
+    private float currentTime;
+
     public void Enter()
     {
         var doorGrabbable = door.Grabbable;
         doorGrabbable.InteractionLayerMask = grabbable;
         doorGrabbable.GrabInteractable.interactionLayers = grabbable;
         doorGrabbable.Rigidbody.isKinematic = false;
+        currentTime = Time.time;
     }
 
     public void DoUpdate()
     {
-        if (door.Lockable.IsLocked && !door.Triggerable.IsTriggered) stateMachine.TransitionTo(lockedState);
+        var waitDuration = 10f;
+        if (Time.time > currentTime + waitDuration && door.Lockable.IsLocked) stateMachine.TransitionTo(lockedState);
     }
 }
