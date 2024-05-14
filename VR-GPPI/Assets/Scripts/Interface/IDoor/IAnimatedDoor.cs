@@ -1,6 +1,6 @@
 public interface IAnimatedDoor : IDoor
 {
-    public abstract IAnimator Animator { get; }
+    public abstract INotifier<string> Notifier { get; }
 
     public abstract ILockable Lockable { get; }
 

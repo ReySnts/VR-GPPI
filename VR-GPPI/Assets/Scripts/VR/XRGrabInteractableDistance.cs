@@ -29,11 +29,7 @@ public class XRGrabInteractableDistance : XRGrabInteractable
                 var colliderPosition = collider.transform.position;
                 var currentDistance = Vector3.Distance(handPosition, colliderPosition);
                 if (currentDistance > maxDistance) interactionManager.SelectExit(interactor: hand, interactable: this);
-                else
-                {
-                    interactionManager.SelectEnter(interactor: hand, interactable: this);
-                    return;
-                }
+                else interactionManager.SelectEnter(interactor: hand, interactable: this);
             }
         }
     }

@@ -4,15 +4,9 @@ public class ButtonPassOuter : ButtonFunctionKeys
 {
     [SerializeField] private ChamberDoor passChamberOuterDoor;
 
-    private IAnimatedDoor AnimatedDoor => passChamberOuterDoor;
-
-    private void Awake() => button.onClick.AddListener(UnlockDoor);
-
-    private void UnlockDoor()
+    public override void OnClick()
     {
-        button.interactable = false;
-        AnimatedDoor.Lockable.IsLocked = false;
+        Button.interactable = false;
+        passChamberOuterDoor.Lockable.IsLocked = false;
     }
-
-    private void OnDestroy() => button.onClick.RemoveListener(UnlockDoor);
 }

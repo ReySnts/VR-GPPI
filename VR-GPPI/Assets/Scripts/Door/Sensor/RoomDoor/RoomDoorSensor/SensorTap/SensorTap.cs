@@ -22,7 +22,7 @@ public abstract class SensorTap<TEventArgs> : MonoBehaviour where TEventArgs : B
 
     protected void OnDestroy()
     {
-        InteractableEvent.AddListener(call => notifier.Change(isTriggered));
+        InteractableEvent.RemoveAllListeners();
         notifier = null;
         simpleInteractable = null;
     }

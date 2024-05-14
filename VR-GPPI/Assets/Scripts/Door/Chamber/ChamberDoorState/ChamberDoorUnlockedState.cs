@@ -11,22 +11,38 @@ public class ChamberDoorUnlockedState : DoorState<IAnimatedDoor>, IStateComplete
 
     public void Enter()
     {
-        var doorHandle = door.Handle;
-        var doorHandleTouchable = doorHandle.Touchable;
-        var doorHandleSimpleInteractable = doorHandleTouchable.SimpleInteractable;
-        doorHandle.Renderer.MeshRenderer.material = glow;
-        doorHandleTouchable.InteractionLayerMask = touchable;
-        doorHandleSimpleInteractable.interactionLayers = touchable;
-        doorHandleSimpleInteractable.hoverEntered.AddListener(call => OpenDoor());
+        door.Lockable.IsLocked = false;
+        OnEnterDoorHandle();
     }
 
     public void DoUpdate()
     {
-        var doorOpenable = door.Openable;
-        if (!door.Lockable.IsLocked && doorOpenable.IsAllowedToOpen && !doorOpenable.IsAllowedToClose) stateMachine.TransitionTo(openingState);
+        if (!door.Lockable.IsLocked && door.Openable.IsAllowedToOpen)
+        {
+            Exit();
+            stateMachine.TransitionTo(openingState);
+        }
     }
 
-    public void Exit() => door.Handle.Touchable.SimpleInteractable.hoverEntered.RemoveListener(call => OpenDoor());
+    public void Exit()
+    {
+        var door = this.door;
+        door.Handle.Touchable.SimpleInteractable.hoverEntered.RemoveAllListeners();
+        door.Openable.IsAllowedToOpen = false;
+    }
+
+    private void OnEnterDoorHandle()
+    {
+        var doorHandle = door.Handle;
+        var doorHandleTouchable = doorHandle.Touchable;
+        var doorHandleRenderer = doorHandle.Renderer;
+        var doorHandleSimpleInteractable = doorHandleTouchable.SimpleInteractable;
+        doorHandleTouchable.InteractionLayerMask = touchable;
+        doorHandleRenderer.Material = glow;
+        doorHandleRenderer.MeshRenderer.material = glow;
+        doorHandleSimpleInteractable.interactionLayers = touchable;
+        doorHandleSimpleInteractable.hoverEntered.AddListener(call => OpenDoor());
+    }
 
     private void OpenDoor() => door.Openable.IsAllowedToOpen = true;
 }

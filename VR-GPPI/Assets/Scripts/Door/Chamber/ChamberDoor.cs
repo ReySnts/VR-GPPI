@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ChamberDoor : MonoBehaviour, IAnimatedDoor
 {
-    public IAnimator Animator { get; private set; }
+    public INotifier<string> Notifier { get; private set; }
 
     public ILockable Lockable { get; private set; }
 
@@ -12,7 +12,7 @@ public class ChamberDoor : MonoBehaviour, IAnimatedDoor
 
     private void Awake()
     {
-        Animator = GetComponentInChildren<IAnimator>();
+        Notifier = transform.parent.GetComponent<INotifier<string>>();
         Lockable = GetComponentInChildren<ILockable>();
         Openable = GetComponentInChildren<IOpenable>();
         Handle = GetComponentInChildren<IHandle>();

@@ -22,7 +22,7 @@ public abstract class SensorHover<TEventArgs> : MonoBehaviour where TEventArgs :
 
     protected void OnDestroy()
     {
-        InteractableEvent.RemoveListener(call => notifier.Change(lightColorMaterial));
+        InteractableEvent.RemoveAllListeners();
         notifier = null;
         simpleInteractable = null;
     }

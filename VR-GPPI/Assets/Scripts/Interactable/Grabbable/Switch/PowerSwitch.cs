@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PowerSwitch : MonoBehaviour, ISwitchable
 {
-    [SerializeField] private float duration = 5f;
+    //[SerializeField] private float duration = 5f;
 
     [SerializeField] private bool isActive;
 

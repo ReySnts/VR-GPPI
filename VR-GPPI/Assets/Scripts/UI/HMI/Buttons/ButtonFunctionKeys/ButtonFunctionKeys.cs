@@ -1,9 +1,21 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ButtonFunctionKeys : MonoBehaviour
+public abstract class ButtonFunctionKeys : MonoBehaviour, IButton
 {
-    protected Button button;
+    public Button Button { get; private set; }
 
-    private void Awake() => button = GetComponent<Button>();
+    private void Awake()
+    {
+        Button = GetComponent<Button>();
+        Button.onClick.AddListener(OnClick);
+    }
+
+    public abstract void OnClick();
+
+    private void OnDestroy()
+    {
+        Button.onClick.RemoveListener(OnClick);
+        Button = null;
+    }
 }

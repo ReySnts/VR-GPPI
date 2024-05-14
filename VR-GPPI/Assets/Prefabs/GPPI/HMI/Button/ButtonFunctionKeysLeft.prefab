@@ -133,10 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 907208965927a2d43b48a0fec79eb2dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  touchable:
-    m_Bits: 4
-  glow: {fileID: 2100000, guid: 85305cbcaa3b6bc46a2193b307ae9eee, type: 2}
-  chamberHandle: {fileID: 0}
+  passChamberOuterDoor: {fileID: 0}
 --- !u!1 &1226713961313443537
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,6 +819,7 @@ GameObject:
   - component: {fileID: 2734353176094225047}
   - component: {fileID: 8976204040196105428}
   - component: {fileID: 2420397219052977052}
+  - component: {fileID: 8021029305023102337}
   m_Layer: 5
   m_Name: ButtonProcessMain
   m_TagString: Untagged
@@ -930,6 +928,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8021029305023102337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6803140974078372280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab16d6c25cf7df846a79cd480e629a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6852601681266530060
 GameObject:
   m_ObjectHideFlags: 0

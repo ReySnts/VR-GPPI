@@ -11,16 +11,16 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1063568761191167488}
-    m_Position: {x: 240, y: 80, z: 0}
+    m_Position: {x: 240, y: 10, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6672237059602977384}
-    m_Position: {x: 50, y: 250, z: 0}
+    m_Position: {x: 240, y: 70, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2420819564824481207}
-    m_Position: {x: 240, y: 20, z: 0}
+    m_Position: {x: 240, y: 200, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8315028576643440064}
-    m_Position: {x: 240, y: 200, z: 0}
+    m_Position: {x: 240, y: 270, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6809731002686835624}
     m_Position: {x: 240, y: 140, z: 0}
@@ -63,8 +63,8 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: On Open Process
-  m_Speed: 1
+  m_Name: Open
+  m_Speed: 0.33333334
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -115,8 +115,8 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: On Close Process
-  m_Speed: 1
+  m_Name: Close
+  m_Speed: 0.33333334
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
