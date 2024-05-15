@@ -60,7 +60,6 @@ GameObject:
   - component: {fileID: 3744525536517641714}
   - component: {fileID: 4973902564907962675}
   - component: {fileID: 4321473085580702517}
-  - component: {fileID: 7956157228115115510}
   - component: {fileID: 8329009899819269561}
   m_Layer: 8
   m_Name: Left Door
@@ -376,27 +375,6 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!95 &7956157228115115510
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3348119214718968906}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9072c643841358843ab1ee880e37adf6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &8329009899819269561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -668,11 +646,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: States
       objectReference: {fileID: 0}
-    - target: {fileID: 5031898215497723855, guid: fa792ee81352e15439bfec08a866e0f7,
-        type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 7956157228115115510}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

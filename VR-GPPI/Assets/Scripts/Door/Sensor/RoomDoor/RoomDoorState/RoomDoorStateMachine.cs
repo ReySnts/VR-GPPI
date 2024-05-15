@@ -8,12 +8,7 @@ public class RoomDoorStateMachine : MonoBehaviour, IStateMachine
 
     private void Start() => TransitionTo(FirstState);
 
-    public void TransitionTo(IState nextState)
-    {
-        var nextEnterableState = nextState as IStateEnterable;
-        CurrentState = nextEnterableState;
-        nextEnterableState.Enter();
-    }
+    public void TransitionTo(IState nextState) => CurrentState = nextState;
 
     private void Update() => CurrentState.DoUpdate();
 }

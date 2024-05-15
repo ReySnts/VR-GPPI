@@ -7,6 +7,8 @@ public class RoomDoorUnlockedState : DoorState<ISensorDoor>, IStateEnterable
 
     [SerializeField] private RoomDoorLockedState lockedState;
 
+    [SerializeField] private RoomDoorOpeningState openingState;
+
     private float currentTime;
 
     public void Enter()
@@ -21,6 +23,16 @@ public class RoomDoorUnlockedState : DoorState<ISensorDoor>, IStateEnterable
     public void DoUpdate()
     {
         var waitDuration = 10f;
-        if (Time.time > currentTime + waitDuration && door.Lockable.IsLocked) stateMachine.TransitionTo(lockedState);
+        var doorIsTight = door.Lockable.IsLocked;
+        if (Time.time > currentTime + waitDuration && doorIsTight)
+        {
+            lockedState.Enter();
+            stateMachine.TransitionTo(lockedState);
+        }
+        else if (!doorIsTight)
+        {
+            Enter();
+            stateMachine.TransitionTo(openingState);
+        }
     }
 }
