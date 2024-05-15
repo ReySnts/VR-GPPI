@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 8976842693916323257}
   - component: {fileID: 2767805179557080828}
   m_Layer: 0
-  m_Name: Lock
+  m_Name: Lockable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

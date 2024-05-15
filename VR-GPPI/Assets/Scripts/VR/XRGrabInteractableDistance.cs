@@ -3,7 +3,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class XRGrabInteractableDistance : XRGrabInteractable
 {
-    private readonly float maxDistance = .25f;
+    [SerializeField] private float maxDistance = .25f;
 
     private IXRSelectInteractor hand;
 

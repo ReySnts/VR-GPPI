@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class MenuStateMachine : MonoBehaviour
+public class MenuStateMachine : MonoBehaviour, IMenuStateMachine
 {
     private readonly Dictionary<EMenuState, IMenuState> menuDictionary = new();
 
@@ -18,8 +18,7 @@ public class MenuStateMachine : MonoBehaviour
 
     private void OnEnable()
     {
-        foreach (var eachMenu in menuDictionary) 
-            eachMenu.Value.GameObject.SetActive(false);
+        foreach (var eachMenu in menuDictionary) eachMenu.Value.GameObject.SetActive(false);
     }
 
     public void TransitionTo(EMenuState nextState)

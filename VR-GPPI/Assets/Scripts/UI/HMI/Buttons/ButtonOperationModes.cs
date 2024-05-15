@@ -7,15 +7,19 @@ public class ButtonOperationModes : MonoBehaviour
 
     private Button button;
 
-    private MenuStateMachine menuStateMachine;
+    private IMenuStateMachine menuStateMachine;
 
     private void Awake()
     {
         button = GetComponent<Button>();
-        menuStateMachine = transform.parent.parent.parent.GetComponentInChildren<MenuStateMachine>();
+        menuStateMachine = transform.parent.parent.parent.GetComponentInChildren<IMenuStateMachine>();
+        button.onClick.AddListener(() => menuStateMachine.TransitionTo(menuState));
     }
 
-    private void OnEnable() => button.onClick.AddListener(() => menuStateMachine.TransitionTo(menuState));
-
-    private void OnDisable() => button.onClick.RemoveListener(() => menuStateMachine.TransitionTo(menuState));
+    private void OnDestroy()
+    {
+        button.onClick.RemoveAllListeners();
+        menuStateMachine = null;
+        button = null;
+    }
 }

@@ -1,11 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MenuLogin : MonoBehaviour
+public class MenuLogin : MenuCanvas
 {
     [SerializeField] private Button buttonActivate;
-
-    [SerializeField] private GameObject menuMain;
 
     //private void OnEnable() => buttonActivate.onClick.AddListener(() => { menuMain.SetActive(false); });
 

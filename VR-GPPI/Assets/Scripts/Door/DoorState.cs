@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class DoorState<TDoor> : MonoBehaviour where TDoor : IDoor
+public abstract class DoorState<TDoor> : MonoBehaviour where TDoor : ILockableThing
 {
     protected TDoor door;
 

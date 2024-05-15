@@ -1,4 +1,4 @@
-public class LockableDoor : Lockable<IDoor>
+public class LockableDoor : Lockable<ILockableThing>
 {
     public override bool IsLocked 
     {

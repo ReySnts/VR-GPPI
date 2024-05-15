@@ -1,5 +1,7 @@
 public enum EMenuState
 {
+    Login,
+    Main,
     AfterLogin,
     PressureDecay,
     BioDecon,

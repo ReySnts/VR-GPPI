@@ -1,4 +1,4 @@
-public class LockableHingedDoorLeft : Lockable<IHingedDoor>
+public class LockableHingedRight : Lockable<IHingedLimitThing>
 {
     public override bool IsLocked
     {
@@ -6,7 +6,7 @@ public class LockableHingedDoorLeft : Lockable<IHingedDoor>
         set
         {
             var hingeJoint = lockableThing.HingeJointLimits;
-            isLocked = hingeJoint.Angle >= hingeJoint.LimitsMax - hingeJoint.LimitsOffset;
+            isLocked = hingeJoint.Angle <= hingeJoint.LimitsMin + hingeJoint.LimitsOffset;
         }
     }
 }

@@ -1,4 +1,1 @@
-public interface ISensorDoor : IHingedDoor
-{
-    public abstract ITriggerable Triggerable { get; }
-}
+public interface ISensorDoor : IGrabbableThing, IHingedLimitThing, ITriggerableThing { }

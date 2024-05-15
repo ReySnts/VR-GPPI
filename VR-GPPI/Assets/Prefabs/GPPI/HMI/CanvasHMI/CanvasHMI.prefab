@@ -118,6 +118,11 @@ PrefabInstance:
       propertyPath: menuMain
       value: 
       objectReference: {fileID: 7250830350549637248}
+    - target: {fileID: 3648755583858852055, guid: dc15139764220244dbb659b1fafc2fe0,
+        type: 3}
+      propertyPath: menuCanvas
+      value: 
+      objectReference: {fileID: 4547855941123793547}
     - target: {fileID: 6227453125707122676, guid: dc15139764220244dbb659b1fafc2fe0,
         type: 3}
       propertyPath: m_Pivot.x
@@ -228,9 +233,27 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc15139764220244dbb659b1fafc2fe0, type: 3}
+--- !u!114 &3757223584219854089 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3648755583858852055, guid: dc15139764220244dbb659b1fafc2fe0,
+    type: 3}
+  m_PrefabInstance: {fileID: 470253625646888414}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7867446922706939765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 322e5e29fe7221c4ca6472b11f71a0aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &5830743910912029226 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6227453125707122676, guid: dc15139764220244dbb659b1fafc2fe0,
+    type: 3}
+  m_PrefabInstance: {fileID: 470253625646888414}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7867446922706939765 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7757560741928524459, guid: dc15139764220244dbb659b1fafc2fe0,
     type: 3}
   m_PrefabInstance: {fileID: 470253625646888414}
   m_PrefabAsset: {fileID: 0}
@@ -1072,6 +1095,16 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8314248488271196086, guid: c6b36ec366ff1354c829e838017aba1d,
+        type: 3}
+      propertyPath: menuLogin
+      value: 
+      objectReference: {fileID: 7867446922706939765}
+    - target: {fileID: 8314248488271196086, guid: c6b36ec366ff1354c829e838017aba1d,
+        type: 3}
+      propertyPath: menuCanvas
+      value: 
+      objectReference: {fileID: 3757223584219854089}
     - target: {fileID: 8644190402505044280, guid: c6b36ec366ff1354c829e838017aba1d,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1163,6 +1196,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 5512157527320481085}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4547855941123793547 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8314248488271196086, guid: c6b36ec366ff1354c829e838017aba1d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5512157527320481085}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7250830350549637248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77d9f5ab8735ca645a69af94b1030af7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7250830350549637248 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2945074710876984765, guid: c6b36ec366ff1354c829e838017aba1d,

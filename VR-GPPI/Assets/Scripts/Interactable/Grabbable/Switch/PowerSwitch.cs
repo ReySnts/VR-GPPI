@@ -2,29 +2,19 @@ using UnityEngine;
 
 public class PowerSwitch : MonoBehaviour, ISwitchable
 {
-    //[SerializeField] private float duration = 5f;
+    public IHingeJointLimits HingeJointLimits { get; private set; }
 
-    [SerializeField] private bool isActive;
-
-    public bool IsActive
-    {
-        get => isActive;
-        set => isActive = hingeJointLimits.Angle >= hingeJointLimits.LimitsMax - hingeJointLimits.LimitsOffset;
-    }
-
-    private IHingeJointLimits hingeJointLimits;
-
-    private IStateMachine stateMachine;
+    public ILockable Lockable { get; private set; }
 
     private void Awake()
     {
-        hingeJointLimits = GetComponentInChildren<IHingeJointLimits>();
-        stateMachine = transform.parent.GetComponent<IStateMachine>();
+        HingeJointLimits = GetComponentInChildren<IHingeJointLimits>();
+        Lockable = GetComponentInChildren<ILockable>();
     }
 
     private void OnDestroy()
     {
-        stateMachine = null;
-        hingeJointLimits = null;
+        Lockable = null;
+        HingeJointLimits = null;
     }
 }
