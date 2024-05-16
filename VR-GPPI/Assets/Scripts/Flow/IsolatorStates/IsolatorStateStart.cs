@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class StartState : IsolatorState, IStateEnterable
+public class IsolatorStateStart : State<IStateEnterable>, IStateEnterable
 {
-    [SerializeField] private LoginState loginState;
+    [SerializeField] private IsolatorStateLogin loginState;
 
     private float currentTime;
 

@@ -1,15 +1,12 @@
 using UnityEngine;
 
-public abstract class DoorState<TDoor> : MonoBehaviour where TDoor : ILockableThing
+public abstract class DoorState<TDoor> : State<IState> where TDoor : IDoor
 {
     protected TDoor door;
 
-    protected IStateMachine stateMachine;
-
-    protected void Awake()
+    protected override void Awake()
     {
-        var states = transform.parent;
-        door = states.parent.GetComponent<TDoor>();
-        stateMachine = states.GetComponent<IStateMachine>();
+        base.Awake();
+        door = transform.parent.parent.GetComponent<TDoor>();
     }
 }

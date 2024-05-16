@@ -1,1 +1,1 @@
-public interface IHingedDoor : IGrabbableThing, IHingedLimitThing { }
+public interface IHingedDoor : IDoor, IGrabbableThing, IHingedLimitThing { }

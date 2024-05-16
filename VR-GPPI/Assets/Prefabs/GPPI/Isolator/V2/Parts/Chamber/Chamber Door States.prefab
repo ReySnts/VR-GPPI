@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 7610923040559372397}
   - component: {fileID: 5784968196892027786}
   m_Layer: 0
-  m_Name: States
+  m_Name: Chamber Door States
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

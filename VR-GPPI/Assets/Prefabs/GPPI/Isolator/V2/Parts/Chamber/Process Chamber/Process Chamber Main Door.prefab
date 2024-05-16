@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4010243769301572322}
-  - component: {fileID: 2982957092798497232}
+  - component: {fileID: 6111779826674344625}
   m_Layer: 0
   m_Name: Process Chamber Main Door
   m_TagString: Untagged
@@ -34,7 +34,7 @@ Transform:
   - {fileID: 1412458152525859473}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2982957092798497232
+--- !u!114 &6111779826674344625
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

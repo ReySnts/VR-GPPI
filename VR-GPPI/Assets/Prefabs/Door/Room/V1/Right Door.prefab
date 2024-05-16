@@ -330,6 +330,7 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+  maxDistance: 0.25
 --- !u!114 &2714664544969618390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -723,7 +724,7 @@ PrefabInstance:
     - target: {fileID: 6679179467029056097, guid: 69d775f9fc0b82244abab603f9f60e86,
         type: 3}
       propertyPath: m_Name
-      value: Components
+      value: Sensor Door Components
       objectReference: {fileID: 0}
     - target: {fileID: 7313492222267074926, guid: 69d775f9fc0b82244abab603f9f60e86,
         type: 3}

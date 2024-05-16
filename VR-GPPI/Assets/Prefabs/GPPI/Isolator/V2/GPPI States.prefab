@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 344116298192404574}
   - component: {fileID: 9019083241706494830}
   m_Layer: 0
-  m_Name: States
+  m_Name: GPPI States
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -5,7 +5,17 @@ public class MenuLogin : MenuCanvas
 {
     [SerializeField] private Button buttonActivate;
 
-    //private void OnEnable() => buttonActivate.onClick.AddListener(() => { menuMain.SetActive(false); });
+    protected override void Awake()
+    {
+        buttonActivate.onClick.AddListener(OnSuccessLogin);
+        base.Awake();
+    }
 
-    //private void OnDisable() => buttonActivate.onClick.RemoveListener(() => { menuMain.SetActive(false); });
+    private void OnSuccessLogin()
+    {
+        menuCanvas.gameObject.SetActive(true);
+        transform.parent.gameObject.SetActive(false);
+    }
+
+    private void OnDestroy() => buttonActivate.onClick.RemoveAllListeners();
 }

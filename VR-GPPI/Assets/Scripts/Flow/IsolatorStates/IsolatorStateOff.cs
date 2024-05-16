@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class OffState : IsolatorState, IStateComplete
+public class IsolatorStateOff : State<IStateEnterable>, IStateComplete
 {
-    [SerializeField] private StartState startState;
+    [SerializeField] private IsolatorStateStart startState;
 
     private ISwitchable switchable;
 

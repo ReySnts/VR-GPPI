@@ -107,7 +107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1573956047940945299}
   m_Layer: 8
-  m_Name: Components
+  m_Name: Sensor Door Components
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1,1 +1,1 @@
-public interface ISensorDoor : IGrabbableThing, IHingedLimitThing, ITriggerableThing { }
+public interface ISensorDoor : IDoor, IGrabbableThing, IHingedLimitThing, ITriggerableThing { }

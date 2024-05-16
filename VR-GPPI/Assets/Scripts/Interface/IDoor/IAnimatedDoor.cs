@@ -1,4 +1,4 @@
-public interface IAnimatedDoor : ILockableThing
+public interface IAnimatedDoor : IDoor
 {
     public abstract INotifier<string> Notifier { get; }
 
