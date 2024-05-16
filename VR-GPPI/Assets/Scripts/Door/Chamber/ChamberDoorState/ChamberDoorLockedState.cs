@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class ChamberDoorLockedState : DoorState<IAnimatedDoor>, IStateEnterable
+public class ChamberDoorLockedState : State<IAnimatedDoor, IStateEnterable>, IStateEnterable
 {
     [SerializeField] private InteractionLayerMask nothing;
 
@@ -9,18 +9,18 @@ public class ChamberDoorLockedState : DoorState<IAnimatedDoor>, IStateEnterable
 
     public void Enter()
     {
-        door.Lockable.IsLocked = true;
+        statableThing.Lockable.IsLocked = true;
         OnEnterDoorHandle();
     }
 
     public void DoUpdate()
     {
-        if (!door.Lockable.IsLocked) stateMachine.TransitionTo(unlockedState);
+        if (!statableThing.Lockable.IsLocked) stateMachine.TransitionTo(unlockedState);
     }
 
     private void OnEnterDoorHandle()
     {
-        var doorHandle = door.Handle;
+        var doorHandle = statableThing.Handle;
         var doorHandleTouchable = doorHandle.Touchable;
         doorHandleTouchable.InteractionLayerMask = nothing;
         doorHandleTouchable.SimpleInteractable.interactionLayers = nothing;

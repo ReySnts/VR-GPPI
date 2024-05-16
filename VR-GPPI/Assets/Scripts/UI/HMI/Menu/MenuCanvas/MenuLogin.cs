@@ -14,7 +14,7 @@ public class MenuLogin : MenuCanvas
     private void OnSuccessLogin()
     {
         menuCanvas.gameObject.SetActive(true);
-        transform.parent.gameObject.SetActive(false);
+        gameObject.SetActive(false);
     }
 
     private void OnDestroy() => buttonActivate.onClick.RemoveAllListeners();

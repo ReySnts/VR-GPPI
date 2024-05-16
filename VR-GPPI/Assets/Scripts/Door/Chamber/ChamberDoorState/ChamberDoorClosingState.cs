@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ChamberDoorClosingState : DoorState<IAnimatedDoor>, IStateComplete
+public class ChamberDoorClosingState : State<IAnimatedDoor, IStateEnterable>, IStateComplete
 {
     [SerializeField] private ButtonChamberDoor buttonChamberDoor;
 
@@ -11,7 +11,7 @@ public class ChamberDoorClosingState : DoorState<IAnimatedDoor>, IStateComplete
     public void Enter()
     {
         currentTime = Time.time;
-        door.Notifier.Change(AnimatorParameter.CLOSE);
+        statableThing.Notifier.Change(AnimatorParameter.CLOSE);
     }
 
     public void DoUpdate()

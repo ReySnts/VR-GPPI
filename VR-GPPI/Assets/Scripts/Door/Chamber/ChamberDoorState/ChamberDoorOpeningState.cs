@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ChamberDoorOpeningState : DoorState<IAnimatedDoor>, IStateEnterable
+public class ChamberDoorOpeningState : State<IAnimatedDoor, IStateEnterable>, IStateEnterable
 {
     [SerializeField] private Material silver;
 
@@ -23,12 +23,12 @@ public class ChamberDoorOpeningState : DoorState<IAnimatedDoor>, IStateEnterable
     private void OnEnterDoorAnimator()
     {
         currentTime = Time.time;
-        door.Notifier.Change(AnimatorParameter.OPEN);
+        statableThing.Notifier.Change(AnimatorParameter.OPEN);
     }
 
     private void OnEnterDoorHandle()
     {
-        var doorHandle = door.Handle;
+        var doorHandle = statableThing.Handle;
         var doorHandleRenderer = doorHandle.Renderer;
         doorHandleRenderer.Material = silver;
         doorHandleRenderer.MeshRenderer.material = silver;

@@ -1,10 +1,17 @@
 using UnityEngine;
 
-public abstract class State<TStateMachine> : MonoBehaviour where TStateMachine : IState
+public abstract class State<TThing, TStateMachine> : MonoBehaviour where TThing : IThing where TStateMachine : IState
 {
+    protected TThing statableThing;
+
     protected IStateMachine<TStateMachine> stateMachine;
 
-    protected virtual void Awake() => stateMachine = transform.parent.GetComponent<IStateMachine<TStateMachine>>();
+    protected void Awake()
+    {
+        var states = transform.parent;
+        statableThing = states.parent.GetComponent<TThing>();
+        stateMachine = states.GetComponent<IStateMachine<TStateMachine>>();
+    }
 
     protected void OnDestroy() => stateMachine = null;
 }

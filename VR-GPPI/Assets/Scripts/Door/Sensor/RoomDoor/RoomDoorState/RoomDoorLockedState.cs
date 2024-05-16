@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class RoomDoorLockedState : DoorState<ISensorDoor>, IStateEnterable
+public class RoomDoorLockedState : State<ISensorDoor, IState>, IStateEnterable
 {
     [SerializeField] private InteractionLayerMask nothing;
 
@@ -9,7 +9,7 @@ public class RoomDoorLockedState : DoorState<ISensorDoor>, IStateEnterable
 
     public void Enter()
     {
-        var doorGrabbable = door.Grabbable;
+        var doorGrabbable = statableThing.Grabbable;
         doorGrabbable.Rigidbody.isKinematic = true;
         doorGrabbable.InteractionLayerMask = nothing;
         doorGrabbable.GrabInteractable.interactionLayers = nothing;
@@ -17,7 +17,8 @@ public class RoomDoorLockedState : DoorState<ISensorDoor>, IStateEnterable
 
     public void DoUpdate()
     {
-        if (door.Lockable.IsLocked && door.Triggerable.IsTriggered)
+        var statableThing = this.statableThing;
+        if (statableThing.Lockable.IsLocked && statableThing.Triggerable.IsTriggered)
         {
             unlockedState.Enter();
             stateMachine.TransitionTo(unlockedState);

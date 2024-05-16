@@ -19,6 +19,7 @@ public class MenuStateMachine : MonoBehaviour, IMenuStateMachine
     private void OnEnable()
     {
         foreach (var eachMenu in menuDictionary) eachMenu.Value.GameObject.SetActive(false);
+        TransitionTo(EMenuState.AfterLogin);
     }
 
     public void TransitionTo(EMenuState nextState)

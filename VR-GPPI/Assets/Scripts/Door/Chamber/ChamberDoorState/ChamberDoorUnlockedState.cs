@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class ChamberDoorUnlockedState : DoorState<IAnimatedDoor>, IStateComplete
+public class ChamberDoorUnlockedState : State<IAnimatedDoor, IStateEnterable>, IStateComplete
 {
     [SerializeField] private InteractionLayerMask touchable;
 
@@ -11,13 +11,14 @@ public class ChamberDoorUnlockedState : DoorState<IAnimatedDoor>, IStateComplete
 
     public void Enter()
     {
-        door.Lockable.IsLocked = false;
+        statableThing.Lockable.IsLocked = false;
         OnEnterDoorHandle();
     }
 
     public void DoUpdate()
     {
-        if (!door.Lockable.IsLocked && door.Openable.IsAllowedToOpen)
+        var statableThing = this.statableThing;
+        if (!statableThing.Lockable.IsLocked && statableThing.Openable.IsAllowedToOpen)
         {
             Exit();
             stateMachine.TransitionTo(openingState);
@@ -26,14 +27,14 @@ public class ChamberDoorUnlockedState : DoorState<IAnimatedDoor>, IStateComplete
 
     public void Exit()
     {
-        var door = this.door;
-        door.Handle.Touchable.SimpleInteractable.hoverEntered.RemoveAllListeners();
-        door.Openable.IsAllowedToOpen = false;
+        var statableThing = this.statableThing;
+        statableThing.Handle.Touchable.SimpleInteractable.hoverEntered.RemoveAllListeners();
+        statableThing.Openable.IsAllowedToOpen = false;
     }
 
     private void OnEnterDoorHandle()
     {
-        var doorHandle = door.Handle;
+        var doorHandle = statableThing.Handle;
         var doorHandleTouchable = doorHandle.Touchable;
         var doorHandleRenderer = doorHandle.Renderer;
         var doorHandleSimpleInteractable = doorHandleTouchable.SimpleInteractable;
@@ -44,5 +45,5 @@ public class ChamberDoorUnlockedState : DoorState<IAnimatedDoor>, IStateComplete
         doorHandleSimpleInteractable.hoverEntered.AddListener(call => OpenDoor());
     }
 
-    private void OpenDoor() => door.Openable.IsAllowedToOpen = true;
+    private void OpenDoor() => statableThing.Openable.IsAllowedToOpen = true;
 }

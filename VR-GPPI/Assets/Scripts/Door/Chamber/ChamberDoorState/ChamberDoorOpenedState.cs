@@ -1,14 +1,14 @@
 using UnityEngine;
 
-public class ChamberDoorOpenedState : DoorState<IAnimatedDoor>, IStateComplete
+public class ChamberDoorOpenedState : State<IAnimatedDoor, IStateEnterable>, IStateComplete
 {
     [SerializeField] private ChamberDoorClosingState closingState;
 
-    public void Enter() => door.Handle.Touchable.SimpleInteractable.hoverEntered.AddListener(call => CloseDoor());
+    public void Enter() => statableThing.Handle.Touchable.SimpleInteractable.hoverEntered.AddListener(call => CloseDoor());
 
     public void DoUpdate()
     {
-        var doorOpenable = door.Openable;
+        var doorOpenable = statableThing.Openable;
         if (!doorOpenable.IsAllowedToOpen && doorOpenable.IsAllowedToClose)
         {
             Exit();
@@ -18,10 +18,10 @@ public class ChamberDoorOpenedState : DoorState<IAnimatedDoor>, IStateComplete
 
     public void Exit()
     {
-        var door = this.door;
-        door.Handle.Touchable.SimpleInteractable.hoverEntered.RemoveAllListeners();
-        door.Openable.IsAllowedToClose = false;
+        var statableThing = this.statableThing;
+        statableThing.Handle.Touchable.SimpleInteractable.hoverEntered.RemoveAllListeners();
+        statableThing.Openable.IsAllowedToClose = false;
     }
 
-    private void CloseDoor() => door.Openable.IsAllowedToClose = true;
+    private void CloseDoor() => statableThing.Openable.IsAllowedToClose = true;
 }
