@@ -63,7 +63,7 @@ GameObject:
   - component: {fileID: 7712472956566733445}
   - component: {fileID: 6689666561382948724}
   m_Layer: 0
-  m_Name: Pass Chamber Door Handle
+  m_Name: Pass Chamber Outer Door Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
