@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ChamberDoorOpeningState : State<IAnimatedDoor, IStateEnterable>, IStateEnterable
+public class ChamberDoorOpeningState : AnimatedDoorEnterableState, IStateEnterable
 {
     [SerializeField] private Material silver;
 

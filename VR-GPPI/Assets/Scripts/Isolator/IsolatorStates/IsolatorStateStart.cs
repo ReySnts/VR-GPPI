@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class IsolatorStateStart : State<IThing, IStateEnterable>, IStateEnterable
+public class IsolatorStateStart : IsolatorEnterableState, IStateEnterable
 {
     [SerializeField] private IsolatorStateLogin loginState;
 

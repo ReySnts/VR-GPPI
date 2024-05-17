@@ -5204,7 +5204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3266827149383203941}
   - component: {fileID: 7393442851169467928}
-  - component: {fileID: 685545608034240888}
+  - component: {fileID: 7958394259464849278}
   - component: {fileID: 1942000924942700933}
   m_Layer: 0
   m_Name: GPPI FIX JADI BANGETT BANGETT
@@ -5466,7 +5466,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &685545608034240888
+--- !u!114 &7958394259464849278
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5475,7 +5475,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2746572725398415071}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d36c836eace0d74f9159f355a4b1cbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 96690e721596b4444b8e08d91da5febd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1942000924942700933
@@ -20495,10 +20495,15 @@ PrefabInstance:
       propertyPath: buttonChamberDoor
       value: 
       objectReference: {fileID: 7151720428712902492}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6111779826674344625, guid: 40b4883777c50de4c8d7677b5c8e8433, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 268324777193016243, guid: 40b4883777c50de4c8d7677b5c8e8433,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4523878449942487109}
   m_SourcePrefab: {fileID: 100100000, guid: 40b4883777c50de4c8d7677b5c8e8433, type: 3}
 --- !u!114 &2463623645538388704 stripped
 MonoBehaviour:
@@ -20518,6 +20523,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8482998785778470390}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8503057256213104197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 268324777193016243, guid: 40b4883777c50de4c8d7677b5c8e8433,
+    type: 3}
+  m_PrefabInstance: {fileID: 8482998785778470390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4523878449942487109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8503057256213104197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96690e721596b4444b8e08d91da5febd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8738379892379546200
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,3 +1,3 @@
 using UnityEngine;
 
-public class Isolator : MonoBehaviour, IThing { }
+public class Isolator : MonoBehaviour, IIsolatorThing { }

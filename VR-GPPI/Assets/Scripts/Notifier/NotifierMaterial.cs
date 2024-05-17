@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class SensorNotifier : MonoBehaviour, INotifier<Material>
+public abstract class NotifierMaterial : MonoBehaviour, INotifier<Material>
 {
     public event UnityAction<Material> OnChangeObject;
 

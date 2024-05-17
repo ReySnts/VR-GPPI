@@ -1,0 +1,1 @@
+public class SensorDoorState : State<ISensorDoor, IState> { }

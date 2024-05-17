@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ChamberDoorOpenedState : State<IAnimatedDoor, IStateEnterable>, IStateComplete
+public class ChamberDoorOpenedState : AnimatedDoorEnterableState, IStateComplete
 {
     [SerializeField] private ChamberDoorClosingState closingState;
 

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class IsolatorStateLogin : State<IThing, IStateEnterable>, IStateEnterable
+public class IsolatorStateLogin : IsolatorEnterableState, IStateEnterable
 {
     [SerializeField] private MenuCanvas menuLogin;
 

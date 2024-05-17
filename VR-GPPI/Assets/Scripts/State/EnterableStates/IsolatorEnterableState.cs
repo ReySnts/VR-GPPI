@@ -1,0 +1,1 @@
+public class IsolatorEnterableState : State<IIsolatorThing, IStateEnterable> { }

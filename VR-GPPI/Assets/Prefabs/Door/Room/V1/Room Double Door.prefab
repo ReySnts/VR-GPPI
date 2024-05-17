@@ -42,7 +42,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5908908079863714048}
-  - component: {fileID: 2424201736024932260}
+  - component: {fileID: 4925104583498196534}
   m_Layer: 0
   m_Name: Room Double Door
   m_TagString: Untagged
@@ -67,7 +67,7 @@ Transform:
   - {fileID: 3668514900405487499}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2424201736024932260
+--- !u!114 &4925104583498196534
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6357937049180084531}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 813d136c25c0120468246b8017d30f1c, type: 3}
+  m_Script: {fileID: 11500000, guid: d3ec0f06d903fb040b0a19c151713bb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &976439260423890552

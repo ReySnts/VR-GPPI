@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class RoomDoorOpeningState : State<IDoor, IState>, IState
+public class RoomDoorOpeningState : SensorDoorState, IState
 {
     [SerializeField] private RoomDoorLockedState lockedState;
 

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class RoomDoorUnlockedState : State<ISensorDoor, IState>, IStateEnterable
+public class RoomDoorUnlockedState : SensorDoorState, IStateEnterable
 {
     [SerializeField] private InteractionLayerMask grabbable;
 

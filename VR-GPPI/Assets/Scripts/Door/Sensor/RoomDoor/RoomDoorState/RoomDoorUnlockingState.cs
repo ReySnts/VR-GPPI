@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class RoomDoorUnlockingState : State<ISensorDoor, IState>, IStateComplete
+public class RoomDoorUnlockingState : SensorDoorState, IStateComplete
 {
     [SerializeField] private Animator animator;
 

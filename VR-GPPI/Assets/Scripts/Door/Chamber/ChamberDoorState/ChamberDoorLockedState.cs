@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class ChamberDoorLockedState : State<IAnimatedDoor, IStateEnterable>, IStateEnterable
+public class ChamberDoorLockedState : AnimatedDoorEnterableState, IStateEnterable
 {
     [SerializeField] private InteractionLayerMask nothing;
 
