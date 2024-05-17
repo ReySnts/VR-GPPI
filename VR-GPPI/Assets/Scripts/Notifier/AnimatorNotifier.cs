@@ -1,1 +1,1 @@
-public class AnimatorNotifier : NotifierString { }
+public class AnimatorNotifier : Notifier<string> { }

@@ -3,20 +3,19 @@ using UnityEngine.UI;
 
 public abstract class MenuState : MonoBehaviour, IMenuState
 {
-    [SerializeField] protected Sprite panelSprite;
-
-    public abstract EMenuState EMenuState { get; }
+    [field: SerializeField] public Button Button { get; set; }
 
     public GameObject GameObject => gameObject;
 
+    public abstract EMenuState EMenuState { get; }
+
     public IMenuStateMachine MenuStateMachine { get; private set; }
 
-    private void Awake() => MenuStateMachine = transform.parent.GetComponent<IMenuStateMachine>();
+    public IImageSprite ImageSprite { get; private set; }
 
-    private void OnEnable()
+    private void Awake()
     {
-        var panelMenu = transform.parent.parent.GetChild(0).GetChild(0);
-        var panelMenuImage = panelMenu.GetComponent<Image>();
-        panelMenuImage.sprite = panelSprite;
+        MenuStateMachine = transform.parent.GetComponent<IMenuStateMachine>();
+        ImageSprite = GetComponentInChildren<IImageSprite>();
     }
 }

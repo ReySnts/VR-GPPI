@@ -1,6 +1,6 @@
 using UnityEngine.UI;
 
-public interface IButton
+public interface IButton : IUserInterface
 {
     public abstract Button Button { get; }
 

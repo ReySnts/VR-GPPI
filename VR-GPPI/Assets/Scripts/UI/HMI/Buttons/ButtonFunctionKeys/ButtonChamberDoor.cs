@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ButtonChamberDoor : ButtonFunctionKeys
+public class ButtonChamberDoor : ButtonScript
 {
     [SerializeField] private ChamberDoor chamberDoor;
 

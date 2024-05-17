@@ -1,1 +1,1 @@
-public class RoomDoorNotifier : NotifierBoolean { }
+public class RoomDoorNotifier : NotifierStruct<bool> { }

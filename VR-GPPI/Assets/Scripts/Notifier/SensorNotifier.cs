@@ -1,1 +1,3 @@
-public class SensorDoorNotifier : NotifierMaterial { }
+using UnityEngine;
+
+public class SensorNotifier : Notifier<Material> { }

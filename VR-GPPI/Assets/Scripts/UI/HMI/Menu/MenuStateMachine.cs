@@ -19,16 +19,18 @@ public class MenuStateMachine : MonoBehaviour, IMenuStateMachine
     private void OnEnable()
     {
         foreach (var eachMenu in menuDictionary) eachMenu.Value.GameObject.SetActive(false);
-        TransitionTo(EMenuState.AfterLogin);
+        TransitionTo(EMenuState.Operation);
     }
 
     public void TransitionTo(EMenuState nextState)
     {
         if (menuDictionary.ContainsKey(nextState))
         {
+            if (currentMenuState is not null) currentMenuState.Button.interactable = true;
             currentMenuState?.GameObject.SetActive(false);
             currentMenuState = menuDictionary[nextState];
             currentMenuState.GameObject.SetActive(true);
+            currentMenuState.Button.interactable = false;
         }
     }
 }

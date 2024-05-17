@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public abstract class ButtonFunctionKeys : MonoBehaviour, IButton
+public abstract class ButtonScript : MonoBehaviour, IButton
 {
     public Button Button { get; private set; }
 
-    private void Awake()
+    protected virtual void Awake()
     {
         Button = GetComponent<Button>();
         Button.onClick.AddListener(OnClick);

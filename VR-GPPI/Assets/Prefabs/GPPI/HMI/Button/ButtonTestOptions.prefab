@@ -78,6 +78,7 @@ GameObject:
   - component: {fileID: 1220679350133779809}
   - component: {fileID: 4426085360990401353}
   - component: {fileID: 4903459217022908506}
+  - component: {fileID: 1643652004194321972}
   m_Layer: 5
   m_Name: ButtonMaster
   m_TagString: Untagged
@@ -132,7 +133,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 425d3519cdfe39a4fa4233ad34c12f3a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1e32ab94d8bca7d43b92143e0893d3ee, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -173,8 +174,8 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 21300000, guid: 425d3519cdfe39a4fa4233ad34c12f3a, type: 3}
-    m_DisabledSprite: {fileID: 21300000, guid: 1e32ab94d8bca7d43b92143e0893d3ee, type: 3}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 21300000, guid: 425d3519cdfe39a4fa4233ad34c12f3a, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -186,6 +187,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1643652004194321972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2910524471806451293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb51c1a225dd0a48b4e408cbf152134, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 9f322a0fa72cfc042bb7f9874dd6779f, type: 3}
 --- !u!1 &4708113214369931928
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,6 +212,7 @@ GameObject:
   - component: {fileID: 242984983272323181}
   - component: {fileID: 5907508452020871910}
   - component: {fileID: 1853673199415683788}
+  - component: {fileID: 4797893667760014871}
   m_Layer: 5
   m_Name: ButtonGloveLeak
   m_TagString: Untagged
@@ -213,7 +228,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4708113214369931928}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -13}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -293,8 +308,8 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 21300000, guid: aa12256d664b12842a19a6759d60b397, type: 3}
-    m_DisabledSprite: {fileID: 21300000, guid: 1ec7b44d5dab26d42bb2d2660224c164, type: 3}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 21300000, guid: aa12256d664b12842a19a6759d60b397, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -306,6 +321,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4797893667760014871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4708113214369931928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb51c1a225dd0a48b4e408cbf152134, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 7ba0ee9e706527842a80a948f14191bc, type: 3}
 --- !u!1 &8187193883203945182
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,7 +347,7 @@ GameObject:
   - component: {fileID: 4042282860312005266}
   - component: {fileID: 1126060029413365481}
   m_Layer: 5
-  m_Name: ButtoProcess
+  m_Name: ButtonProcess
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -333,7 +361,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8187193883203945182}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -13.000119}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -413,8 +441,8 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 21300000, guid: 657817bb581690f4da1b1cf9561f3289, type: 3}
-    m_DisabledSprite: {fileID: 21300000, guid: 3b81ca61a2e99b94a8b53be5a3cb1524, type: 3}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 21300000, guid: 657817bb581690f4da1b1cf9561f3289, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -438,6 +466,7 @@ GameObject:
   - component: {fileID: 303565486076900967}
   - component: {fileID: 5408253129635959645}
   - component: {fileID: 2792513252462960450}
+  - component: {fileID: 8957494148743839164}
   m_Layer: 5
   m_Name: ButtonPass
   m_TagString: Untagged
@@ -453,7 +482,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8418843846290711387}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -13}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -533,8 +562,8 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 21300000, guid: 3ce2c7047cd750c459610748b23585cc, type: 3}
-    m_DisabledSprite: {fileID: 21300000, guid: ebd33192239ad8045bef046f23d4d726, type: 3}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 21300000, guid: 3ce2c7047cd750c459610748b23585cc, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -546,3 +575,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8957494148743839164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8418843846290711387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb51c1a225dd0a48b4e408cbf152134, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: bdc2cdef37d9e934bbabdd521c4ea4d5, type: 3}
