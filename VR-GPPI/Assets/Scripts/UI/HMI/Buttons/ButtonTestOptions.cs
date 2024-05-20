@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ButtonTestOptions : ButtonScript
+public class ButtonTestOptions : ButtonInteractable
 {
     [SerializeField] private Sprite sprite;
 
@@ -17,5 +17,6 @@ public class ButtonTestOptions : ButtonScript
         var menuStateImageSprite = menuState.ImageSprite;
         menuStateImageSprite.Image.sprite = sprite;
         menuStateImageSprite.Sprite = sprite;
+        base.OnClick();
     }
 }

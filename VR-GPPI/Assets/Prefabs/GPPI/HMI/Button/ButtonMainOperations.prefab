@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 3244972137356000817}
   - component: {fileID: 8285854366118110437}
   - component: {fileID: 2269399994960782781}
-  - component: {fileID: 6257783434315529669}
+  - component: {fileID: 8925135728290774951}
   m_Layer: 5
   m_Name: ButtonParticleCounter
   m_TagString: Untagged
@@ -427,7 +427,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6257783434315529669
+--- !u!114 &8925135728290774951
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -436,7 +436,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8322374425499746319}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3abc076dcd5ca5d4d8c60b541018cd35, type: 3}
+  m_Script: {fileID: 11500000, guid: 1929f29c925eeb5409ed800f0bef686d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   menuState: 5
@@ -452,7 +452,7 @@ GameObject:
   - component: {fileID: 6591424645911822630}
   - component: {fileID: 7027816429951101936}
   - component: {fileID: 8443527054807355324}
-  - component: {fileID: 3802466847965016662}
+  - component: {fileID: 7231056713969251620}
   m_Layer: 5
   m_Name: ButtonViableAirStatus
   m_TagString: Untagged
@@ -561,7 +561,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &3802466847965016662
+--- !u!114 &7231056713969251620
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -570,7 +570,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8483418836746964398}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3abc076dcd5ca5d4d8c60b541018cd35, type: 3}
+  m_Script: {fileID: 11500000, guid: 1929f29c925eeb5409ed800f0bef686d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   menuState: 4

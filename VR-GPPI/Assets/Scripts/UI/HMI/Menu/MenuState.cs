@@ -1,10 +1,7 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public abstract class MenuState : MonoBehaviour, IMenuState
 {
-    [field: SerializeField] public Button Button { get; set; }
-
     public GameObject GameObject => gameObject;
 
     public abstract EMenuState EMenuState { get; }

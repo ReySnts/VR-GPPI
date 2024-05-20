@@ -250,6 +250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4166041181356758286}
   - component: {fileID: 5543459004275512222}
+  - component: {fileID: 1927612626348453137}
   m_Layer: 5
   m_Name: ButtonBioDeconOptions
   m_TagString: Untagged
@@ -305,6 +306,18 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &1927612626348453137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3131235069437247125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 718a48ad658085142bc972c6352a8a4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7758964269713975834
 GameObject:
   m_ObjectHideFlags: 0

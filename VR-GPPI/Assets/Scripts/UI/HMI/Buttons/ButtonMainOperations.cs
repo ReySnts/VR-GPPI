@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ButtonOperation : ButtonScript
+public class ButtonMainOperations : ButtonScript
 {
     [SerializeField] private EMenuState menuState;
 
