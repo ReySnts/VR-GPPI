@@ -1,4 +1,4 @@
 public interface IKeyboardKey
 {
-    public char Character { get; set; }
+    public string Character { get; set; }
 }
