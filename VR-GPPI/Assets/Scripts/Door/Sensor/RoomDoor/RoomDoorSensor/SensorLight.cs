@@ -11,12 +11,12 @@ public class SensorLight : MonoBehaviour
     private void Awake()
     {
         notifier = transform.parent.parent.parent.GetComponent<INotifier<Material>>();
-        notifier.OnChangeObject += Change;
+        notifier.OnAllChanged += Change;
     }
 
     private void OnDestroy()
     {
-        notifier.OnChangeObject -= Change;
+        notifier.OnAllChanged -= Change;
         notifier = null;
     }
 }

@@ -1,8 +1,8 @@
 using UnityEngine.Events;
 
-public interface INotifier<TObject> where TObject : class
+public interface INotifier<T>
 {
-    public abstract event UnityAction<TObject> OnChangeObject;
+    public abstract event UnityAction<T> OnAllChanged;
 
-    public abstract void Change(TObject _object);
+    public abstract void ChangeAll(T t);
 }

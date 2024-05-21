@@ -11,7 +11,7 @@ public class ChamberDoorClosingState : AnimatedDoorEnterableState, IStateComplet
     public void Enter()
     {
         currentTime = Time.time;
-        statableThing.Notifier.Change(AnimatorParameter.CLOSE);
+        statableThing.Notifier.ChangeAll(AnimatorParameter.CLOSE);
     }
 
     public void DoUpdate()

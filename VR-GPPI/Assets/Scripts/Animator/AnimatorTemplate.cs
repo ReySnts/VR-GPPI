@@ -7,14 +7,14 @@ public abstract class AnimatorTemplate : MonoBehaviour
     protected void Awake()
     {
         notifier = transform.parent.parent.GetComponent<INotifier<string>>();
-        notifier.OnChangeObject += Play;
+        notifier.OnAllChanged += Play;
     }
 
     protected abstract void Play(string animatorParameter);
 
     protected void OnDestroy()
     {
-        notifier.OnChangeObject -= Play;
+        notifier.OnAllChanged -= Play;
         notifier = null;
     }
 }

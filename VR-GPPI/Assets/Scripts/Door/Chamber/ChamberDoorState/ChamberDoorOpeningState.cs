@@ -23,7 +23,7 @@ public class ChamberDoorOpeningState : AnimatedDoorEnterableState, IStateEnterab
     private void OnEnterDoorAnimator()
     {
         currentTime = Time.time;
-        statableThing.Notifier.Change(AnimatorParameter.OPEN);
+        statableThing.Notifier.ChangeAll(AnimatorParameter.OPEN);
     }
 
     private void OnEnterDoorHandle()

@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public abstract class Notifier<TObject> : MonoBehaviour, INotifier<TObject> where TObject : class
+public abstract class Notifier<T> : MonoBehaviour, INotifier<T>
 {
-    public event UnityAction<TObject> OnChangeObject;
+    public event UnityAction<T> OnAllChanged;
 
-    public void Change(TObject _object) => OnChangeObject.Invoke(_object);
+    public void ChangeAll(T t) => OnAllChanged.Invoke(t);
 }
