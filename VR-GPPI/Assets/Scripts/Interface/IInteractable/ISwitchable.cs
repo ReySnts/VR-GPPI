@@ -1,1 +1,1 @@
-public interface ISwitchable : IHingedLimitThing { }
+public interface ISwitchable : IHingedLimitThing, ITriggerableThing { }

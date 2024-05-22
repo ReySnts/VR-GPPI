@@ -10,7 +10,7 @@ public class IsolatorStateOff : IsolatorEnterableState, IStateComplete
 
     public void DoUpdate()
     {
-        if (switchable.Lockable.IsLocked)
+        if (switchable.Triggerable.IsTriggered)
         {
             Exit();
             stateMachine.TransitionTo(startState);
