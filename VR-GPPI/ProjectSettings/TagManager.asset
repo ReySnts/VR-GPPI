@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Compactor
   - ParticleCounter
+  - glovebiodekon
   layers:
   - Default
   - TransparentFX
