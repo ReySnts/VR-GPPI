@@ -4,17 +4,17 @@ public class ButtonOperationModes : ButtonInteractable
 {
     [SerializeField] private EMenuState menuState;
 
-    private IMenuStateMachine menuStateMachine;
+    private IStateMachine<EMenuState> stateMachine;
 
     protected override void Awake()
     {
-        menuStateMachine = transform.parent.parent.parent.parent.GetComponentInChildren<IMenuStateMachine>();
+        stateMachine = transform.parent.parent.parent.parent.GetComponentInChildren<IStateMachine<EMenuState>>();
         base.Awake();
     }
 
     public override void OnClick()
     {
-        menuStateMachine.TransitionTo(menuState);
+        stateMachine.TransitionTo(menuState);
         base.OnClick();
     }
 }

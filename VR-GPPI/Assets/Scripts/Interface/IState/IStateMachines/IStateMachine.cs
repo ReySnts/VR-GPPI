@@ -1,4 +1,4 @@
-public interface IStateMachine<TState> where TState : IState
+public interface IStateMachine<TState>
 {
     public abstract void TransitionTo(TState nextState);
 }

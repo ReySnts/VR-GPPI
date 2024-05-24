@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class MenuStateMachine : MonoBehaviour, IMenuStateMachine
+public class MenuStateMachine : MonoBehaviour, IStateMachine<EMenuState>
 {
     private readonly Dictionary<EMenuState, IMenuState> menuDictionary = new();
 
