@@ -9,7 +9,9 @@ public class AnimatorDecay : MonoBehaviour
     [SerializeField] private float detik;
     [SerializeField] private Sprite hijau;
     [SerializeField] private Sprite merah;
+    [SerializeField] private Sprite passed;
     [SerializeField] private Image button;
+    [SerializeField] private ImageSprite layar;
 
     private void Start()
     {
@@ -27,5 +29,6 @@ public class AnimatorDecay : MonoBehaviour
     {
         anim.SetBool("Inflated", false);
         button.sprite = merah;
+        layar.Sprite = passed;
     }
 }
