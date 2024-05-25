@@ -2,9 +2,10 @@ public class ButtonDialogueNext : ButtonDialogue
 {
     public override void OnClick()
     {
-        var currentDialogueIndex = factory.CurrentIndex;
-        if (currentDialogueIndex > factory.TotalProducts - 2) return;
-        factory.GetProduct(factory.CurrentIndex++);
-        Destroy(transform.parent.parent);
+        if (dialogueFactory.CurrentIndex < dialogueFactory.DialogueList.Count - 1)
+        {
+            dialogueFactory.GetProduct(parameter: 1);
+            Destroy(transform.parent.parent.gameObject);
+        }
     }
 }

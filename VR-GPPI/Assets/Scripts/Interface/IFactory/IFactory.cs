@@ -1,8 +1,4 @@
-public interface IFactory<TProduct>
+public interface IFactory<TProduct, TParam>
 {
-    public abstract int CurrentIndex { get; set; }
-
-    public abstract int TotalProducts { get; }
-
-    public abstract IProduct<TProduct> GetProduct(int index);
+    public abstract IProduct<TProduct> GetProduct(TParam parameter);
 }

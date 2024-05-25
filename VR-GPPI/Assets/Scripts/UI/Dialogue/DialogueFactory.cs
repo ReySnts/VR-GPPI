@@ -2,30 +2,26 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class DialogueFactory : MonoBehaviour, IFactory<Dialogue>
+public class DialogueFactory : MonoBehaviour, IDialogueFactory
 {
     [SerializeField] private GameObject canvasDialogue;
 
-    public int CurrentIndex { get; set; }
+    [field: SerializeField] public int CurrentIndex { get; private set; } = 0;
 
-    public int TotalProducts { get; private set; }
+    public List<Dialogue> DialogueList { get; private set; } = new();
 
-    private List<Dialogue> dialogueList = new();
-
-    public IProduct<Dialogue> GetProduct(int index)
+    private void Awake()
     {
-        if (index < 0 || index > dialogueList.Count - 1) return null;
-        var dialogue = dialogueList[index];
+        DialogueList = Resources.LoadAll<Dialogue>(path: ResourcePath.DIALOGUE).ToList();
+        GetProduct();
+    }
+
+    public IProduct<Dialogue> GetProduct(int additionalIndex = 0)
+    {
+        var dialogue = DialogueList[CurrentIndex += additionalIndex];
         var instance = Instantiate(original: canvasDialogue, parent: transform, rotation: Quaternion.identity, position: dialogue.spawnPosition);
         var newProduct = instance.GetComponent<CanvasDialogue>();
         newProduct.Initialize(dialogue);
         return newProduct;
-    }
-
-    private void Awake()
-    {
-        dialogueList = Resources.LoadAll<Dialogue>("ScriptableObjects/Dialogues").ToList();
-        TotalProducts = dialogueList.Count;
-        GetProduct(0);
     }
 }
