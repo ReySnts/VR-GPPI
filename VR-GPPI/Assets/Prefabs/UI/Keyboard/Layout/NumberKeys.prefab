@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 5234085815142056362}
   - component: {fileID: 5234085815142056363}
   - component: {fileID: 8642771970380331677}
+  - component: {fileID: 3105488010001447121}
   - component: {fileID: 1177654306307813970}
   m_Layer: 0
-  m_Name: Row0
+  m_Name: KeyboardNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,6 +79,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 1
   m_VerticalFit: 1
+--- !u!114 &3105488010001447121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5234085815142056361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70d4c510f0411b2499e7d0c7ada45864, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 4103520078722126101, guid: 620d25246f5f165409fd695f7a5aaf41,
+    type: 3}
+  shadowCharacter: {fileID: 3604338812725803366, guid: 62276eceacab9044fa6c71ee7948b501,
+    type: 3}
+  shadowParent: {fileID: 0}
 --- !u!114 &1177654306307813970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90,10 +108,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fbae085d542ccc45a2edf2ff37cdab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shadowCharacter: {fileID: 3604338812725803366, guid: 62276eceacab9044fa6c71ee7948b501,
-    type: 3}
-  character: {fileID: 4103520078722126101, guid: 620d25246f5f165409fd695f7a5aaf41,
-    type: 3}
   shadowParent: {fileID: 0}
   shadowBackspace: {fileID: 3269218636244122891, guid: 530238c77c373f54f9a068546004c6c2,
     type: 3}

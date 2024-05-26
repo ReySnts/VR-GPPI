@@ -1,0 +1,1 @@
+public interface IKeyboardKeyFactory : IFactory<string, string> { }

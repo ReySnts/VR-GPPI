@@ -1,7 +1,9 @@
 using UnityEngine;
 
-public class KeyboardRowThird : KeyboardKeySpawner<char>
+public class KeyboardRowThird : KeyboardLayout<char>
 {
+    [SerializeField] private Transform shadowParent;
+
     [SerializeField] private GameObject shadowShift;
 
     [SerializeField] private GameObject shadowEmpty;
@@ -10,7 +12,7 @@ public class KeyboardRowThird : KeyboardKeySpawner<char>
 
     [SerializeField] private GameObject empty;
 
-    protected override char[] Keys => new char[] { 'z', 'x', 'c', 'v', 'b', 'n', 'm' };
+    protected override char[] Characters => new char[] { 'z', 'x', 'c', 'v', 'b', 'n', 'm' };
 
     protected override void Awake()
     {

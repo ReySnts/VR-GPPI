@@ -1,12 +1,14 @@
 using UnityEngine;
 
-public class KeyboardNumber : KeyboardKeySpawner<int>
+public class KeyboardNumber : KeyboardLayout<int>
 {
+    [SerializeField] private Transform shadowParent;
+
     [SerializeField] private GameObject shadowBackspace;
 
     [SerializeField] private GameObject backspace;
 
-    protected override int[] Keys => new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
+    protected override int[] Characters => new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
 
     protected override void Awake()
     {

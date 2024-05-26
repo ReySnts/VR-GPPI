@@ -1,16 +1,11 @@
 using TMPro;
 using UnityEngine;
 
-public class KeyboardKey : MonoBehaviour, IKeyboardKey
+public class KeyboardKey : MonoBehaviour, IProduct<string>
 {
-    [field: SerializeField] public string Character { get; set; }
-
-    private TextMeshProUGUI textMeshPro;
-
-    private void Awake()
+    public void Initialize(string character)
     {
-        Debug.Log(Character);
-        //textMeshPro = GetComponentInChildren<TextMeshProUGUI>();
-        //textMeshPro.text = Character;
+        var textMeshPro = GetComponentInChildren<TextMeshProUGUI>();
+        textMeshPro.text = character;
     }
 }

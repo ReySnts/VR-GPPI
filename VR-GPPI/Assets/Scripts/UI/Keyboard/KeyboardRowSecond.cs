@@ -1,4 +1,4 @@
-public class KeyboardRowSecond : KeyboardKeySpawner<char>
+public class KeyboardRowSecond : KeyboardLayout<char>
 {
-    protected override char[] Keys => new char[] { 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l' };
+    protected override char[] Characters => new char[] { 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l' };
 }
