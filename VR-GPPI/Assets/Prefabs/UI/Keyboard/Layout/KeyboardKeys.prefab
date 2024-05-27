@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4008103275743287683}
   - component: {fileID: 1092495869662763287}
   - component: {fileID: 3372312038411186370}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: AccentLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,7 +146,7 @@ GameObject:
   - component: {fileID: 5881902367610225845}
   - component: {fileID: 5860650494993366695}
   - component: {fileID: 4277165624751780676}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Key
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,7 +307,7 @@ GameObject:
   - component: {fileID: 6793078442915355380}
   - component: {fileID: 755249414838061264}
   - component: {fileID: 8180208041946183830}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: AccentLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -443,7 +443,7 @@ GameObject:
   - component: {fileID: 2553610973404777568}
   - component: {fileID: 7136770377611933472}
   - component: {fileID: 7084625612543243236}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BG_Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -541,7 +541,7 @@ GameObject:
   - component: {fileID: 1850183935984702485}
   - component: {fileID: 1850183935984702484}
   - component: {fileID: 6570147515184719106}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Row4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -622,6 +622,7 @@ GameObject:
   - component: {fileID: 1850183936018108829}
   - component: {fileID: 1850183936018108819}
   - component: {fileID: 3556753414835171659}
+  - component: {fileID: 9206571303551017599}
   m_Layer: 5
   m_Name: KeyboardKeys
   m_TagString: Untagged
@@ -700,6 +701,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 1
   m_VerticalFit: 1
+--- !u!114 &9206571303551017599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850183936018108827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75c24aa2310b6a941b161f3775b83ab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1850183936135753638
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,7 +726,7 @@ GameObject:
   - component: {fileID: 8972883122716715038}
   - component: {fileID: 9164800432761224149}
   - component: {fileID: 318901568597768921}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: KeyboardRowFirst
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -791,7 +804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70d4c510f0411b2499e7d0c7ada45864, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 4103520078722126101, guid: 620d25246f5f165409fd695f7a5aaf41,
+  character: {fileID: 4103520078722126101, guid: d8caf06c1ee03414ead8b1b0791eea70,
     type: 3}
   shadowCharacter: {fileID: 3604338812725803366, guid: 62276eceacab9044fa6c71ee7948b501,
     type: 3}
@@ -821,7 +834,7 @@ GameObject:
   - component: {fileID: 9217375837826520518}
   - component: {fileID: 8455127589865251410}
   - component: {fileID: 8025295446796619817}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: KeyboardRowThird
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -899,7 +912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70d4c510f0411b2499e7d0c7ada45864, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 4103520078722126101, guid: 620d25246f5f165409fd695f7a5aaf41,
+  character: {fileID: 4103520078722126101, guid: d8caf06c1ee03414ead8b1b0791eea70,
     type: 3}
   shadowCharacter: {fileID: 3604338812725803366, guid: 62276eceacab9044fa6c71ee7948b501,
     type: 3}
@@ -936,7 +949,7 @@ GameObject:
   - component: {fileID: 5739935958293142257}
   - component: {fileID: 8442263364095332070}
   - component: {fileID: 2741067160703487080}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: KeyboardRowSecond
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1014,7 +1027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70d4c510f0411b2499e7d0c7ada45864, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 4103520078722126101, guid: 620d25246f5f165409fd695f7a5aaf41,
+  character: {fileID: 4103520078722126101, guid: d8caf06c1ee03414ead8b1b0791eea70,
     type: 3}
   shadowCharacter: {fileID: 3604338812725803366, guid: 62276eceacab9044fa6c71ee7948b501,
     type: 3}
@@ -1042,7 +1055,7 @@ GameObject:
   - component: {fileID: 8322257304060602908}
   - component: {fileID: 1248036841869159038}
   - component: {fileID: 6116075154490013263}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: AccentLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1175,7 +1188,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5950093127873627953}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: switch_symbols
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1213,7 +1226,7 @@ GameObject:
   - component: {fileID: 8534968389891278781}
   - component: {fileID: 2261773696172416404}
   - component: {fileID: 3344081569641750005}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Key
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1374,7 +1387,7 @@ GameObject:
   - component: {fileID: 3853629730893041821}
   - component: {fileID: 4881458332285925623}
   - component: {fileID: 3242277479578815277}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Key
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1535,7 +1548,7 @@ GameObject:
   - component: {fileID: 2121317607668766513}
   - component: {fileID: 1522830748388042874}
   - component: {fileID: 3262991496767933386}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1671,7 +1684,7 @@ GameObject:
   - component: {fileID: 2843027185685114345}
   - component: {fileID: 8125893882120546944}
   - component: {fileID: 3709153564297160727}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BG_Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1767,7 +1780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4789054603207599660}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: space
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1805,7 +1818,7 @@ GameObject:
   - component: {fileID: 6154151707576332279}
   - component: {fileID: 1944028762939239693}
   - component: {fileID: 2541579952373346239}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1938,7 +1951,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7884403448018514416}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: return
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1977,7 +1990,7 @@ GameObject:
   - component: {fileID: 9167301341307879814}
   - component: {fileID: 4364014124176636877}
   - component: {fileID: 3054396663982252633}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BG_Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2075,7 +2088,7 @@ GameObject:
   - component: {fileID: 624214434366036253}
   - component: {fileID: 7426332217043984678}
   - component: {fileID: 3515926720956749115}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

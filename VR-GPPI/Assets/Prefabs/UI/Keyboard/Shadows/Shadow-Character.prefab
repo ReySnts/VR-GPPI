@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7863766853689425838}
   - component: {fileID: 2723397573175675304}
   - component: {fileID: 3113136281051960612}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Shadow-Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}

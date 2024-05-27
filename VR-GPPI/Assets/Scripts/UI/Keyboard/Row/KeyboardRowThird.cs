@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class KeyboardRowThird : KeyboardLayout<char>
+public class KeyboardRowThird : KeyboardRow<char>
 {
     [SerializeField] private Transform shadowParent;
 

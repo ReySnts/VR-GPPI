@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6413586764700993838}
   - component: {fileID: 5244809068276648320}
   - component: {fileID: 9118775026386064748}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Shadow-Backspace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: eccec04b76ecffb408e4145c9c3777bd, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1

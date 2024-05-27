@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class KeyboardNumber : KeyboardLayout<int>
+public class KeyboardRowNumber : KeyboardRow<int>
 {
     [SerializeField] private Transform shadowParent;
 

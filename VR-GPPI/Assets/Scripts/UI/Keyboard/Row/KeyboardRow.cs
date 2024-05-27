@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class KeyboardLayout<TCharacter> : MonoBehaviour
+public abstract class KeyboardRow<TCharacter> : MonoBehaviour
 {
     protected abstract TCharacter[] Characters { get; }
 
