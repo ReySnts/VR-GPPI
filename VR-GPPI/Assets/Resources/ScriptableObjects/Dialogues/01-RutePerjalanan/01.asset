@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27e2087f71d70cf4fade284f34e5a1cf, type: 3}
   m_Name: 01
   m_EditorClassIdentifier: 
-  spawnPosition: {x: 0, y: 0, z: 0}
+  spawnPosition: {x: 0, y: 2, z: 0}
+  dialogueTitle: 0
   text: Selamat datang di Modul Pelatihan Pengoperasian Isolator GPPI.

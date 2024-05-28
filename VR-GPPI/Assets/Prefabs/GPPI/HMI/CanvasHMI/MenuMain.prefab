@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5394407358465758490}
   - component: {fileID: 7878381753475550080}
   - component: {fileID: 7650816309613029795}
-  - component: {fileID: 8314248488271196086}
+  - component: {fileID: 2463393485784172224}
   m_Layer: 5
   m_Name: MenuMain
   m_TagString: Untagged
@@ -78,7 +78,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &8314248488271196086
+--- !u!114 &2463393485784172224
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,7 +87,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2945074710876984765}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77d9f5ab8735ca645a69af94b1030af7, type: 3}
+  m_Script: {fileID: 11500000, guid: 187316ba7bb88ce4eb88e34759fc6056, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   menuCanvas: {fileID: 0}
