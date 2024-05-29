@@ -97,7 +97,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6780890530866646972}
   - {fileID: 6798612800643508901}
   - {fileID: 3007906765643415385}
   - {fileID: 5788517363706625464}
@@ -107,6 +106,7 @@ Transform:
   - {fileID: 1005332071650837748}
   - {fileID: 3008963410394385328}
   - {fileID: 5503802722325742068}
+  - {fileID: 5276304377692667459}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &550183118764758333
@@ -726,6 +726,80 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2406254578899437025}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3726974752721943077
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1810584433635882959}
+    m_Modifications:
+    - target: {fileID: 8199433718580043484, guid: 7c2f5544b8e2c3e40aebc6fdcc73715d,
+        type: 3}
+      propertyPath: m_Name
+      value: SEMPROTAN ALKOHOL 70%
+      objectReference: {fileID: 0}
+    - target: {fileID: 8827597512788575334, guid: 7c2f5544b8e2c3e40aebc6fdcc73715d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.485
+      objectReference: {fileID: 0}
+    - target: {fileID: 8827597512788575334, guid: 7c2f5544b8e2c3e40aebc6fdcc73715d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 8827597512788575334, guid: 7c2f5544b8e2c3e40aebc6fdcc73715d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 28.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 8827597512788575334, guid: 7c2f5544b8e2c3e40aebc6fdcc73715d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8827597512788575334, guid: 7c2f5544b8e2c3e40aebc6fdcc73715d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8827597512788575334, guid: 7c2f5544b8e2c3e40aebc6fdcc73715d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8827597512788575334, guid: 7c2f5544b8e2c3e40aebc6fdcc73715d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8827597512788575334, guid: 7c2f5544b8e2c3e40aebc6fdcc73715d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8827597512788575334, guid: 7c2f5544b8e2c3e40aebc6fdcc73715d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8827597512788575334, guid: 7c2f5544b8e2c3e40aebc6fdcc73715d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7c2f5544b8e2c3e40aebc6fdcc73715d, type: 3}
+--- !u!4 &5276304377692667459 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8827597512788575334, guid: 7c2f5544b8e2c3e40aebc6fdcc73715d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3726974752721943077}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4515894938342264129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1036,80 +1110,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8866445328276480775, guid: dc8e609a16fc1de45812321be1d7c639,
     type: 3}
   m_PrefabInstance: {fileID: 9084508910000099450}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &9098059232126333940
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1810584433635882959}
-    m_Modifications:
-    - target: {fileID: 2330714691795926088, guid: a359a10610032a44fa7da6c28f54d9ea,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 12.493
-      objectReference: {fileID: 0}
-    - target: {fileID: 2330714691795926088, guid: a359a10610032a44fa7da6c28f54d9ea,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.6619
-      objectReference: {fileID: 0}
-    - target: {fileID: 2330714691795926088, guid: a359a10610032a44fa7da6c28f54d9ea,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 28.98
-      objectReference: {fileID: 0}
-    - target: {fileID: 2330714691795926088, guid: a359a10610032a44fa7da6c28f54d9ea,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.70016104
-      objectReference: {fileID: 0}
-    - target: {fileID: 2330714691795926088, guid: a359a10610032a44fa7da6c28f54d9ea,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.712084
-      objectReference: {fileID: 0}
-    - target: {fileID: 2330714691795926088, guid: a359a10610032a44fa7da6c28f54d9ea,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.036232695
-      objectReference: {fileID: 0}
-    - target: {fileID: 2330714691795926088, guid: a359a10610032a44fa7da6c28f54d9ea,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.03739284
-      objectReference: {fileID: 0}
-    - target: {fileID: 2330714691795926088, guid: a359a10610032a44fa7da6c28f54d9ea,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2330714691795926088, guid: a359a10610032a44fa7da6c28f54d9ea,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2330714691795926088, guid: a359a10610032a44fa7da6c28f54d9ea,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3103978522498557682, guid: a359a10610032a44fa7da6c28f54d9ea,
-        type: 3}
-      propertyPath: m_Name
-      value: botol alkohol semprot
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a359a10610032a44fa7da6c28f54d9ea, type: 3}
---- !u!4 &6780890530866646972 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2330714691795926088, guid: a359a10610032a44fa7da6c28f54d9ea,
-    type: 3}
-  m_PrefabInstance: {fileID: 9098059232126333940}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9208540745881009556
 PrefabInstance:
