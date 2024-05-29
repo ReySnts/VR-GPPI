@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ChlidCleaning : MonoBehaviour
@@ -8,7 +6,7 @@ public class ChlidCleaning : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("lap"))
+        if (other.CompareTag(GameObjectTag.LAP))
         {
             parent.clean++;
             gameObject.SetActive(false);
