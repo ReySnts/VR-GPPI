@@ -16,11 +16,7 @@ public class KeyboardInputField : MonoBehaviour, IInputField
         inputField.onSelect.AddListener(OnSelect);
     }
 
-    private void OnSelect(string str)
-    {
-        keyboard.GameObject.SetActive(true);
-        keyboard.CurrentInputField = this;
-    }
+    private void OnSelect(string str) => keyboard.Activate(this);
 
     private void OnDestroy()
     {

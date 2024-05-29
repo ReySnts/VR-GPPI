@@ -13,9 +13,9 @@ public abstract class ButtonScript : MonoBehaviour, IButton
 
     public abstract void OnClick();
 
-    private void OnDestroy()
+    protected virtual void OnDestroy()
     {
-        Button?.onClick.RemoveListener(OnClick);
+        Button.onClick.RemoveListener(OnClick);
         Button = null;
     }
 }

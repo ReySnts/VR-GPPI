@@ -1,14 +1,12 @@
-using UnityEngine;
-
 public class KeyboardKeyEnter : ButtonScript
 {
-    private GameObject keyboardGameObject;
+    private IKeyboard keyboard;
 
     protected override void Awake()
     {
-        keyboardGameObject = transform.parent.parent.parent.parent.parent.parent.parent.GetComponent<IKeyboard>().GameObject;
+        keyboard = transform.parent.parent.parent.parent.parent.parent.parent.GetComponent<IKeyboard>();
         base.Awake();
     }
 
-    public override void OnClick() => keyboardGameObject.SetActive(false);
+    public override void OnClick() => keyboard.Deactivate();
 }

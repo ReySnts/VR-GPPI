@@ -15,9 +15,10 @@ public class KeyboardKeyShift : ButtonScript
 
     public override void OnClick() => notifier.ChangeAll(!isCapitalized);
 
-    private void OnDisable()
+    protected override void OnDestroy()
     {
         notifier.OnAllChanged -= Capitalize;
         notifier = null;
+        base.OnDestroy();
     }
 }

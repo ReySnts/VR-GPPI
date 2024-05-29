@@ -1,4 +1,4 @@
-public interface IKeyboard : IUserInterface, IGameObject
+public interface IKeyboard : IUserInterface, IActivable<IInputField>
 {
-    public abstract IInputField CurrentInputField { get; set; }
+    public abstract IInputField CurrentInputField { get; }
 }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MenuCanvas : MonoBehaviour, IMenuCanvas
+public class MenuCanvas : MonoBehaviour
 {
     [SerializeField] private MenuCanvas menuCanvas;
 
@@ -10,5 +10,5 @@ public class MenuCanvas : MonoBehaviour, IMenuCanvas
         menuCanvas.gameObject.SetActive(true);
     }
 
-    private void Awake() => gameObject.SetActive(false);
+    protected virtual void Awake() => gameObject.SetActive(false);
 }

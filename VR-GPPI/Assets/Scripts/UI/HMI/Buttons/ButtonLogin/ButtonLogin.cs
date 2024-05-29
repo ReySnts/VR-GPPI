@@ -4,14 +4,18 @@ public abstract class ButtonLogin : ButtonScript
 {
     protected Transform menuLogin;
 
-    private Transform panelLogin;
+    protected IMenuCanvas menuCanvas;
 
     protected override void Awake()
     {
-        panelLogin = transform.parent;
-        menuLogin = panelLogin.parent;
+        menuLogin = transform.parent.parent;
+        menuCanvas = menuLogin.GetComponent<IMenuCanvas>();
         base.Awake();
     }
 
-    public override void OnClick() => Destroy(panelLogin.gameObject);
+    public override void OnClick()
+    {
+        menuLogin.GetComponentInChildren<IKeyboard>()?.Deactivate();
+        menuCanvas.Panel.GameObject.SetActive(false);
+    }
 }

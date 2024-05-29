@@ -1,17 +1,8 @@
-using TMPro;
-
 public class KeyboardKeyBackspace : ButtonScript
 {
-    private TMP_InputField currentInputField;
-
-    protected override void Awake()
-    {
-        currentInputField = transform.parent.parent.parent.parent.parent.parent.parent.GetComponent<IKeyboard>().CurrentInputField.InputField;
-        base.Awake();
-    }
-
     public override void OnClick()
     {
+        var currentInputField = transform.parent.parent.parent.parent.parent.parent.parent.GetComponent<IKeyboard>().CurrentInputField.InputField;
         var currentCaretPosition = currentInputField.caretPosition;
         if (currentCaretPosition > 0)
         {

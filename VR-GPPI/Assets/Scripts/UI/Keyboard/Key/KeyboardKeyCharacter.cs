@@ -2,15 +2,7 @@ using TMPro;
 
 public class KeyboardKeyCharacter : ButtonScript, IProduct<string>
 {
-    private TMP_InputField currentInputField;
-
     private TextMeshProUGUI textMeshPro;
-
-    protected override void Awake()
-    {
-        currentInputField = transform.parent.parent.parent.parent.parent.parent.parent.GetComponent<IKeyboard>().CurrentInputField.InputField;
-        base.Awake();
-    }
 
     public void Initialize(string character)
     {
@@ -20,6 +12,7 @@ public class KeyboardKeyCharacter : ButtonScript, IProduct<string>
 
     public override void OnClick()
     {
+        var currentInputField = transform.parent.parent.parent.parent.parent.parent.parent.GetComponent<IKeyboard>().CurrentInputField.InputField;
         currentInputField.text = currentInputField.text.Insert(startIndex: currentInputField.caretPosition, value: textMeshPro.text);
         currentInputField.caretPosition++;
     }

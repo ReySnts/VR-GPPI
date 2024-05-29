@@ -1,12 +1,16 @@
-using UnityEngine;
-
 public class ButtonActivate : ButtonScript
 {
-    [SerializeField] private GameObject panelLogin;
+    private IMenuCanvas menuCanvas;
+
+    protected override void Awake()
+    {
+        menuCanvas = transform.parent.GetComponent<IMenuCanvas>();
+        base.Awake();
+    }
 
     public override void OnClick()
     {
         Button.interactable = false;
-        Instantiate(original: panelLogin, parent: transform.parent);
+        menuCanvas.Panel.GameObject.SetActive(true);
     }
 }

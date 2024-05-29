@@ -2,9 +2,24 @@ using UnityEngine;
 
 public class Keyboard : MonoBehaviour, IKeyboard
 {
-    public IInputField CurrentInputField { get; set; }
+    public IInputField CurrentInputField { get; private set; }
 
-    public GameObject GameObject => gameObject;
+    public void Activate(IInputField inputField)
+    {
+        if (!gameObject.activeSelf) gameObject.SetActive(true);
+        CurrentInputField = inputField;
+        CurrentInputField.InputField.caretBlinkRate = .85f;
+    }
 
-    private void Awake() => gameObject.SetActive(false);
+    public void Deactivate()
+    {
+        if (CurrentInputField is not null)
+        {
+            CurrentInputField.InputField.caretBlinkRate = 0f;
+            CurrentInputField = null;
+        }
+        gameObject.SetActive(false);
+    }
+
+    private void Awake() => Deactivate();
 }
