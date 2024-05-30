@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27e2087f71d70cf4fade284f34e5a1cf, type: 3}
   m_Name: 01
   m_EditorClassIdentifier: 
-  spawnPosition: {x: -0.2, y: 2, z: 0}
+  spawnPosition: {x: 12.65, y: 6.2942505, z: 32.3}
   dialogueTitle: 1
   text: Pakai APD (Alat Pelindung Diri) lengkap selama proses pembersihan dan pengoperasian
     isolator.

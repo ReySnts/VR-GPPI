@@ -19,7 +19,7 @@ public class DialogueFactory : MonoBehaviour, IDialogueFactory
     public IProduct<Dialogue> GetProduct(int additionalIndex = 0)
     {
         var dialogue = DialogueList[CurrentIndex += additionalIndex];
-        var instance = Instantiate(original: canvasDialogue, parent: transform, rotation: Quaternion.identity, position: dialogue.spawnPosition);
+        var instance = Instantiate(original: canvasDialogue, parent: transform, rotation: Quaternion.identity, position: transform.TransformPoint(dialogue.spawnPosition));
         var newProduct = instance.GetComponent<CanvasDialogue>();
         newProduct.Initialize(dialogue);
         return newProduct;

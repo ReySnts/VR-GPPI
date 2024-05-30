@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27e2087f71d70cf4fade284f34e5a1cf, type: 3}
   m_Name: 06
   m_EditorClassIdentifier: 
-  spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 1
-  text: Jika bahan baku atau material timbang berupa Non Injeksi, maka perlu dilakukan
-    bypass sistem Biodekontaminasi.
+  spawnPosition: {x: -25.35, y: 6.2942505, z: 60.3}
+  dialogueTitle: 0
+  text: Gerakkan tangan (kiri) untuk sentuh Sensor Pintu (berbentuk kotak dengan
+    lingkaran warna biru).

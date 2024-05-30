@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27e2087f71d70cf4fade284f34e5a1cf, type: 3}
   m_Name: 02
   m_EditorClassIdentifier: 
-  spawnPosition: {x: 0, y: 0, z: 0}
+  spawnPosition: {x: 9.65, y: 5.7942505, z: 26.8}
   dialogueTitle: 2
   text: Pantau layar HMI hingga muncul sebuah tampilan.
