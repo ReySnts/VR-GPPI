@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPosition: {x: 0, y: 0, z: 0}
   dialogueTitle: 20
-  text: Tekan tombol Start / Stop Viable Air Sampler (Bentuk Virus Warna Merah) untuk
-    memulai proses Viable Air Sampler.
+  text: Pantau kembali layar HMI. Tekan tombol Main Operation pada Operation Modes,
+    lalu tekan tombol Viable Air Sampler Status.

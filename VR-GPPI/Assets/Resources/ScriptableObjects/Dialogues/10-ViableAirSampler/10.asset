@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPosition: {x: 0, y: 0, z: 0}
   dialogueTitle: 20
-  text: Tunggu hingga prosesnya selesai, yaitu setelah volume udara mencapai 1,00
-    meter kubik (setara 1.000 liter).
+  text: Selama proses Viable Air Sampler berlangsung, tombol Start / Stop Viable
+    Air Sampler berubah menjadi Warna Hijau. Volume udara akan bertambah nilainya
+    secara acak setiap waktunya.

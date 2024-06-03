@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27e2087f71d70cf4fade284f34e5a1cf, type: 3}
   m_Name: 07
   m_EditorClassIdentifier: 
-  spawnPosition: {x: 0, y: 0, z: 0}
+  spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
   dialogueTitle: 4
-  text: Seal pintu chamber yang mengempis (deflated) menandakan bahwa pintu chamber
-    sudah tidak terkunci.
+  text: "Jika terjadi kesalahan input password sebanyak 5 kali berturut-turut, maka
+    user akan nonaktif dan menjadi unauthorized. Hubungi Logistic Supervisor jika
+    tidak dapat login pada layar HMI.\r"

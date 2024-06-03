@@ -6160,6 +6160,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueFactory
       objectReference: {fileID: 0}
+    - target: {fileID: 5157128347681687803, guid: fc5cb29973dce514a9c57660c70083bb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 35.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157128347681687803, guid: fc5cb29973dce514a9c57660c70083bb,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157128347681687803, guid: fc5cb29973dce514a9c57660c70083bb,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157128347681687803, guid: fc5cb29973dce514a9c57660c70083bb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 5.1499996
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157128347681687803, guid: fc5cb29973dce514a9c57660c70083bb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 5.2942505
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157128347681687803, guid: fc5cb29973dce514a9c57660c70083bb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 6384742653289815032, guid: fc5cb29973dce514a9c57660c70083bb,
         type: 3}
       propertyPath: m_LocalPosition.x

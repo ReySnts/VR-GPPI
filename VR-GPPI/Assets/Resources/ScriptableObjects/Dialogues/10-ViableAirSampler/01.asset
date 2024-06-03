@@ -15,4 +15,4 @@ MonoBehaviour:
   spawnPosition: {x: 0, y: 0, z: 0}
   dialogueTitle: 20
   text: Setelah glove mengempis (deflated), masukkan tangan Anda dengan sarung tangan
-    (Warna Biru) ke dalam salah satu Glove Port.
+    (Warna Biru) ke dalam Glove Port.
