@@ -16,5 +16,11 @@ public enum EDialogueTitle
     BersihkanPermukaanMesin,
     PressureDecayTest,
     MasterChamberLeakTest,
-    PassChamberLeakTest
+    GloveLeakTest,
+    ProcessChamberLeakTest,
+    Biodekontaminasi,
+    MulaiOperasi,
+    ViableAirSampler,
+    ParticleCounter,
+    PembersihanRutin
 }

@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: 01
   m_EditorClassIdentifier: 
   spawnPosition: {x: 0, y: 0, z: 0}
-  dialogueTitle: 15
-  text: Pantau kembali layar HMI. Tekan tombol Pressure Decay Test pada Operation
-    Modes, lalu tekan tombol Master Pressure Decay Test pada Pressure Decay Test
-    Options.
+  dialogueTitle: 20
+  text: Setelah glove mengempis (deflated), masukkan tangan Anda dengan sarung tangan
+    (Warna Biru) ke dalam salah satu Glove Port.

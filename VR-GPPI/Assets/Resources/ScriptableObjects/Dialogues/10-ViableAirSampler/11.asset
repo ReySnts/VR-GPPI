@@ -10,10 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27e2087f71d70cf4fade284f34e5a1cf, type: 3}
-  m_Name: 01
+  m_Name: 11
   m_EditorClassIdentifier: 
   spawnPosition: {x: 0, y: 0, z: 0}
-  dialogueTitle: 15
-  text: Pantau kembali layar HMI. Tekan tombol Pressure Decay Test pada Operation
-    Modes, lalu tekan tombol Master Pressure Decay Test pada Pressure Decay Test
-    Options.
+  dialogueTitle: 20
+  text: Ambil kembali Cawan Petri TSA untuk diserahkan ke Departemen Quality Control.

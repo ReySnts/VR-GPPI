@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: 01
   m_EditorClassIdentifier: 
   spawnPosition: {x: 0, y: 0, z: 0}
-  dialogueTitle: 15
-  text: Pantau kembali layar HMI. Tekan tombol Pressure Decay Test pada Operation
-    Modes, lalu tekan tombol Master Pressure Decay Test pada Pressure Decay Test
-    Options.
+  dialogueTitle: 18
+  text: Pastikan bobot timbangan H2O2 30% lebih dari atau sama dengan 608 gram (Bobot
+    botol beserta tutup botolnya 458 gram, limit massa H2O2 30% 150 gram).
