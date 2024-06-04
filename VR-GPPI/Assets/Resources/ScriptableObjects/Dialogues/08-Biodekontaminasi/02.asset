@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27e2087f71d70cf4fade284f34e5a1cf, type: 3}
   m_Name: 02
   m_EditorClassIdentifier: 
-  spawnPosition: {x: 0, y: 0, z: 0}
+  spawnPosition: {x: 5.1499996, y: 5.2942505, z: 26.3}
   dialogueTitle: 18
   text: Gunakan APD (baju gowning sesuai kelas ruangan, goggles, sarung tangan nitril,
     respirator 3M tipe 6200, cartridge 3M tipe 6006).

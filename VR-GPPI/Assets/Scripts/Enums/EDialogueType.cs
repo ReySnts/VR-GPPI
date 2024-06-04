@@ -22,5 +22,6 @@ public enum EDialogueTitle
     MulaiOperasi,
     ViableAirSampler,
     ParticleCounter,
-    PembersihanRutin
+    PembersihanRutin,
+    SprayGun
 }

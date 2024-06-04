@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27e2087f71d70cf4fade284f34e5a1cf, type: 3}
+  m_Name: 02
+  m_EditorClassIdentifier: 
+  spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
+  dialogueTitle: 22
+  text: Pantau kembali layar HMI. Tekan tombol Water Gun, kemudian semprot ke area
+    drain chamber untuk mengeluarkan sisa air pada jalur selang.

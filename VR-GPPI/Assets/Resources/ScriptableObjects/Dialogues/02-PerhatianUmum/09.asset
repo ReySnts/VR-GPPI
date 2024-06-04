@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPosition: {x: 12.65, y: 6.2942505, z: 32.3}
   dialogueTitle: 1
-  text: Catat setiap pemeriksaan / pembersihan / penggunaan / perbaikan mesin pada
-    Logbook Penggunaan Isolator.
+  text: Lampirkan Report dan Catat setiap pemeriksaan / pembersihan / penggunaan
+    / perbaikan mesin pada Logbook Penggunaan Isolator.

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27e2087f71d70cf4fade284f34e5a1cf, type: 3}
   m_Name: 01
   m_EditorClassIdentifier: 
-  spawnPosition: {x: 0, y: 0, z: 0}
+  spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
   dialogueTitle: 19
   text: Tekan tombol Start/Stop Isolator Operation (Warna Merah) pada menu Main Operation.
