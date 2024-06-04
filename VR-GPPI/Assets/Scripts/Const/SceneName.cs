@@ -1,4 +1,6 @@
 public class SceneName
 {
-    public const string MENU = "Menu";
+    public const string MAIN_MENU = "MainMenu";
+
+    public const string PLAY = "Play";
 }

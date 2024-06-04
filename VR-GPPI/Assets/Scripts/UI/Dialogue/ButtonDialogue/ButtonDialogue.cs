@@ -1,6 +1,6 @@
 public abstract class ButtonDialogue : ButtonScript
 {
-    protected abstract bool DisactivateCondition {  get; }
+    protected abstract bool IndexOutOfRange {  get; }
 
     protected abstract int AddIndex { get; }
 
@@ -9,7 +9,7 @@ public abstract class ButtonDialogue : ButtonScript
     protected override void Awake()
     {
         dialogueFactory = GetComponentInParent<IDialogueFactory>();
-        if (DisactivateCondition) gameObject.SetActive(false);
+        if (IndexOutOfRange) Destroy(gameObject);
         else base.Awake();
     }
 

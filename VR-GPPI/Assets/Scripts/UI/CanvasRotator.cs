@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CanvasDialogueRotator : MonoBehaviour
+public class CanvasRotator : MonoBehaviour
 {
     private Transform mainCamera;
 

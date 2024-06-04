@@ -8,7 +8,7 @@ public class MenuView : MonoBehaviour
 
     private void Awake() => mainMenuButton.onClick.AddListener(GoToMainMenu);
 
-    private void GoToMainMenu() => SceneManager.LoadScene(SceneName.MENU);
+    private void GoToMainMenu() => SceneManager.LoadScene(sceneName: SceneName.MAIN_MENU);
 
     private void OnDestroy() => mainMenuButton.onClick.RemoveAllListeners();
 }
