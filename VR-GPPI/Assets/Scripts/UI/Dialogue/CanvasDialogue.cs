@@ -12,7 +12,7 @@ public class CanvasDialogue : MonoBehaviour, IProduct<Dialogue>
         var panelText = transform.GetChild(1);
         textTitle = panelText.GetChild(0).GetComponent<TextMeshProUGUI>();
         textDialogue = panelText.GetChild(1).GetComponent<TextMeshProUGUI>();
-        textTitle.text = dialogue.dialogueTitle.ToString();
+        textTitle.text = dialogue.title.ToString();
         textDialogue.text = dialogue.text;
     }
 }

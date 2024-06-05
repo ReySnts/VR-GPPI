@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: 07
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 26.3}
-  dialogueTitle: 22
-  text: Putar Knob Manual Drain (dari Barat / Kiri ke Bawah / Selatan) pada sisi
-    kiri mesin.
+  title: 22
+  text: Putar Knob untuk buka Manual Drain Pass Chamber (dari Barat / Kiri ke Bawah
+    / Selatan) pada sisi kiri mesin.

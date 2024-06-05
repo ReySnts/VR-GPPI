@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
   dialogueTitle: 22
-  text: Pantau kembali layar HMI. Tekan tombol Water Gun, kemudian semprot ke area
-    drain chamber untuk mengeluarkan sisa air pada jalur selang.
+  text: Pantau kembali layar HMI. Tekan tombol Line Purge untuk buang sisa air pada
+    Pass / Process Chamber.
