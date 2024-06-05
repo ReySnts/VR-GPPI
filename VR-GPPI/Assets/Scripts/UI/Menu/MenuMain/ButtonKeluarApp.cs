@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ButtonKeluar : ButtonScript
+public class ButtonKeluarApp : ButtonScript
 {
     public override void OnClick() => Application.Quit();
 }
