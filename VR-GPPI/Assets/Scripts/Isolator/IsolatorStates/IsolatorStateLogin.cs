@@ -4,7 +4,7 @@ public class IsolatorStateLogin : IsolatorEnterableState, IStateComplete
 {
     [SerializeField] private MenuCanvas menuLogin;
 
-    [SerializeField] private IsolatorStatePreoperational preoperationalState;
+    [SerializeField] private IsolatorStatePreoperationalPass preoperationalPassState;
 
     public void Enter() => menuLogin.gameObject.SetActive(true);
 
@@ -13,7 +13,7 @@ public class IsolatorStateLogin : IsolatorEnterableState, IStateComplete
         if (statableThing.IsTriggered)
         {
             Exit();
-            stateMachine.TransitionTo(preoperationalState);
+            stateMachine.TransitionTo(preoperationalPassState);
         }
     }
 
