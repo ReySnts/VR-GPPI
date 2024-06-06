@@ -1,6 +1,10 @@
-public interface IObjectPool<T> where T : IGameObject
-{
-    public abstract void Return(T t);
+using UnityEngine;
 
-    public abstract void Release(T t);
+public interface IObjectPool
+{
+    public abstract int InitialSize {  get; }
+
+    public abstract void Return(GameObject gameObject);
+
+    public abstract void Release(GameObject gameObject);
 }

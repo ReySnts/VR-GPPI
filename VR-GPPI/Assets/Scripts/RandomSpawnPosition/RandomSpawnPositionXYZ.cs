@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class RandomSpawnPosition : MonoBehaviour, IValuableVector3
+public class RandomSpawnPositionXYZ : MonoBehaviour, IValuableVector3
 {
     [SerializeField] private float minRandomX;
 

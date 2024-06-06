@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6824580992796207495}
   - component: {fileID: 6806191005409848252}
   - component: {fileID: 5928384145301796052}
+  - component: {fileID: 4992258464794068651}
   m_Layer: 0
   m_Name: Dirty Object
   m_TagString: lap
@@ -81,3 +82,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4992258464794068651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7162021152422878816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d36306fab0a01a4bac3228cb931e679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
