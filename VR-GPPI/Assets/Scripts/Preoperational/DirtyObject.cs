@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class DirtyObject : MonoBehaviour
 {
-    private IObjectPool iPool;
+    private IObjectPool iObjectPool;
 
     private IProgress iProgress;
 
     private void Awake()
     {
-        iPool = GetComponentInParent<IObjectPool>();
+        iObjectPool = GetComponentInParent<IObjectPool>();
         iProgress = GetComponentInParent<IProgress>();
     }
 
@@ -16,8 +16,8 @@ public class DirtyObject : MonoBehaviour
     {
         if (other.CompareTag(GameObjectTag.LAP))
         {
-            iProgress.Percentage += 100 / iPool.InitialSize;
-            Destroy(gameObject);
+            iProgress.Percentage += 100 / iObjectPool.InitialSize;
+            iObjectPool.ReturnToPool(gameObject);
         }
     }
 }
