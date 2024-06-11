@@ -4,7 +4,7 @@ public class ButtonInteractable : ButtonScript
 
     protected override void Awake()
     {
-        interactabler = transform.parent.GetComponent<IButtonInteractabler>();
+        interactabler = GetComponentInParent<IButtonInteractabler>();
         base.Awake();
     }
 

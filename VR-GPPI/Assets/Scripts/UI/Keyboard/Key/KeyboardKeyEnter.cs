@@ -4,7 +4,7 @@ public class KeyboardKeyEnter : ButtonScript
 
     protected override void Awake()
     {
-        keyboard = transform.parent.parent.parent.parent.parent.parent.parent.GetComponent<IKeyboard>();
+        keyboard = GetComponentInParent<IKeyboard>();
         base.Awake();
     }
 

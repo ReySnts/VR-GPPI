@@ -8,7 +8,7 @@ public class ButtonTestOptions : ButtonInteractable
 
     protected override void Awake()
     {
-        menuState = transform.parent.parent.GetComponent<IMenuState>();
+        menuState = GetComponentInParent<IMenuState>();
         base.Awake();
     }
 

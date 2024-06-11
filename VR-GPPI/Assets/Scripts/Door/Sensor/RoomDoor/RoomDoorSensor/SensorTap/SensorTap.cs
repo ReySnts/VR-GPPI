@@ -14,9 +14,8 @@ public abstract class SensorTap<TEventArgs> : MonoBehaviour where TEventArgs : B
 
     protected void Awake()
     {
-        var sensor = transform.parent.parent;
-        simpleInteractable = sensor.GetComponentInChildren<XRSimpleInteractable>();
-        notifier = sensor.parent.parent.GetComponent<INotifier<bool>>();
+        simpleInteractable = transform.parent.parent.GetComponentInChildren<XRSimpleInteractable>();
+        notifier = GetComponentInParent<INotifier<bool>>();
         InteractableEvent.AddListener(call => notifier.ChangeAll(isTriggered));
     }
 

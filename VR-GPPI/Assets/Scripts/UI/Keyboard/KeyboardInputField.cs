@@ -22,5 +22,6 @@ public class KeyboardInputField : MonoBehaviour, IInputField
     {
         inputField.onSelect.RemoveListener(OnSelect);
         inputField = null;
+        keyboard = null;
     }
 }

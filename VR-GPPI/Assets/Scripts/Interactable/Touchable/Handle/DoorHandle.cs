@@ -6,7 +6,7 @@ public class DoorHandle : MonoBehaviour
 
     private void Awake()
     {
-        //notifierStructOut = transform.parent.parent.GetComponent<INotifierStructOut<Transform, Vector3>>();
+        //notifierStructOut = GetComponentInParent<INotifierStructOut<Transform, Vector3>>();
         //notifierStructOut.OnChangeValue += transform;
     }
 

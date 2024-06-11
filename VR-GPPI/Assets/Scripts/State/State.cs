@@ -8,9 +8,8 @@ public abstract class State<TThing, TStateMachine> : MonoBehaviour where TThing 
 
     protected void Awake()
     {
-        var states = transform.parent;
-        statableThing = states.parent.GetComponent<TThing>();
-        stateMachine = states.GetComponent<IStateMachine<TStateMachine>>();
+        statableThing = GetComponentInParent<TThing>();
+        stateMachine = GetComponentInParent<IStateMachine<TStateMachine>>();
     }
 
     protected void OnDestroy() => stateMachine = null;

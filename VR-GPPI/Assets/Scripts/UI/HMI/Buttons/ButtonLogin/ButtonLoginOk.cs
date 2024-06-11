@@ -4,8 +4,8 @@ public class ButtonLoginOk : ButtonLogin
 
     protected override void Awake()
     {
-        isolator = transform.parent.parent.parent.parent.GetComponent<IIsolatorThing>();
         base.Awake();
+        isolator = menuLogin.GetComponentInParent<IIsolatorThing>();
     }
 
     public override void OnClick()

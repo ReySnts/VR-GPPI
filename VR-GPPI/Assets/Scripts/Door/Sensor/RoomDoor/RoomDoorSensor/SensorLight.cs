@@ -10,7 +10,7 @@ public class SensorLight : MonoBehaviour
 
     private void Awake()
     {
-        notifier = transform.parent.parent.parent.GetComponent<INotifier<Material>>();
+        notifier = GetComponentInParent<INotifier<Material>>();
         notifier.OnAllChanged += Change;
     }
 

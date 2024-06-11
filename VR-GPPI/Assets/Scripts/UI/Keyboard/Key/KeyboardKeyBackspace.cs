@@ -2,7 +2,7 @@ public class KeyboardKeyBackspace : ButtonScript
 {
     public override void OnClick()
     {
-        var currentInputField = transform.parent.parent.parent.parent.parent.parent.parent.GetComponent<IKeyboard>().CurrentInputField.InputField;
+        var currentInputField = GetComponentInParent<IKeyboard>().CurrentInputField.InputField;
         var currentCaretPosition = currentInputField.caretPosition;
         if (currentCaretPosition > 0)
         {

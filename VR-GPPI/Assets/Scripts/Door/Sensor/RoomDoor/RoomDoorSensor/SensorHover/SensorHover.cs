@@ -14,9 +14,8 @@ public abstract class SensorHover<TEventArgs> : MonoBehaviour where TEventArgs :
 
     protected void Awake()
     {
-        var sensor = transform.parent.parent;
-        simpleInteractable = sensor.GetComponentInChildren<XRSimpleInteractable>();
-        notifier = sensor.parent.GetComponent<INotifier<Material>>();
+        simpleInteractable = transform.parent.parent.GetComponentInChildren<XRSimpleInteractable>();
+        notifier = GetComponentInParent<INotifier<Material>>();
         InteractableEvent.AddListener(call => notifier.ChangeAll(lightColorMaterial));
     }
 

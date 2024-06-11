@@ -12,7 +12,7 @@ public class ChamberDoor : MonoBehaviour, IAnimatedDoor
 
     private void Awake()
     {
-        Notifier = transform.parent.GetComponent<INotifier<string>>();
+        Notifier = GetComponentInParent<INotifier<string>>();
         Lockable = GetComponentInChildren<ILockable>();
         Openable = GetComponentInChildren<IOpenable>();
         Handle = GetComponentInChildren<IHandle>();

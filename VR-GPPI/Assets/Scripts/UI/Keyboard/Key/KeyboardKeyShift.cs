@@ -6,7 +6,7 @@ public class KeyboardKeyShift : ButtonScript
 
     protected override void Awake()
     {
-        notifier = transform.parent.parent.parent.GetComponent<INotifier<bool>>();
+        notifier = GetComponentInParent<INotifier<bool>>();
         notifier.OnAllChanged += Capitalize;
         base.Awake();
     }

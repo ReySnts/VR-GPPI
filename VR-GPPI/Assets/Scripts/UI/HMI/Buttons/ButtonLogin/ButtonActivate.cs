@@ -4,7 +4,7 @@ public class ButtonActivate : ButtonScript
 
     protected override void Awake()
     {
-        menuCanvas = transform.parent.GetComponent<IMenuCanvas>();
+        menuCanvas = GetComponentInParent<IMenuCanvas>();
         base.Awake();
     }
 

@@ -6,5 +6,5 @@ public abstract class Triggerable<TThing> : MonoBehaviour, ITriggerable where TT
 
     protected TThing triggerableThing;
 
-    private void Awake() => triggerableThing = transform.parent.parent.GetComponent<TThing>();
+    private void Awake() => triggerableThing = GetComponentInParent<TThing>();
 }

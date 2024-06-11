@@ -1,4 +1,1 @@
-public class ButtonPowerShutdown : ButtonPower
-{
-    
-}
+public class ButtonPowerShutdown : ButtonPower { }

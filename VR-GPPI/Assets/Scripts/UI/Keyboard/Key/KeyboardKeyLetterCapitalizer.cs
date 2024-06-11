@@ -10,7 +10,7 @@ public class KeyboardKeyLetterCapitalizer : MonoBehaviour
     private void Awake()
     {
         textMeshPro = GetComponentInChildren<TextMeshProUGUI>();
-        notifier = transform.parent.parent.GetComponent<INotifier<bool>>();
+        notifier = GetComponentInParent<INotifier<bool>>();
         notifier.OnAllChanged += Capitalize;
     }
 

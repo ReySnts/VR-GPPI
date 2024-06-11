@@ -8,7 +8,7 @@ public abstract class Lockable<TThing> : MonoBehaviour, ILockable where TThing :
 
     protected TThing lockableThing;
 
-    private void Awake() => lockableThing = transform.parent.GetComponent<TThing>();
+    private void Awake() => lockableThing = GetComponentInParent<TThing>();
 
     private void Update() => IsLocked = isLocked;
 }

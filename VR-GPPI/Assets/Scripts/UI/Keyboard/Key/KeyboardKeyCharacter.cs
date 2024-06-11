@@ -12,7 +12,7 @@ public class KeyboardKeyCharacter : ButtonScript, IProduct<string>
 
     public override void OnClick()
     {
-        var currentInputField = transform.parent.parent.parent.parent.parent.parent.parent.GetComponent<IKeyboard>().CurrentInputField.InputField;
+        var currentInputField = GetComponentInParent<IKeyboard>().CurrentInputField.InputField;
         currentInputField.text = currentInputField.text.Insert(startIndex: currentInputField.caretPosition, value: textMeshPro.text);
         currentInputField.caretPosition++;
     }

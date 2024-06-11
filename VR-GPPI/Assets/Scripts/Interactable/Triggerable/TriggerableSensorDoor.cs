@@ -4,7 +4,7 @@ public class TriggerableSensorDoor : Triggerable<ISensorDoor>
 
     private void Awake()
     {
-        notifier = transform.parent.parent.parent.parent.GetComponent<INotifier<bool>>();
+        notifier = GetComponentInParent<INotifier<bool>>();
         notifier.OnAllChanged += Trigger;
     }
 

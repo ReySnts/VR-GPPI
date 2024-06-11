@@ -6,7 +6,7 @@ public abstract class AnimatorTemplate : MonoBehaviour
 
     protected void Awake()
     {
-        notifier = transform.parent.parent.GetComponent<INotifier<string>>();
+        notifier = GetComponentInParent<INotifier<string>>();
         notifier.OnAllChanged += Play;
     }
 

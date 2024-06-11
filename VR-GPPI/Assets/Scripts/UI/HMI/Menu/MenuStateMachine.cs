@@ -12,7 +12,7 @@ public class MenuStateMachine : MonoBehaviour, IStateMachine<EMenuState>
 
     private void Awake()
     {
-        var menuStates = transform.GetComponentsInChildren<IMenuState>().ToList();
+        var menuStates = GetComponentsInChildren<IMenuState>().ToList();
         foreach (var eachMenu in menuStates) menuDictionary.Add(eachMenu.EMenuState, eachMenu);
     }
 
