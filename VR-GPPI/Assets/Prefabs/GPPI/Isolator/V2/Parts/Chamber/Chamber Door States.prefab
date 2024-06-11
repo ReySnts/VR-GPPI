@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba808c9cacc6ff342b9f141dd7b3b512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonChamberDoor: {fileID: 0}
   lockedState: {fileID: 5589652202048662313}
 --- !u!1 &2001632961766254714
 GameObject:

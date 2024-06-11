@@ -30,13 +30,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979664777525780920}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000000015454313, y: -0.70710677, z: 0.000000015454312, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.67074895, y: 0.24754095, z: -0.45688975}
-  m_LocalScale: {x: 0.45895717, y: 0.45895717, z: 0.4431544}
+  m_LocalScale: {x: 0.20574383, y: 0.26637354, z: 0.2572018}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!33 &2061358920852359108
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -147,7 +147,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: -0.035}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -2.7646945, y: 0.3356557, z: 0.41266632}
+  m_ConnectedAnchor: {x: 4.571088, y: 0.304713, z: -5.964445}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:

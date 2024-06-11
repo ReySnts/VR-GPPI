@@ -265,7 +265,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.0055, z: 0}
   m_Axis: {x: 0, y: 0, z: 90}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 13.007089, y: 5.2783794, z: 38.133442}
+  m_ConnectedAnchor: {x: 5.853692, y: 1.1391897, z: -3.433279}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -442,6 +442,7 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+  maxDistance: 0.25
 --- !u!1001 &3663550507086238226
 PrefabInstance:
   m_ObjectHideFlags: 0

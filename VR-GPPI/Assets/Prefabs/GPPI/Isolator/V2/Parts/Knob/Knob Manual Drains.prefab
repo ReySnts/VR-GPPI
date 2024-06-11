@@ -170,21 +170,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Knob Right
       objectReference: {fileID: 0}
-    - target: {fileID: 8916422959196966520, guid: 7d381893c5f142349b896b0862fd8238,
-        type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.68625945
-      objectReference: {fileID: 0}
-    - target: {fileID: 8916422959196966520, guid: 7d381893c5f142349b896b0862fd8238,
-        type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: 0.24754095
-      objectReference: {fileID: 0}
-    - target: {fileID: 8916422959196966520, guid: 7d381893c5f142349b896b0862fd8238,
-        type: 3}
-      propertyPath: m_ConnectedAnchor.z
-      value: -0.45688885
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
