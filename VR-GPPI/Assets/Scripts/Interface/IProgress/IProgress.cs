@@ -1,6 +1,6 @@
-public interface IProgress
+public interface IProgress : IGameObject
 {
-    public abstract float Percentage { get; set; }
+    public abstract int ChildCount { get; }
 
-    public abstract bool IsCompleted { get; }
+    public abstract float Percentage { get; set; }
 }

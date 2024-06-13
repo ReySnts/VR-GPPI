@@ -2,12 +2,9 @@ using UnityEngine;
 
 public class IsolatorStatePreoperationalPass : IsolatorEnterableState, IStateEnterable
 {
-    [SerializeField] private ObjectPoolReleaseAll objectPoolReleaseAll;
+    [SerializeField] private NotifierAction notifierAction;
 
-    public void Enter()
-    {
-        objectPoolReleaseAll.ReleaseAllFromPool();
-    }
+    public void Enter() => notifierAction.NotifyAll();
 
     public void DoUpdate()
     {

@@ -6,7 +6,9 @@ public class Progress : MonoBehaviour, IProgress
 
     [field: SerializeField] public float Percentage { get; set; }
 
-    public bool IsCompleted => Percentage >= 100f;
+    public GameObject GameObject => gameObject;
 
-    private void Update() => dialogue.isCompleted = IsCompleted;
+    public int ChildCount => transform.childCount <= 0 ? 1 : transform.childCount;
+
+    private void Update() => dialogue.isCompleted = Percentage >= 100f;
 }

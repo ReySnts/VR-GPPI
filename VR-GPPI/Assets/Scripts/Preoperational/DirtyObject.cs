@@ -16,7 +16,7 @@ public class DirtyObject : MonoBehaviour
     {
         if (other.CompareTag(GameObjectTag.LAP))
         {
-            iProgress.Percentage += 100 / iObjectPool.InitialSize;
+            iProgress.Percentage += 100 / iObjectPool.InitialSize / iProgress.ChildCount;
             iObjectPool.ReturnToPool(gameObject);
         }
     }
