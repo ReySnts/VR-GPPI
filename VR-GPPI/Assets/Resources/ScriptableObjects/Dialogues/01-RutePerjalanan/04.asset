@@ -13,5 +13,8 @@ MonoBehaviour:
   m_Name: 04
   m_EditorClassIdentifier: 
   spawnPosition: {x: -3.85, y: 6.2942505, z: 61.3}
-  dialogueTitle: 0
-  text: Belok kiri untuk menuju ruang isolator.
+  title: 0
+  text: Belok kiri untuk menuju ruang APD. Teruslah jalan hingga ketemu petunjuk
+    berikutnya.
+  sprite: {fileID: 0}
+  isCompleted: 0

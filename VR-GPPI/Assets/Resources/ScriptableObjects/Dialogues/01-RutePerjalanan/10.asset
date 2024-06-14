@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27e2087f71d70cf4fade284f34e5a1cf, type: 3}
   m_Name: 10
   m_EditorClassIdentifier: 
-  spawnPosition: {x: -23.85, y: 6.2942505, z: 53.8}
+  spawnPosition: {x: -27.85, y: 6.2942505, z: 47.8}
   dialogueTitle: 0
   text: Buka pintu untuk pergi ke ruang berikutnya.

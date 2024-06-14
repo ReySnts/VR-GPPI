@@ -14,5 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPosition: {x: -23.85, y: 6.2942505, z: 53.8}
   dialogueTitle: 0
-  text: Buka lemari untuk mengambil pakaian APD (Alat Pelindung Diri). Pakaian ini
-    sangat penting selama pengoperasian mesin isolator.
+  text: Buka pintu untuk pergi ke ruang berikutnya.

@@ -276,7 +276,7 @@ PrefabInstance:
     - target: {fileID: 1303454213663197949, guid: b1b771361ae808f42b2cc2b5ad43631f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.25
+      value: 2.25
       objectReference: {fileID: 0}
     - target: {fileID: 1303454213663197949, guid: b1b771361ae808f42b2cc2b5ad43631f,
         type: 3}
@@ -286,7 +286,7 @@ PrefabInstance:
     - target: {fileID: 1303454213663197949, guid: b1b771361ae808f42b2cc2b5ad43631f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -16
+      value: -22.5
       objectReference: {fileID: 0}
     - target: {fileID: 1303454213663197949, guid: b1b771361ae808f42b2cc2b5ad43631f,
         type: 3}
@@ -5906,7 +5906,7 @@ GameObject:
   - component: {fileID: 5746813994488636437}
   m_Layer: 0
   m_Name: XR Origin (XR Rig)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

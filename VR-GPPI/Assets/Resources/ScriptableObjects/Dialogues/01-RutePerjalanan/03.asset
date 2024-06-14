@@ -13,5 +13,8 @@ MonoBehaviour:
   m_Name: 03
   m_EditorClassIdentifier: 
   spawnPosition: {x: -7, y: 5.5, z: 51}
-  dialogueTitle: 0
-  text: Jalan lurus untuk keluar dari ruangan.
+  title: 0
+  text: Silakan berjalan menuju ruang APD dengan mengikuti tampilan UI petunjuk.
+  sprite: {fileID: 0}
+  hasImage: 0
+  isCompleted: 0
