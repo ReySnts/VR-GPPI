@@ -4,8 +4,6 @@ public class XRGrabInteractableActivate : XRGrabInteractable
 {
     private IGameObject iGameObject;
 
-    private IXRSelectInteractor interactor;
-
     protected override void Awake()
     {
         base.Awake();
@@ -17,13 +15,11 @@ public class XRGrabInteractableActivate : XRGrabInteractable
     {
         base.OnSelectEntered(args);
         iGameObject.GameObject.SetActive(true);
-        interactor = args.interactorObject;
     }
 
     protected override void OnSelectExited(SelectExitEventArgs args)
     {
         base.OnSelectExited(args);
         iGameObject.GameObject.SetActive(false);
-        interactor = null;
     }
 }
