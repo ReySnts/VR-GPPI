@@ -15,7 +15,6 @@ MonoBehaviour:
   spawnPosition: {x: -7, y: 5.5, z: 51}
   title: 0
   text: Gerakkan joystick pada Controller Kiri untuk jalan.
-  sprite: {fileID: 21300000, guid: 7e3558deb65efaf449ac172c099f2d1a, type: 3}
-  spriteList:
+  spriteArray:
   - {fileID: 21300000, guid: 7e3558deb65efaf449ac172c099f2d1a, type: 3}
   isCompleted: 0

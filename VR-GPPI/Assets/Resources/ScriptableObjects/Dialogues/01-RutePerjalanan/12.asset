@@ -15,7 +15,6 @@ MonoBehaviour:
   spawnPosition: {x: -22.85, y: 6.2942505, z: 38.8}
   title: 0
   text: Belok kiri dan teruslah jalan hingga ujung tembok.
-  sprite: {fileID: 21300000, guid: 19f3e5e1dcad9c644baa989c5ec49716, type: 3}
-  spriteList:
+  spriteArray:
   - {fileID: 21300000, guid: 19f3e5e1dcad9c644baa989c5ec49716, type: 3}
   isCompleted: 0
