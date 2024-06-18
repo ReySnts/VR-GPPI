@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: 07
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 1
+  title: 1
   text: Tekan tombol emergency dalam kondisi darurat jika terjadi insiden untuk menghentikan
     proses pada mesin.
+  sprite: {fileID: 21300000, guid: dc1601b94d3b7674c81aba6fe3a6e42f, type: 3}
+  spriteList:
+  - {fileID: 21300000, guid: dc1601b94d3b7674c81aba6fe3a6e42f, type: 3}
+  isCompleted: 0

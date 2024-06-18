@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: 07
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 22
-  text: "Berikan LABEL\r STATUS BERSIH."
+  title: 22
+  text: Berikan LABEL STATUS BERSIH.
+  sprite: {fileID: 0}
+  isCompleted: 0

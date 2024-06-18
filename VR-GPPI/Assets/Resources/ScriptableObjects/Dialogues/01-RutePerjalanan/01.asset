@@ -16,6 +16,6 @@ MonoBehaviour:
   title: 0
   text: Selamat datang di Modul Pelatihan Pengoperasian Isolator GPPI. Arahkan controller
     ke UI untuk memunculkan sensor petunjuk. Gerakkan tombol trigger pada jari telunjuk.
-  sprite: {fileID: 21300000, guid: 87be20492d937f54f914ddc2ed410709, type: 3}
-  hasImage: 1
+  spriteArray:
+  - {fileID: 21300000, guid: 8196be787a28ccb48bbe3648ed5d4c57, type: 3}
   isCompleted: 0

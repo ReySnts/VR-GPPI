@@ -16,5 +16,5 @@ MonoBehaviour:
   title: 0
   text: Belok kiri untuk menuju ruang APD. Teruslah jalan hingga ketemu petunjuk
     berikutnya.
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 19f3e5e1dcad9c644baa989c5ec49716, type: 3}
   isCompleted: 0

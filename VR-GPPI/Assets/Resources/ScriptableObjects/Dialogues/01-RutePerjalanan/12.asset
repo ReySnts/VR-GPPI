@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27e2087f71d70cf4fade284f34e5a1cf, type: 3}
   m_Name: 12
   m_EditorClassIdentifier: 
-  spawnPosition: {x: -26.85, y: 6.2942505, z: 44.8}
-  dialogueTitle: 0
+  spawnPosition: {x: -22.85, y: 6.2942505, z: 38.8}
+  title: 0
   text: Belok kiri dan teruslah jalan hingga ujung tembok.
+  sprite: {fileID: 21300000, guid: 19f3e5e1dcad9c644baa989c5ec49716, type: 3}
+  spriteList:
+  - {fileID: 21300000, guid: 19f3e5e1dcad9c644baa989c5ec49716, type: 3}
+  isCompleted: 0

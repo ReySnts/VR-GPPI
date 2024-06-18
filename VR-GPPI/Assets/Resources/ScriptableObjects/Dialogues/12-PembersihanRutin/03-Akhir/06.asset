@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 06
   m_EditorClassIdentifier: 
   spawnPosition: {x: 1.1499996, y: 5.7942505, z: 31.8}
-  dialogueTitle: 22
-  text: "Lepaskan selang PW dari Connector PW isolator dan PW User Point. Kemudian,
-    simpan selang pada wadah dan\r masukkan ke dalam lemari tools yang tersedia."
+  title: 22
+  text: Lepaskan selang PW dari Connector PW isolator dan PW User Point. Kemudian,
+    simpan selang pada wadah dan masukkan ke dalam lemari tools yang tersedia.
+  sprite: {fileID: 0}
+  isCompleted: 0

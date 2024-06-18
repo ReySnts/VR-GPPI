@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 09
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 21
-  text: "Tutup penutup Probe Particle Counter (dengan cara didorong atau diletakkan)\r
-    agar Remote Particle Counter tidak rusak terpapar material selama penimbangan."
+  title: 21
+  text: Tutup penutup Probe Particle Counter (dengan cara didorong atau diletakkan)
+    agar Remote Particle Counter tidak rusak terpapar material selama penimbangan.
+  sprite: {fileID: 0}
+  isCompleted: 0

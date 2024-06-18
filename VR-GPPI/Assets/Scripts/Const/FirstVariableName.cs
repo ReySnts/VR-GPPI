@@ -6,5 +6,7 @@ public class FirstVariableName
 
     public const string SPAWN_POSITION = "spawnPosition";
 
+    public const string SPRITE_ARRAY = "spriteArray";
+
     public const string TEXT = "text";
 }

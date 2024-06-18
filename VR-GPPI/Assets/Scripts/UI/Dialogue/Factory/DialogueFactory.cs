@@ -21,7 +21,7 @@ public class DialogueFactory : MonoBehaviour, IDialogueFactory
         var dialogue = DialogueList[CurrentIndex += additionalIndex];
         var position = transform.TransformPoint(dialogue.spawnPosition);
         var instance = Instantiate(original: canvasDialogue, position, rotation: Quaternion.identity, parent: transform);
-        var newProduct = instance.GetComponent<CanvasDialogue>();
+        var newProduct = instance.GetComponent<DialogueProduct>();
         newProduct.Initialize(dialogue);
         return newProduct;
     }

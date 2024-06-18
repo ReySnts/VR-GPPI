@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 02
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 19
-  text: "Sistem akan melakukan conditioning hingga kondisi operasional yang telah\r
-    ditetapkan mencapai syarat (kecepatan fan, pembukaan dumper, tekanan\r chamber,
-    dst)."
+  title: 19
+  text: Sistem akan melakukan conditioning hingga kondisi operasional yang telah
+    ditetapkan mencapai syarat (kecepatan fan, pembukaan dumper, tekanan chamber,
+    dst).
+  sprite: {fileID: 0}
+  isCompleted: 0

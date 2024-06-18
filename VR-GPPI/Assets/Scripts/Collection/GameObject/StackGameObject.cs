@@ -6,4 +6,6 @@ public class StackGameObject : MonoBehaviour, IStack<GameObject>
     private readonly Stack<GameObject> stack = new();
 
     public Stack<GameObject> Collection => stack;
+
+    private void OnDestroy() => stack.Clear();
 }

@@ -26,10 +26,4 @@ public class XRGrabInteractableActivate : XRGrabInteractable
         iGameObject.GameObject.SetActive(false);
         interactor = null;
     }
-
-    protected override void OnDisable()
-    {
-        interactionManager.SelectExit(interactor, this);
-        base.OnDisable();
-    }
 }

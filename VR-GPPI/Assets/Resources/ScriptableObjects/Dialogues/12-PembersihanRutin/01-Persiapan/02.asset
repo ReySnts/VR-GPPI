@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 02
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 22
-  text: "Siapkan wadah limbah B3 (Beracun) untuk menampung limbah KBS, gloves, dan
-    limbah\r B3 lainnya."
+  title: 22
+  text: Siapkan wadah limbah B3 (Beracun) untuk menampung limbah KBS, gloves, dan
+    limbah B3 lainnya.
+  sprite: {fileID: 0}
+  isCompleted: 0
