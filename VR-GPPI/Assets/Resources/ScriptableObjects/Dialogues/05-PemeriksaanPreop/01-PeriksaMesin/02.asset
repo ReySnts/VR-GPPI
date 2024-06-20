@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27e2087f71d70cf4fade284f34e5a1cf, type: 3}
-  m_Name: 03
+  m_Name: 02
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  title: 7
-  text: Semprot Kain KBS dengan alkohol 70%. Kemudian lap seluruh area Process Chamber
-    dan seal pintu hingga merata. Usap searah dari area bersih ke area kurang bersih,
-    dari bagian dalam ke bagian luar Process Chamber.
+  title: 4
+  text: Pantau Layar HMI. Klik Process Chamber Main Door Button untuk buka pintu
+    Process Chamber. Lakukan pemeriksaan secara visual pada kaca. Lakukan SCW ke
+    Logistic Supervisor jika ditemukan bagian kaca yang retak.
   spriteArray: []
   isCompleted: 0

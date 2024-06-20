@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: 02
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 7
+  title: 7
   text: Jangan semprot bagian sensor suhu/RH, kompaktor air sampler, dan probe particle
     counter pada Process Chamber secara langsung! Semprot seluruh area Process Chamber
     (kecuali sensor suhu/RH, kompaktor air sampler, dan probe particle counter) dengan
     alkohol 70%.
+  spriteArray: []
+  isCompleted: 0

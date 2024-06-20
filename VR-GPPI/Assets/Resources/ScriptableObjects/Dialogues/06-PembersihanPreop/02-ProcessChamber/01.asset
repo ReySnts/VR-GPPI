@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 01
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 7
+  title: 7
   text: Pantau layar HMI. Kemudian klik Process Chamber Main Door Button untuk buka
     pintu Process Chamber.
+  spriteArray: []
+  isCompleted: 0

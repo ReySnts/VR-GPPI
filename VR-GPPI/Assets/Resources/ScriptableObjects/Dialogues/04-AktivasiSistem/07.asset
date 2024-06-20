@@ -10,9 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27e2087f71d70cf4fade284f34e5a1cf, type: 3}
-  m_Name: 04
+  m_Name: 07
   m_EditorClassIdentifier: 
-  spawnPosition: {x: 5.1499996, y: 5.2942505, z: 26.3}
-  dialogueTitle: 6
-  text: Semprot Kain KBS dengan alkohol 70%. Kemudian usap sensor suhu/RH Pass Chamber
-    dengan KBS hingga bersih.
+  spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
+  title: 3
+  text: "Jika terjadi kesalahan input password sebanyak 5 kali berturut-turut, maka
+    user akan nonaktif dan menjadi unauthorized. Hubungi Logistic Supervisor jika
+    tidak dapat login pada layar HMI.\r"
+  spriteArray: []
+  isCompleted: 0

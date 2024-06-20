@@ -10,8 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27e2087f71d70cf4fade284f34e5a1cf, type: 3}
-  m_Name: 03
+  m_Name: 06
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 4
-  text: Masukkan username dan password. Kemudian klik tombol OK untuk login.
+  title: 3
+  text: Seal pintu chamber yang mengempis (deflated) menandakan bahwa pintu chamber
+    sudah tidak terkunci.
+  spriteArray: []
+  isCompleted: 0

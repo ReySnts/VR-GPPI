@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: 04
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 1
+  title: 1
   text: Bersihkan permukaan sensitif pada mesin dengan Kain KBS (Bebas Serat), seperti
     kaca main door, chamber surface, inflatable seal, sensor suhu/RH, kompaktor air
     sampler, probe particle counter, timbangan, dan layar HMI.
+  spriteArray:
+  - {fileID: 21300000, guid: e28c2cd565935c74bb912d7017c1b778, type: 3}
+  - {fileID: 21300000, guid: dea68b740778e1741856cebe691eb566, type: 3}
+  - {fileID: 21300000, guid: b650df1ee2ab64746ada676bc2a55a62, type: 3}
+  isCompleted: 0

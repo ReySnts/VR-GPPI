@@ -13,5 +13,8 @@ MonoBehaviour:
   m_Name: 13
   m_EditorClassIdentifier: 
   spawnPosition: {x: 11.65, y: 6.2942505, z: 41.3}
-  dialogueTitle: 0
+  title: 0
   text: Masuk ke ruang mesin isolator GPPI (di kanan).
+  spriteArray:
+  - {fileID: 21300000, guid: 8ee3c5b45c4ca9640a5da7b9a8783961, type: 3}
+  isCompleted: 0

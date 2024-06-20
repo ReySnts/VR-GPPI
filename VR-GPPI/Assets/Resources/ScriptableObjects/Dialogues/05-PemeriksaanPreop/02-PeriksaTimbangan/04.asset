@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27e2087f71d70cf4fade284f34e5a1cf, type: 3}
-  m_Name: 03
+  m_Name: 04
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  title: 7
-  text: Semprot Kain KBS dengan alkohol 70%. Kemudian lap seluruh area Process Chamber
-    dan seal pintu hingga merata. Usap searah dari area bersih ke area kurang bersih,
-    dari bagian dalam ke bagian luar Process Chamber.
+  title: 5
+  text: Lakukan Verifikasi timbangan dengan meletakkan batu timbang yang sudah dibersihkan
+    (dengan Kain KBS dan alkohol 70%) pada area tengah timbangan.
   spriteArray: []
   isCompleted: 0

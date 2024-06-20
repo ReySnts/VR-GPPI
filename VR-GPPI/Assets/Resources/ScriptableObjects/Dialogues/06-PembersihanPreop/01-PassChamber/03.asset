@@ -14,6 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 26.3}
   dialogueTitle: 6
-  text: Semprot Kain KBS dengan alkohol 70%. Kemudian lap seluruh area Pass Chamber
-    dan seal pintu hingga merata. Usap searah dari area bersih ke area kurang bersih,
-    dari bagian dalam ke bagian luar Pass Chamber.
+  text: Jangan semprot bagian sensor suhu/RH Pass Chamber secara langsung! Semprot
+    seluruh area Pass Chamber (kecuali sensor suhu/RH) dengan alkohol 70%.

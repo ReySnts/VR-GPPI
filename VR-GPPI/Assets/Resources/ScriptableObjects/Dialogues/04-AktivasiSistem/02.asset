@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27e2087f71d70cf4fade284f34e5a1cf, type: 3}
-  m_Name: 04
+  m_Name: 02
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 4
-  text: Jika berhasil login, maka status login sukses akan terlihat pada username
-    dan authorization di bagian header. Mesin akan berada dalam kondisi standby dan
-    siap untuk pengoperasian. Lampu chamber akan otomatis ON dan inflatable seal
-    pada pintu chamber akan mengembang.
+  title: 3
+  text: Tekan tombol ACTIVATE untuk aktivasi sistem.
+  spriteArray: []
+  isCompleted: 0
