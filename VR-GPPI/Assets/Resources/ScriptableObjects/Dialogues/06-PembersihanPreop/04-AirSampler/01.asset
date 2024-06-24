@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 01
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 9
-  text: Semprot Kain KBS dengan alkohol 70%. Kemudian usap kompaktor Viable Air Sampler
-    beserta penutupnya dengan KBS hingga bersih.
+  title: 9
+  text: Jangan semprot kompaktor Viable Air Sampler secara langsung! Hal ini karena
+    dapat menyebabkan kerusakan pada kompaktor Viable Air Sampler.
+  spriteArray: []
+  isCompleted: 0

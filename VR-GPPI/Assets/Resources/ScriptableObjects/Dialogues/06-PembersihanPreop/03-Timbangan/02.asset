@@ -14,5 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
   dialogueTitle: 8
-  text: Pastikan waterpass timbangan berada pada posisi tengah untuk menghindari
-    eror saat penimbangan.
+  text: Semprot Kain KBS dengan alkohol 70%. Kemudian usap timbangan hingga bersih.

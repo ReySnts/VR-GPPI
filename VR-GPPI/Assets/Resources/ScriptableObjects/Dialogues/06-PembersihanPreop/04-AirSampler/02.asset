@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 02
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 9
-  text: Letakkan cawan petri Viable Air Sampler pada keranjang di dalam Process Chamber
-    untuk diikutkan proses Biodekontaminasi.
+  title: 9
+  text: Semprot Kain KBS dengan alkohol 70%.
+  spriteArray: []
+  isCompleted: 0

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 03
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 26.3}
-  dialogueTitle: 6
-  text: Jangan semprot bagian sensor suhu/RH Pass Chamber secara langsung! Semprot
-    seluruh area Pass Chamber (kecuali sensor suhu/RH) dengan alkohol 70%.
+  title: 6
+  text: Ambil KBS (Kain Bebas Serat), dan Semprot alkohol 70% ke kain tersebut.
+  spriteArray: []
+  isCompleted: 0

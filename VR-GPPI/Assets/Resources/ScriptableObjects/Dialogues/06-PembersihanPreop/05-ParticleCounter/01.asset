@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 01
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 10
-  text: Semprot Kain KBS dengan alkohol 70%. Kemudian usap sensor suhu/RH Process
-    Chamber dengan KBS hingga bersih.
+  title: 10
+  text: Jangan semprot probe Particle Counter secara langsung! Hal ini karena dapat
+    menyebabkan kerusakan pada probe Particle Counter.
+  spriteArray: []
+  isCompleted: 0

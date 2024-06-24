@@ -14,8 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
   title: 7
-  text: Semprot Kain KBS dengan alkohol 70%. Kemudian lap seluruh area Process Chamber
-    dan seal pintu hingga merata. Usap searah dari area bersih ke area kurang bersih,
-    dari bagian dalam ke bagian luar Process Chamber.
+  text: Ambil Kain KBS baru, semprotkan alkohol 70% ke kain.
   spriteArray: []
   isCompleted: 0
