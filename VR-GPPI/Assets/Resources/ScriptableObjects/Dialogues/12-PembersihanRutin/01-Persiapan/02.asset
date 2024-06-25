@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 02
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  title: 22
+  title: 23
   text: Siapkan wadah limbah B3 (Beracun) untuk menampung limbah KBS, gloves, dan
     limbah B3 lainnya.
-  sprite: {fileID: 0}
+  spriteArray: []
   isCompleted: 0

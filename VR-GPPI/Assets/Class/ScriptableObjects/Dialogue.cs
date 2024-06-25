@@ -10,7 +10,7 @@ public class Dialogue : ScriptableObject
 
     [FormerlySerializedAs(oldName: FirstVariableName.TEXT), Space(height: 10f), TextArea(minLines: 1, maxLines: 20)] public string text;
 
-    [FormerlySerializedAs(oldName: FirstVariableName.SPRITE_ARRAY), Space(height: 10f)] public Sprite[] spriteArray;
+    [FormerlySerializedAs(oldName: FirstVariableName.SPRITE_ARRAY), Space(height: 10f)] public Sprite[] spriteArray = { };
 
     [Space(height: 10f)] public bool isCompleted;
 }

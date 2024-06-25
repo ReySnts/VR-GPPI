@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 03
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 16
+  title: 17
   text: Pilih salah satu glove yang dites satu per satu pada Glove Leak Test Status
     (Left / Center / Right).
+  spriteArray: []
+  isCompleted: 0

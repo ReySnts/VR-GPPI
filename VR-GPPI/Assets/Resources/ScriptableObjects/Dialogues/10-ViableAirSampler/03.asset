@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: 03
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 20
+  title: 21
   text: "Buka Kompaktor (dengan cara digeser atau diputar berlawanan arah jarum jam)\r."
+  spriteArray: []
+  isCompleted: 0

@@ -14,6 +14,7 @@ public enum EDialogueTitle
     BersihkanAlatTimbang,
     BersihkanMaterialTimbang,
     BersihkanGloves,
+    BersihkanPermukaanMesin,
     PressureDecayTest,
     MasterChamberLeakTest,
     GloveLeakTest,

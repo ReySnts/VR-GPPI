@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 01
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 17
+  title: 18
   text: Jika hasil Process Chamber Leak Test masih FAILED, periksa kebocoran pada
     Process Chamber, atau lakukan SCW.
+  spriteArray: []
+  isCompleted: 0

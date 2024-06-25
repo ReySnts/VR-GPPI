@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 02
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 16
+  title: 17
   text: Pastikan terdapat 3 gloves, juga seal pintu Process Chamber Main Door dan
     seal pintu Pass Chamber Inner Door mengembang (inflated).
+  spriteArray: []
+  isCompleted: 0

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 06
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 18
+  title: 19
   text: Pantau kembali layar HMI. Tekan tombol Biodecontamination pada Operation
     Modes, lalu tekan tombol Master Biodecontamination pada Biodecontamination Options.
+  spriteArray: []
+  isCompleted: 0

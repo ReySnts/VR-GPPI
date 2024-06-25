@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 04
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  title: 22
+  title: 23
   text: Usap seluruh bagian dalam Pass / Process Chamber secara satu arah dari atas
     (paling bersih) ke dasar (kurang bersih), material, dan peralatan timbang dengan
     Kain KBS baru hingga air PW kering.
-  sprite: {fileID: 0}
+  spriteArray: []
   isCompleted: 0

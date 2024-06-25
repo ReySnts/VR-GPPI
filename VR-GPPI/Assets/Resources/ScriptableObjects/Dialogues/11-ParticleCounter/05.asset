@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 05
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 21
+  title: 22
   text: Tekan tombol Start/Stop Particle Counter (Warna Merah) untuk memulai proses
     Particle Counter.
+  spriteArray: []
+  isCompleted: 0

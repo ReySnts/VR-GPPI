@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 05
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 23
+  title: 24
   text: Tekan tombol WIP Spray Gun untuk mengaktifkan siklus penyemprotan PW secara
     otomatis selama 1 menit (atau setara 60 detik). Setelah itu, penyemprotan Compressed
     Air secara otomatis segera terjadi selama 1 menit.
+  spriteArray: []
+  isCompleted: 0

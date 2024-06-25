@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: 03
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 26.3}
-  dialogueTitle: 18
+  title: 19
   text: Isi cairan H2O2 30% ke dalam botol penampung melalui corong pada mulut botol.
+  spriteArray: []
+  isCompleted: 0

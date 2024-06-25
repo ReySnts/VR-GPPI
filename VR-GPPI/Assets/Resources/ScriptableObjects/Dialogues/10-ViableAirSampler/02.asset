@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: 02
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 20
+  title: 21
   text: "Buka Penutup Kompaktor (dengan cara dilepaskan atau ditarik)\r."
+  spriteArray: []
+  isCompleted: 0

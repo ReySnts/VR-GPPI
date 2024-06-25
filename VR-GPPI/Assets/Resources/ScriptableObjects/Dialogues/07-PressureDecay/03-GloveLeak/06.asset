@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 06
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 16
+  title: 17
   text: Selama proses glove test berlangsung, tombol Start/Stop Glove Leak Test akan
     berubah menjadi Warna Hijau. Selain itu, Glove Leak Tester Disc akan mengembang
     (inflated).
+  spriteArray: []
+  isCompleted: 0

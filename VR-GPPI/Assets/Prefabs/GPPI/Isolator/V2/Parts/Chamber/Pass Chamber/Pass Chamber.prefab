@@ -451,7 +451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91ff0792dc81e8b4e8fd9d004483f47e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 82bd37cd0f49c4e4a8ee1beef334519a, type: 2}
+  dialogue: {fileID: 11400000, guid: e2065ef4eab5d874c9b9a3f042e87871, type: 2}
   <Percentage>k__BackingField: 0
 --- !u!1001 &2677259986491242925
 PrefabInstance:

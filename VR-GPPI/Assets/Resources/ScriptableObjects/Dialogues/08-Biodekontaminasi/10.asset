@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: 10
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  title: 18
+  title: 19
   text: 'Proses Biodekontaminasi terjadi melalui 4 tahap. 1) Priming: H2O2 mengalir
     ke dalam chamber. 2) Injection: cairan H2O2 disemprotkan nozzle ke dalam chamber.
     3) Dwelling: H2O2 berubah jadi embun / fog / uap. 4) Aerasi: tarik udara bersih
     dari LAF (Laminal Air Flow).'
-  sprite: {fileID: 0}
+  spriteArray: []
   isCompleted: 0

@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: 08
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 18
+  title: 19
   text: Tekan tombol Start/Stop Biodecon Cycle untuk memulai proses Biodekontaminasi.
+  spriteArray: []
+  isCompleted: 0

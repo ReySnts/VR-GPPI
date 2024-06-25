@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 10
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 20
+  title: 21
   text: Selama proses Viable Air Sampler berlangsung, tombol Start/Stop Viable Air
     Sampler berubah menjadi Warna Hijau. Volume udara akan bertambah nilainya secara
     acak setiap waktunya.
+  spriteArray: []
+  isCompleted: 0

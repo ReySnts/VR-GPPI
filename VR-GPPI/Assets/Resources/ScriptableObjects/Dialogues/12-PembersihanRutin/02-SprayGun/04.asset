@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 04
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 23
+  title: 24
   text: Ambil Spray Gun yang digantung tepat di dekat (atau di sebelah kanan) Pass
     Chamber Inner Door.
+  spriteArray: []
+  isCompleted: 0

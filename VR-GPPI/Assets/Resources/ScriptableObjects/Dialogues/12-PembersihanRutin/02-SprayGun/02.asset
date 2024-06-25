@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 02
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 23
+  title: 24
   text: Semprot PW dari area paling bersih (sisi atas Pass / Process Chamber) ke
     area kurang bersih (dasar Pass / Process Chamber).
+  spriteArray: []
+  isCompleted: 0

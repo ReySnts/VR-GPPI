@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 07
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 23
+  title: 24
   text: Setelah WIP Spray Gun dilakukan 2 kali, periksa seluruh Area Dalam Pass /
     Process Chamber. Pastikan tiada sisa material timbang yang tertinggal atau masih
     menempel.
+  spriteArray: []
+  isCompleted: 0

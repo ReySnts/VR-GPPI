@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 08
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 23
+  title: 24
   text: Jika masih ada sisa material timbang yang tertinggal atau menempel, maka
     lakukan penyemprotan secara manual, yaitu melalui tombol Water Gun dan/atau Air
     Spray Gun pada layar HMI.
+  spriteArray: []
+  isCompleted: 0

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 07
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 16
+  title: 17
   text: Setelah seal pintu Process Chamber dan seal pintu Pass Chamber Inner Door
     mengembang (inflated), Glove Leak Tester Disc dapat dilepas.
+  spriteArray: []
+  isCompleted: 0

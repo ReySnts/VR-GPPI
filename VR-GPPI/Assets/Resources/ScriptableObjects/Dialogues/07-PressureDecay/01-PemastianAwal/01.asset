@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 01
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 14
+  title: 15
   text: Pastikan semua pintu Pass Chamber dan semua pintu Process Chamber tertutup
     rapat hingga terdengar bunyi "klik".
+  spriteArray: []
+  isCompleted: 0

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 04
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  title: 19
+  title: 20
   text: Perhatikan suhu dan RH isolator selama proses pengoperasian isolator melalui
     tampilan HMI. Jika suhu dan RH tidak memenuhi syarat, maka hentikan penggunaan
     mesin, dan lakukan SCW ke Logistic Supervisor.
-  sprite: {fileID: 0}
+  spriteArray: []
   isCompleted: 0

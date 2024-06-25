@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: 06
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 23
+  title: 24
   text: Ulangi WIP Spray Gun sebanyak 1 kali (hingga total 2 kali).
+  spriteArray: []
+  isCompleted: 0

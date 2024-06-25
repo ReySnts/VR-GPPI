@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 02
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 21
+  title: 22
   text: Masukkan kembali tangan Anda dengan sarung tangan (Warna Biru) ke dalam Glove
     Port.
+  spriteArray: []
+  isCompleted: 0

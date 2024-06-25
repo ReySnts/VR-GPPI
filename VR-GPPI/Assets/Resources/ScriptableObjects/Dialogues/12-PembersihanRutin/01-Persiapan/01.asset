@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: 01
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 22
+  title: 23
   text: Lakukan Pembersihan (atau Sanitasi) Rutin setelah menimbang sejenis material.
+  spriteArray: []
+  isCompleted: 0

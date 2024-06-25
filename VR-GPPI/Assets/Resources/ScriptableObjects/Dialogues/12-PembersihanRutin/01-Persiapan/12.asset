@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 12
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 22
+  title: 23
   text: Selama mode pembersihan, Pass Chamber Outer Door dan Process Chamber Main
     Door tidak bisa dibuka, sebagai fitur keamanan pada isolator.
+  spriteArray: []
+  isCompleted: 0

@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: 08
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 15
+  title: 16
   text: Jika hasil Process Chamber Leak Test FAILED, maka lakukan Glove Leak Test.
+  spriteArray: []
+  isCompleted: 0

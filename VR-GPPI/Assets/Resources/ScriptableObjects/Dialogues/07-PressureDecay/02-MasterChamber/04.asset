@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 04
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 15
+  title: 16
   text: Setelah proses decay test berlangsung pada Process Chamber, tombol Start/Stop
     Pressure Decay Test akan berubah menjadi Warna Merah, gloves akan mengempis (deflated),
     dan mesin akan menghasilkan report sesuai mode yang sudah ditetapkan.
+  spriteArray: []
+  isCompleted: 0

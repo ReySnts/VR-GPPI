@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 01
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 15
+  title: 16
   text: Pantau kembali layar HMI. Tekan tombol Pressure Decay Test pada Operation
     Modes, lalu tekan tombol Master Pressure Decay Test pada Pressure Decay Test
     Options.
+  spriteArray: []
+  isCompleted: 0

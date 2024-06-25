@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 03
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  title: 19
+  title: 20
   text: Mesin akan melakukan Recovery dan Conditioning. Diamkan (dengan tidak melakukan
     aktivitas apa pun di dalam chamber) dan tunggu selama 15 menit.
-  sprite: {fileID: 0}
+  spriteArray: []
   isCompleted: 0

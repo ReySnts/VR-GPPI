@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 06
   m_EditorClassIdentifier: 
   spawnPosition: {x: 1.1499996, y: 5.7942505, z: 31.8}
-  title: 22
+  title: 23
   text: Manual Drain yang tertutup selama akses PW terbuka, dapat mengakibatkan banjir
     pada dasar Pass / Process Chamber, juga dapat merusak HEPA Filter karena basah.
+  spriteArray: []
+  isCompleted: 0

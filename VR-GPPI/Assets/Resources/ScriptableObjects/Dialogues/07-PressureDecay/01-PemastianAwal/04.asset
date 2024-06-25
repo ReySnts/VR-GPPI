@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 04
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  title: 14
+  title: 15
   text: "Pantau kembali layar HMI. Pastikan suhu dan RH pada Pass Chamber dan Process
     Chamber memenuhi syarat. Lakukan SCW (Stop, Call, and Wait) kepada Logistic Supervisor\r
     jika suhu dan RH tidak memenuhi syarat."
+  spriteArray: []
+  isCompleted: 0

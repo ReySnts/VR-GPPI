@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 03
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 15
+  title: 16
   text: Selama proses decay test berlangsung, tombol Start/Stop Pressure Decay Test
     akan berubah menjadi Warna Hijau. Selain itu, gloves akan mengembang (inflated)
     selama proses berlangsung pada Process Chamber.
+  spriteArray: []
+  isCompleted: 0

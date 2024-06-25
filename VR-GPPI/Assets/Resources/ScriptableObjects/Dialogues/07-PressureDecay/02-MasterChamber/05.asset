@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 05
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 15
+  title: 16
   text: Jika hasil Master Pressure Decay Test PASSED (Pressure Loss pada Pressure
     Decay Test Status kurang dari atau sama dengan 84 Pa), maka dapat dilanjutkan
     ke proses Biodekontaminasi.
+  spriteArray: []
+  isCompleted: 0

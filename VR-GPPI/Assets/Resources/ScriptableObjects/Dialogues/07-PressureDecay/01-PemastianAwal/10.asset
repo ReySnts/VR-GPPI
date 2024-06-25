@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: 10
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 14
+  title: 15
   text: Pastikan gloves terbentang dengan baik.
+  spriteArray: []
+  isCompleted: 0

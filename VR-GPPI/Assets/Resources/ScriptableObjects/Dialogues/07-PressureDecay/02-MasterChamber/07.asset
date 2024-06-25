@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 07
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 15
+  title: 16
   text: Ulangi Master Pressure Decay Test. Jika hasilnya masih FAILED, maka lakukan
     Process Chamber Leak Test. Pastikan seal pintu Process Chamber Main Door dan
     seal pintu Pass Chamber Inner Door mengembang (inflated).
+  spriteArray: []
+  isCompleted: 0

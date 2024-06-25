@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 10
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 16
+  title: 17
   text: Jika hasil tes pada salah satu glove FAILED, maka periksa kebocoran pada
     glove, atau lakukan SCW ke Logistic Supervisor.
+  spriteArray: []
+  isCompleted: 0

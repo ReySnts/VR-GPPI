@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 07
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 21
+  title: 22
   text: Tunggu hingga prosesnya selesai, yaitu setelah volume udara mencapai 1,00
     meter kubik (atau setara 1.000 liter).
+  spriteArray: []
+  isCompleted: 0

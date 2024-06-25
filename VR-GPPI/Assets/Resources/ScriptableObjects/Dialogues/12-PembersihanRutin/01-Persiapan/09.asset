@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 09
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 22
+  title: 23
   text: Pantau kembali layar HMI. Tekan tombol Start/Stop Isolator Operation (Warna
     Hijau) pada Operation Modes untuk memberhentikan semua proses pada mesin.
+  spriteArray: []
+  isCompleted: 0

@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: 08
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 14
+  title: 15
   text: Tekan tombol Pass Chamber Inner Door Button.
+  spriteArray: []
+  isCompleted: 0

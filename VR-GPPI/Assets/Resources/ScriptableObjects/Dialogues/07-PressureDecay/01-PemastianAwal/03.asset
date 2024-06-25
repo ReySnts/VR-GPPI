@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 03
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 14
+  title: 15
   text: Jika posisi knob tidak sesuai, maka dapat menyebabkan pembacaan decay test
     FAILED karena seolah-olah terdapat kebocoran pada Process Chamber. Oleh karena
     itu, pastikan posisi knob manual drain dalam keadaan tertutup.
+  spriteArray: []
+  isCompleted: 0

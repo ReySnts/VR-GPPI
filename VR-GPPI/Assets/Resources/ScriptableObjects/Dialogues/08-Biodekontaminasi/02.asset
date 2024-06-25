@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 02
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 26.3}
-  dialogueTitle: 18
+  title: 19
   text: Gunakan APD (baju gowning sesuai kelas ruangan, goggles, sarung tangan nitril,
     respirator 3M tipe 6200, cartridge 3M tipe 6006).
+  spriteArray: []
+  isCompleted: 0

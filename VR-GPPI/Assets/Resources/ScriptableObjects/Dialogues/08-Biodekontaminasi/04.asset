@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 04
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 18
+  title: 19
   text: Pastikan semua glove terbentang ke Area Dalam Process Chamber dan tiada bagian
     yang terlipat. Gunakan Glove Extender untuk menyangga setiap glove pada Glove
     Port.
+  spriteArray: []
+  isCompleted: 0

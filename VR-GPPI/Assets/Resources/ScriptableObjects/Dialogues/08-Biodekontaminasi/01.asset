@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 01
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 26.3}
-  dialogueTitle: 18
+  title: 19
   text: Pastikan bobot timbangan H2O2 30% lebih dari atau sama dengan 608 gram (Bobot
     botol beserta tutup botolnya 458 gram, limit massa H2O2 30% 150 gram).
+  spriteArray: []
+  isCompleted: 0

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 03
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 17
+  title: 18
   text: Usahakan hingga proses Master Pressure Decay Test (atau Master Chamber Leak
     Test) berhasil atau PASSED.
+  spriteArray: []
+  isCompleted: 0

@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 02
   m_EditorClassIdentifier: 
   spawnPosition: {x: 5.1499996, y: 5.2942505, z: 35.3}
-  dialogueTitle: 14
+  title: 15
   text: Pastikan tiada pergerakan berlebih di depan/dekat area Pass Chamber dan Process
     Chamber, dan tiada kontak langsung pada Gloves selama Process Chamber Leak Test
     berlangsung.
+  spriteArray: []
+  isCompleted: 0
