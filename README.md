@@ -8,11 +8,11 @@ Kalbe berharap program magang ini dapat menjadi sarana untuk memperbanyak jumlah
 <img src="https://media.licdn.com/dms/image/D5622AQHJLYU547AzUQ/feedshare-shrink_800/0/1711446840079?e=2147483647&v=beta&t=1l5oaMOGscnjnIh07WIPdQb_OcpRqe2QKISn5rY6k4k" width="400" height="457.5">
 
 ## Kompetensi yang Dikembangkan
-- Analisis Kebutuhan Pelatihan
-- Pembuatan Design Game
-- Development XR Module menggunakan aplikasi Unity
-- Pendefinisian Object Behaviour menggunakan C# pada aplikasi Microsoft Visual Studio
-- Analisis Game 
+- Analisis Kebutuhan Pelatihan.
+- Pembuatan Design Game.
+- Development XR Module menggunakan aplikasi Unity.
+- Pendefinisian Object Behaviour menggunakan C# pada aplikasi Microsoft Visual Studio.
+- Analisis Bugs Game.
 
 ## Substansi yang Dikerjakan
 - Scripting logic Pintu Sensor Ruangan, pintu chamber Mesin Isolator GPPI dengan Observer Pattern, State Pattern.
